@@ -1,0 +1,93 @@
+--- a/Modules/Comfort.lua
++++ b/Modules/Comfort.lua
+@@ -659,7 +659,7 @@
+   b.fill:SetPoint("TOPLEFT", 2, -2)
+   b.fill:SetPoint("BOTTOMRIGHT", -2, 2)
+   b.label = b:CreateFontString(nil, "OVERLAY")
+-  b.label:SetFont("Fonts\\2002.TTF", 11, "OUTLINE")
++  b.label:SetFont(ns.LocaleFontPath("Fonts\\2002.TTF"), 11, "OUTLINE")
+   b.label:SetPoint("LEFT", b, "RIGHT", 5, 0)
+   b.label:SetTextColor(1, 1, 1, 1)
+   b.label:SetText(L["SETTINGS_TURNIN_LABEL"])
+--- a/Modules/PriorityBar.lua
++++ b/Modules/PriorityBar.lua
+@@ -3333,7 +3333,7 @@
+       z.hintGlow:SetPoint("CENTER")
+       z.hintGlow:SetVertexColor(0.3, 1, 0.4, 0.9)
+       z.hintPlus = z:CreateFontString(nil, "OVERLAY")
+-      z.hintPlus:SetFont("Fonts\\2002.TTF", 24, "OUTLINE")
++      z.hintPlus:SetFont(ns.LocaleFontPath("Fonts\\2002.TTF"), 24, "OUTLINE")
+       z.hintPlus:SetPoint("CENTER", z, "TOPRIGHT", -2, -2)
+       z.hintPlus:SetTextColor(0.3, 1, 0.4, 1)
+       z.hintPlus:SetText("+")
+@@ -3586,7 +3586,7 @@
+   b.shadow2:SetPoint("BOTTOMRIGHT", b, "BOTTOMRIGHT", 55, -50)
+   -- titre
+   b.title = b:CreateFontString(nil, "OVERLAY")
+-  b.title:SetFont("Fonts\\2002.TTF", 17, "OUTLINE")
++  b.title:SetFont(ns.LocaleFontPath("Fonts\\2002.TTF"), 17, "OUTLINE")
+   b.title:SetTextColor(BOOK_OCRE[1], BOOK_OCRE[2], BOOK_OCRE[3])
+   b.title:SetText(L["PB_BOOK_TITLE"])
+   b.title:SetPoint("TOP", b, "BOTTOM", 0, -28)
+--- a/Modules/AishUISetup.lua
++++ b/Modules/AishUISetup.lua
+@@ -159,7 +159,7 @@
+     b:SetFrameLevel(box:GetFrameLevel() + 10)
+     local fs = b:CreateFontString(nil, "OVERLAY")
+     fs:SetDrawLayer("OVERLAY", 7)
+-    if not pcall(fs.SetFont, fs, FONT, 13, "") then fs:SetFont("Fonts\\FRIZQT__.TTF", 13, "") end
++    if not pcall(fs.SetFont, fs, FONT, 13, "") then fs:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), 13, "") end
+     fs:SetPoint("CENTER", b, "CENTER", 0, 0)
+     fs:SetWidth(w - 8)
+     fs:SetJustifyH("CENTER")
+--- a/Modules/XPBar.lua
++++ b/Modules/XPBar.lua
+@@ -3666,7 +3666,7 @@
+         fontObjs[key] = fo
+       end
+       local okF, res = pcall(fo.SetFont, fo, xpFontInfo, sz, flags)
+-      if not okF or res == false then fo:SetFont("Fonts\\FRIZQT__.TTF", sz, flags) end
++      if not okF or res == false then fo:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), sz, flags) end
+       if style == "SLUG" then
+         fo:SetShadowOffset(0, 0)
+       else
+--- a/Modules/TopTargetBar.lua
++++ b/Modules/TopTargetBar.lua
+@@ -748,7 +748,7 @@
+ 
+     if not hpTxt:SetFont(DEFAULT_HP_FONT, hpts, "") then
+ 
+-        hpTxt:SetFont("Fonts\\FRIZQT__.TTF", hpts, "")
++        hpTxt:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), hpts, "")
+ 
+     end
+ 
+@@ -1916,7 +1916,7 @@
+ 
+             if not f_target.hpTxt:SetFont(_hpFont, hpts, "") then
+ 
+-                f_target.hpTxt:SetFont("Fonts\\FRIZQT__.TTF", hpts, "")
++                f_target.hpTxt:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), hpts, "")
+ 
+             end
+ 
+--- a/Core.lua
++++ b/Core.lua
+@@ -3191,7 +3191,7 @@
+ 
+     local ok = pcall(function() fontString:SetFont(safePath, size, flags) end)
+ 
+-    if not ok then fontString:SetFont("Fonts\\FRIZQT__.TTF", size, flags) end
++    if not ok then fontString:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), size, flags) end
+ 
+     -- SLUG : jamais d'ombre portee sous l'anneau (meme si l'appelant ne gere pas l'ombre) -- un decalage d'ombre en
+ 
+@@ -3227,7 +3227,7 @@
+ 
+             local rok = pcall(function() fs:SetFont(safePath, size, "") end)
+ 
+-            if not rok then fs:SetFont("Fonts\\FRIZQT__.TTF", size, "") end
++            if not rok then fs:SetFont(ns.LocaleFontPath("Fonts\\FRIZQT__.TTF"), size, "") end
+ 
+             fs:SetTextColor(0, 0, 0, 1)
+ 

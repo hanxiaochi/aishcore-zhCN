@@ -31,3 +31,6 @@ No full paid addon, purchased artwork, saved player profiles or account informat
 
 MAINTENANCE
 Compare new enUS keys against zhCN on each release; missing keys fall back to English. Review changed English meanings even if a key still exists. Keep the English/French source as supplied by the author.
+
+FONT FOLLOW-UP (2026-10-19)
+Apply Optional-local-integration/font-followup.patch AFTER chinese-font.patch and, if used, display-localization.patch. It fixes nine remaining direct font calls in six files, including the auto-turn-in label. It depends on ns.LocaleFontPath from the first font patch. Tests and limitations are in font-followup-validation.json. Reload the UI after applying.

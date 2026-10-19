@@ -45,3 +45,13 @@ For issues, include addon/client version, affected page and a screenshot with pe
 ## 来源与权利 / Attribution
 
 [AishCore / AishUI by Aishuu](https://www.curseforge.com/wow/addons/aishcore). Original strings, code context in patches and all upstream rights remain with their respective owners. No license to redistribute the paid addon or its assets is granted by this repository. Translation licensing for upstream incorporation can be agreed with the author; no blanket license is asserted over upstream material.
+
+## 2026-10-19 字体补充修复 / Font follow-up
+
+修复自动交任务标签仍显示中文方框的问题，并补齐优先技能条、安装提示、经验条、顶部目标条和通用字体备用路径，共 6 个文件、9 处字体调用。
+
+The auto-turn-in label bypassed the locale-aware font resolver. The follow-up routes nine remaining direct font calls in six files through `ns.LocaleFontPath`, preserving sizes and outlines.
+
+**应用顺序 / Apply order:** apply `chinese-font.patch` first, then [`font-followup.patch`](Optional-local-integration/font-followup.patch). If using the optional extended localization, apply `display-localization.patch` before the follow-up as well. The follow-up requires the font resolver introduced by the original font patch; it is not a standalone patch. Review against AishCore 4.5, then `/reload`.
+
+Changed files passed Lua 5.1 syntax checks. The actual checkbox font call was tested with a mock widget for zhCN, zhTW, enUS and frFR; font size and outline were preserved. These are code-level checks; the post-fix in-game appearance is awaiting confirmation. See [`font-followup-validation.json`](Optional-local-integration/font-followup-validation.json).

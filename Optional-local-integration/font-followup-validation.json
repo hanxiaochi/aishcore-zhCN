@@ -1,0 +1,17 @@
+{
+  "fixed_calls": 9,
+  "files": {
+    "Modules/Comfort.lua": 1,
+    "Modules/PriorityBar.lua": 2,
+    "Modules/AishUISetup.lua": 1,
+    "Modules/XPBar.lua": 1,
+    "Modules/TopTargetBar.lua": 2,
+    "Core.lua": 2
+  },
+  "tests": [
+    "Lua 5.1 syntax of changed files",
+    "actual checkbox font call tested for zhCN/zhTW/enUS/frFR",
+    "font size and outline preserved"
+  ],
+  "live_verified": false
+}
