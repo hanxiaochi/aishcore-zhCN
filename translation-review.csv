@@ -1,0 +1,2326 @@
+﻿key,English reference,Simplified Chinese
+ADDONFONTS_BAG_ITEM,Custom font for item icon texts,自定义物品图标文字字体
+ADDONFONTS_BAG_ITEM_TT,"Item level, stack count, binding, etc. Unchecked: Baganator's original look. The size is multiplied by Baganator's icon text size (14 = x1).",物品等级、堆叠数量、绑定状态等。取消勾选时使用 Baganator 原始样式。字号会乘以 Baganator 的图标文字缩放（14 = 1 倍）。
+ADDONFONTS_NOT_LOADED,not loaded,未加载
+ADDONFONTS_OUTLINE_NONE,None,无
+ADDONFONTS_PLAT_AURA,Custom font for buff and debuff timers,自定义增益与减益计时字体
+ADDONFONTS_PLAT_AURA_TT,Unchecked: Platynator's original look. The size is multiplied by the text scale set in Platynator.,取消勾选时使用 Platynator 原始样式。字号会乘以 Platynator 设置的文字缩放。
+ADDONFONTS_PLAT_LEVEL,Custom font for the level,自定义等级字体
+ADDONFONTS_PLAT_LEVEL_TT,Unchecked: Platynator's original look. The size is multiplied by the text scale set in Platynator.,取消勾选时使用 Platynator 原始样式。字号会乘以 Platynator 设置的文字缩放。
+ADDONFONTS_SEC_BAGANATOR,Baganator fonts,Baganator 字体
+ADDONFONTS_SEC_PLATYNATOR,Platynator fonts,Platynator 字体
+ADDONFONTS_SKIN_CONFLICT,disabled: the %s skin of Baganator already sets these fonts,已禁用：Baganator 的 %s 皮肤已接管这些字体
+AFKMODE_LOGOUT_IN,Logout in,距离登出
+AFKMODE_MONTHS[1],January,1月
+AFKMODE_MONTHS[2],February,2月
+AFKMODE_MONTHS[3],March,3月
+AFKMODE_MONTHS[4],April,4月
+AFKMODE_MONTHS[5],May,5月
+AFKMODE_MONTHS[6],June,6月
+AFKMODE_MONTHS[7],July,7月
+AFKMODE_MONTHS[8],August,8月
+AFKMODE_MONTHS[9],September,9月
+AFKMODE_MONTHS[10],October,10月
+AFKMODE_MONTHS[11],November,11月
+AFKMODE_MONTHS[12],December,12月
+AFKMODE_NO_GUILD,No Guild,无公会
+AFKMODE_TIPS[1],Right-click the AishCore minimap icon to open the settings panel.,右键 AishCore 小地图图标可打开设置面板。
+AFKMODE_TIPS[2],You can move most AishCore frames from the settings panel.,大多数 AishCore 框架可在设置面板中移动。
+AFKMODE_TIPS[3],Skyriding automatically hides several HUD elements while flying.,驭空飞行时会自动隐藏多个界面元素。
+AFKMODE_TIPS[4],The Cooldown Manager can be recolored per state from the settings.,可在设置中为冷却管理器的不同状态设定颜色。
+AFKMODE_TIPS[5],"Auras can be sorted into icons, bars, or circle trackers independently.",光环可分别归入图标、条形或圆环追踪器。
+AFKMODE_TIPS[6],Priority Bar highlights your next recommended ability.,优先技能条会高亮下一个推荐技能。
+AFKMODE_TIPS[7],You can preview this AFK screen anytime from the settings panel.,可随时在设置面板预览待机画面。
+AFKMODE_TIPS[8],Guild and whispers keep showing up on screen while you're away.,离开时仍会在画面中显示公会消息与密语。
+AFKMODE_WEEKDAYS[1],Sunday,星期日
+AFKMODE_WEEKDAYS[2],Monday,星期一
+AFKMODE_WEEKDAYS[3],Tuesday,星期二
+AFKMODE_WEEKDAYS[4],Wednesday,星期三
+AFKMODE_WEEKDAYS[5],Thursday,星期四
+AFKMODE_WEEKDAYS[6],Friday,星期五
+AFKMODE_WEEKDAYS[7],Saturday,星期六
+AURASDATA_CAT_3D_ANIMS,3D Anims,3D 动画
+AURASDATA_CAT_GENERAL,GENERAL,常规
+AURASDATA_CAT_MY_SPELLS,MY SPELLS,我的技能
+AURASDATA_CAT_PLAYER,PLAYER,玩家
+AURASDATA_CAT_ROTATION,ROTATION,技能循环
+AURASDATA_CAT_TARGET,TARGET,目标
+AURASDATA_CAT_WORLD,WORLD,世界
+AURASDATA_FILLTEX_BLUE,Blue,蓝色
+AURASDATA_FILLTEX_BRICK,Brick,砖纹
+AURASDATA_FILLTEX_DIAGONAL_WEAVE,Diagonal Weave,斜织纹
+AURASDATA_FILLTEX_FLAME,Flame,火焰
+AURASDATA_FILLTEX_GOLD,Gold,金色
+AURASDATA_FILLTEX_GOLD_CHEVRONS,Gold Chevrons,金色人字纹
+AURASDATA_FILLTEX_LIGHTNING,Lightning,闪电
+AURASDATA_FILLTEX_LUMINOUS_BAND,Luminous Band,光带
+AURASDATA_FILLTEX_NONE,(none),（无）
+AURASDATA_FILLTEX_PLASMA,Plasma,等离子
+AURASDATA_FILLTEX_SMOKE,Smoke,烟雾
+AURASDATA_FILLTEX_SMOOTH,Smooth,平滑
+AURASDATA_FILLTEX_THICK_STRIPES,Thick Stripes,粗条纹
+AURASDATA_FILLTEX_THIN_STRIPES,Thin Stripes,细条纹
+AURASDATA_FILLTEX_WATER,Water,水流
+AURASDATA_FILLTEX_WAVE,Wave,波浪
+AURASDATA_LABEL_RECOVERY_CIRCLE,Recovery Circle,恢复圆环
+AURASDATA_LABEL_RESOURCE_CIRCLE,Resource Circle,资源圆环
+AURASDATA_LABEL_SPELLS_TRACKED,Tracked Auras,已追踪光环
+AURASDATA_PRESET_ERR_NOT_FOUND,Preset not found: %s,未找到预设：%s
+AURASDATA_PRESET_ERR_NO_SPEC,No active spec,没有启用的专精
+AURASDATA_SEC_BUFFS_DESC,"Mirrored bars on either side of the resource circle. Ideal for continuous active buffs. You pick the spells to display from ""Tracked Auras"".",资源圆环两侧的镜像进度条，适合持续生效的增益。在“已追踪光环”中选择要显示的技能。
+AURASDATA_SEC_BUFFS_LABEL,Circle Bars,环形进度条
+AURASDATA_SEC_BUFFS_TOOLTIP,Mirrored bars around the resource circle. You pick the spells from Tracked Auras.,资源圆环周围的镜像进度条。在“已追踪光环”中选择技能。
+AURASDATA_SEC_CASTBAR_DESC,"The bar shown when you cast a spell with a cast time. Position, size and font style.",施放需要读条的技能时显示的施法条。可设置位置、大小和字体样式。
+AURASDATA_SEC_CASTBAR_LABEL,My Cast Bar,我的施法条
+AURASDATA_SEC_COLORS_DESC,"The addon's global color palette. Customize the gold, accent, background and class color tints.",插件的全局配色。可自定义金色、强调色、背景和职业颜色。
+AURASDATA_SEC_COLORS_LABEL,Colors & Theme,颜色与主题
+AURASDATA_SEC_COOLDOWNS_DESC,"Freely positionable bars (wide side). Ideal for cooldowns and long-duration effects. You pick the spells to display from ""Tracked Auras"".",可自由放置的宽进度条，适合冷却和长时间效果。在“已追踪光环”中选择技能。
+AURASDATA_SEC_COOLDOWNS_LABEL,Free Bars,自由进度条
+AURASDATA_SEC_COOLDOWNS_TOOLTIP,Freely positionable bars. You pick the spells from Tracked Auras.,可自由放置的进度条。在“已追踪光环”中选择技能。
+AURASDATA_SEC_DEBUFFS_DESC,"A row of icons (aegis style) with a duration bar. Ideal for DoTs and auras on the target. You pick the spells to display from ""Tracked Auras"".",带持续时间条的一排图标（盾形样式），适合目标身上的持续伤害和光环。在“已追踪光环”中选择技能。
+AURASDATA_SEC_DEBUFFS_LABEL,Icon List,图标列表
+AURASDATA_SEC_DEBUFFS_TOOLTIP,A row of icons with a duration bar. You pick the spells from Tracked Auras.,带持续时间条的一排图标。在“已追踪光环”中选择技能。
+AURASDATA_SEC_FXONAURA_DESC,"3D animations that play on your auras (icon, bar, spark) on a proc, a cast or a combat event. The inner menu lets you configure each view (icon / bar / spark) per spell.",在触发、施法或战斗事件发生时，在光环图标、进度条或端点上播放的 3D 动画。子菜单可逐技能配置图标、进度条和端点视图。
+AURASDATA_SEC_FXONAURA_LABEL,Auras,光环
+AURASDATA_SEC_FXONRECUP_TEXT,3D animations that loop around your Recovery Circle (out of combat). They disappear as soon as you enter combat.,脱战时在恢复圆环周围循环播放的 3D 动画，进入战斗后立即消失。
+AURASDATA_SEC_FXONRESOURCE_DESC,3D animations that play on the resource circle when you cast a spell.,施法时在资源圆环上播放的 3D 动画。
+AURASDATA_SEC_FXONSECRES_LABEL,Secondary Resource,次要资源
+AURASDATA_SEC_FXONSECRES_TEXT,"3D effects on secondary resources: combo points (Rogue, Feral), runes (DK), chi (Monk), Holy Power (Paladin), essences (Evoker), etc.",次要资源的 3D 效果：连击点（潜行者、野性德鲁伊）、符文（死亡骑士）、真气（武僧）、圣能（圣骑士）、精华（唤魔师）等。
+AURASDATA_SEC_HEALTHCIRCLE_DESC,"The recovery circle that only appears out of combat. Used for healing, food and regeneration buffs.",仅脱战时出现的恢复圆环，用于治疗、食物及恢复类增益。
+AURASDATA_SEC_MISSINGBUFFS_DESC,"Alerts you when a group buff you can provide (Arcane Intellect, Battle Shout...) is missing on yourself or a group/raid member. Also covers stances/auras/attunements, pets and poisons.",当自己或队伍／团队成员缺少你能提供的团队增益（奥术智慧、战斗怒吼等）时提醒；也支持姿态、光环、调谐、宠物和毒药。
+AURASDATA_SEC_MISSINGBUFFS_LABEL,Missing buffs,缺失增益
+AURASDATA_SEC_PREVIEW_DESC,Enables an in-game preview mode that simulates fake auras in each slot so you can see the render without waiting for real combat.,启用游戏内预览，在各栏位模拟光环，无需等待实际战斗即可查看效果。
+AURASDATA_SEC_PREVIEW_LABEL,Preview,预览
+AURASDATA_SEC_PRIORITYBAR_DESC,Two groups of slots on either side of the resource circle. Each slot automatically displays the highest-priority available spell in its list.,资源圆环两侧的两组栏位。每个栏位自动显示其列表中当前可用且优先级最高的技能。
+AURASDATA_SEC_PRIORITYBAR_LABEL,Slots Around the Circle,圆环周围栏位
+AURASDATA_SEC_PRIORITYBAR_TOOLTIP,2 groups of slots on either side of the resource circle. Each slot automatically displays the highest-priority available spell in its list.,资源圆环两侧的两组栏位。每个栏位自动显示其列表中当前可用且优先级最高的技能。
+AURASDATA_SEC_PROCS_DESC,"Compact icons in a grid or row. Ideal for procs and short effects. You pick the spells to display from ""Tracked Auras"".",以网格或单行排列的紧凑图标，适合触发和短时效果。在“已追踪光环”中选择技能。
+AURASDATA_SEC_PROCS_LABEL,Icons,图标
+AURASDATA_SEC_PROCS_TOOLTIP,Compact icons. You pick the spells from Tracked Auras.,紧凑图标。在“已追踪光环”中选择技能。
+AURASDATA_SEC_PROFILES_DESC,"Save, load or share your configs between characters. A profile = the whole setup (positions, colors, tracked spells).",保存、加载或跨角色分享配置。一个配置包含整套设置：位置、颜色和追踪技能。
+AURASDATA_SEC_PROFILES_LABEL,Profiles,配置方案
+AURASDATA_SEC_RESOURCECIRCLE_DESC,"The main circle around your character that displays your resource (mana, rage, energy...). Two modes: one in combat and one out of combat.",角色周围的主圆环，显示法力、怒气、能量等资源，提供战斗与脱战两种模式。
+AURASDATA_SEC_ROTATIONHELPER_DESC,The indicator that suggests your next spell to cast based on your spec and resources.,根据专精和资源提示下一个建议施放技能的指示器。
+AURASDATA_SEC_ROTATIONHELPER_LABEL,Rotation Helper,技能循环助手
+AURASDATA_SEC_SKYRIDING_DESC,"Specific display when dragonriding: speed, vigor and altitude indicators.",驭龙时的专用显示：速度、精力和高度指示器。
+AURASDATA_SEC_SKYRIDING_LABEL,Skyriding,驭空术
+AURASDATA_SEC_SPELLSTRACKED_DESC,"The central list of all spells the addon watches. Add spells here then assign them to a slot (Icon List, Free Bars, Icons...).",插件监视的全部技能总表。在此添加技能，再将其分配到图标列表、自由进度条或图标等栏位。
+AURASDATA_SEC_TARGETCASTBAR_DESC,The bar that shows what your target is casting. Handy for interrupting at the right time.,显示目标正在施放的技能，便于把握打断时机。
+AURASDATA_SEC_TARGETCASTBAR_LABEL,Target's Cast Bar,目标施法条
+AURASDATA_SEC_TOPTARGETBAR_DESC,The health bar and visible auras on your current target. Configure the main bar and the auras separately in the tabs.,当前目标的血条与光环。在不同页签中分别配置主血条与光环。
+AURASDATA_SEC_TOPTARGETBAR_LABEL,Target Frame,目标框架
+AURASDATA_SEC_TRINKETS_DESC,Manage your trinkets and racials on cooldown. Configuration per equipment slot.,管理饰品和种族技能的冷却，可按装备栏位配置。
+AURASDATA_SEC_TRINKETS_LABEL,Trinkets,饰品
+AURASDATA_SEC_TRINKETS_TOOLTIP,Trinkets and racials. Configuration per slot from this menu.,饰品与种族技能，可在此菜单按栏位配置。
+AURASDATA_SEC_UNITBARS_DESC,"The main health and resource bars of your character. Configure their size, position, texture and colors here.",角色的主要生命条与资源条，可设置大小、位置、材质和颜色。
+AURASDATA_SEC_UNITBARS_LABEL,Unit Frames,单位框架
+AURASDATA_SEC_XPBAR_DESC,"The custom experience bar that replaces the Blizzard bar. Displays XP, reputation and honor depending on context.",替代暴雪经验条的自定义进度条，可根据情境显示经验、声望或荣誉。
+AURASDATA_SEC_XPBAR_LABEL,Experience Bar,经验条
+AURASDATA_TEMPLATE_AFFLICTION_VEIN,Affliction Vein,痛苦纹脉
+AURASDATA_TEMPLATE_ARCANE_FRESCO,Arcane Fresco,奥术壁纹
+AURASDATA_TEMPLATE_ARCANE_FRESCO_2,Arcane Fresco II,奥术壁纹 II
+AURASDATA_TEMPLATE_BLUE_RAMPART,Blue Rampart,蓝色壁垒
+AURASDATA_TEMPLATE_CLASSIC_VEIN,Classic Vein,经典纹脉
+AURASDATA_TEMPLATE_DEMONIC_WEAVE,Demonic Weave,恶魔织纹
+AURASDATA_TEMPLATE_DOUBLE_FILAMENT,Double Filament,双重丝线
+AURASDATA_TEMPLATE_FELINE_TRAIL,Feline Trail,猎豹轨迹
+AURASDATA_TEMPLATE_FRAGILE_WAVE,Fragile Wave,纤细波纹
+AURASDATA_TEMPLATE_FROST_WAVE,Frost Wave,冰霜波纹
+AURASDATA_TEMPLATE_GARNET_VEIN,Garnet Vein,石榴石纹脉
+AURASDATA_TEMPLATE_GOLDEN_THREAD,Golden Thread,金色丝线
+AURASDATA_TEMPLATE_HEAVY_EMBER,Heavy Ember,厚重余烬
+AURASDATA_TEMPLATE_INCARNATION_TRIM,Incarnation Trim,化身饰边
+AURASDATA_TEMPLATE_JADE_TRIM,Jade Trim,翡翠饰边
+AURASDATA_TEMPLATE_LUCKY_VEIL,Lucky Veil,幸运薄纱
+AURASDATA_TEMPLATE_OPENING_STATUE,Opening Statue,开场雕像
+AURASDATA_TEMPLATE_PROTECTIVE_WAVE,Protective Wave,防护波纹
+AURASDATA_TEMPLATE_SCARLET_CLAW,Scarlet Claw,猩红利爪
+AURASDATA_TEMPLATE_SERPENTINE_RIBBON,Serpentine Ribbon,蛇形丝带
+AURASDATA_TEMPLATE_SHADOW_THREAD,Shadow Thread,暗影丝线
+AURASDATA_TEMPLATE_SIGHT_ARC,Sight Arc,视界圆弧
+AURASDATA_TEMPLATE_SOBER_RAMPART,Sober Rampart,素雅壁垒
+AURASDATA_TEMPLATE_TAUT_THREAD,Taut Thread,绷紧丝线
+AURASDATA_TEMPLATE_TIGER_RIBBON,Tiger Ribbon,猛虎丝带
+AURASFEAT_ALT_DRAG_HINT,Alt+Drag,Alt+拖动
+AURASMENU_CATDISP_BUILD_ERROR,Build Error%s: %s,构建错误%s：%s
+AURASMENU_CATDISP_COMING_SOON,Coming Soon,即将推出
+AURASMENU_CATDISP_COMING_SOON_DESC,"This section will be available
+once AishCore is integrated into AishUI.",此部分将在 AishCore 整合进 AishUI 后开放。
+AURASMENU_CATDISP_DEBUG_HEADER,|cffc79e4d[AishUI Dispatcher]|r Section status:,|cffc79e4d[AishUI Dispatcher]|r 分区状态：
+AURASMENU_CATDISP_MISSING_BUILDER,|cffff8000missing builder: %s|r,|cffff8000缺少构建器：%s|r
+AURASMENU_CATDISP_OK_STATUS,|cff00ff00OK|r,|cff00ff00正常|r
+AURASMENU_CATDISP_PLACEHOLDER_STATUS,|cff888888placeholder|r,|cff888888占位内容|r
+AURASMENU_CATDISP_SECTION_NOT_FOUND,Section not found: %s / %s,未找到分区：%s / %s
+AURASMENU_CATDISP_SOURCE_LABEL,Source: %s,来源：%s
+AURASMENU_EFFECTS_ACTIVE_SPELLS,Active Spells,生效中的技能
+AURASMENU_EFFECTS_ADD_LAYER,+ Add a layer,+ 添加图层
+AURASMENU_EFFECTS_AUTO_DISABLE_RAID,Auto-Disable in Raid,团队副本中自动禁用
+AURASMENU_EFFECTS_AUTO_FROM_TACTICS,Auto from Tactics + War Gear,根据追踪策略与装备自动设置
+AURASMENU_EFFECTS_BACKGROUND,Background,背景
+AURASMENU_EFFECTS_BACK_PLANE,Background,背景
+AURASMENU_EFFECTS_CHOOSE_MODEL,Choose Model,选择模型
+AURASMENU_EFFECTS_CLEAR_SPELL,Clear Spell,清除技能
+AURASMENU_EFFECTS_DELETE,Delete,删除
+AURASMENU_EFFECTS_EFFECT_NUM,Effect %d,效果 %d
+AURASMENU_EFFECTS_ENABLE_3D,Enable 3D Effects,启用 3D 特效
+AURASMENU_EFFECTS_ENLARGE,Enlarge,放大
+AURASMENU_EFFECTS_FILL_2D,2D Fill,2D 填充
+AURASMENU_EFFECTS_FILL_3D,3D Fill,3D 填充
+AURASMENU_EFFECTS_FILL_FALLBACK,Fill,填充
+AURASMENU_EFFECTS_FRONT_PLANE,Foreground,前景
+AURASMENU_EFFECTS_FX_HEIGHT,FX Height,特效高度
+AURASMENU_EFFECTS_FX_WIDTH,FX Width,特效宽度
+AURASMENU_EFFECTS_ID_LABEL,ID: %s,ID：%s
+AURASMENU_EFFECTS_MID_PLANE,Mid Plane,中间平面
+AURASMENU_EFFECTS_MODEL_3D_LABEL,3D MODEL,3D 模型
+AURASMENU_EFFECTS_MODULE_HEADER,3D Effects Module,3D 特效模块
+AURASMENU_EFFECTS_NONE_FEM,(none),（无）
+AURASMENU_EFFECTS_NONE_MASC,(none),（无）
+AURASMENU_EFFECTS_NOT_APPLIED,not applied,未应用
+AURASMENU_EFFECTS_NO_LAYER,"No layer.
+Click + to add a 3D effect.","没有图层。
+点击 + 添加 3D 特效。"
+AURASMENU_EFFECTS_OVERLAY_ANIM,ANIMATED OVERLAY (scrolling texture),动态叠加层（滚动纹理）
+AURASMENU_EFFECTS_OVERLAY_OPACITY,Overlay Opacity,叠加层不透明度
+AURASMENU_EFFECTS_PLANE_LABEL,Plane:,平面：
+AURASMENU_EFFECTS_PREVIEW_3D_TITLE,3D PREVIEW,3D 预览
+AURASMENU_EFFECTS_PREVIEW_BAR_SIZE,PREVIEW BAR (%dx%d),进度条预览（%dx%d）
+AURASMENU_EFFECTS_PREVIEW_ICON_SIZE,PREVIEW ICON (%dx%d),图标预览（%dx%d）
+AURASMENU_EFFECTS_PREVIEW_LABEL,PREVIEW,预览
+AURASMENU_EFFECTS_PREVIEW_MODEL_3D,3D MODEL — %s (%s),3D 模型 — %s（%s）
+AURASMENU_EFFECTS_PREVIEW_NONE,PREVIEW — none (%s),预览 — 无（%s）
+AURASMENU_EFFECTS_PREVIEW_SPARK_SIZE,PREVIEW SPARK (%dx%d),端点预览（%dx%d）
+AURASMENU_EFFECTS_PREVIEW_TEXTURE_2D,2D TEXTURE — %s (%s),2D 纹理 — %s（%s）
+AURASMENU_EFFECTS_PREVIEW_WG_ICON,PREVIEW WG ICON,装备图标预览
+AURASMENU_EFFECTS_RESET,Reset,重置
+AURASMENU_EFFECTS_ROTATION,Rotation,旋转
+AURASMENU_EFFECTS_SCALE,Scale,缩放
+AURASMENU_EFFECTS_SCROLL_SPEED,Scroll Speed,滚动速度
+AURASMENU_EFFECTS_SELECT_A_SPELL,Select a spell,选择技能
+AURASMENU_EFFECTS_SPEED,Speed,速度
+AURASMENU_EFFECTS_TAB_BAR,BAR ANIMS,进度条动画
+AURASMENU_EFFECTS_TAB_ICON,ICON ANIMS,图标动画
+AURASMENU_EFFECTS_TAB_ICON_WG,ICON ANIMS [E],图标动画 [E]
+AURASMENU_EFFECTS_TAB_SPARK,SPARK ANIMS,端点动画
+AURASMENU_EFFECTS_TEXTURE_LABEL,Texture:,纹理：
+AURASMENU_EFFECTS_TINT,Tint,着色
+AURASMENU_EFFECTS_VIEW_ALL,ALL,全部
+AURASMENU_EFFECTS_VIEW_CIRCLE,[C] CIRCLE,[C] 圆环
+AURASMENU_EFFECTS_VIEW_EQUIP,[E] EQUIP,[E] 装备
+AURASMENU_EFFECTS_VIEW_FREE,[B] FREE,[B] 自由条
+AURASMENU_EFFECTS_VIEW_ICONS,[I] ICONS,[I] 图标
+AURASMENU_EFFECTS_VIEW_LIST,[L] LIST,[L] 列表
+AURASMENU_EFFECTS_X_MODEL,X (model),X（模型）
+AURASMENU_EFFECTS_Y_MODEL,Y (model),Y（模型）
+AURASMENU_EFFECTS_Z_DEPTH,Z (depth),Z（深度）
+AURASMENU_EQUIPMENT_ACTIVE_LABEL,ACTIVE,生效中
+AURASMENU_EQUIPMENT_ALT_DRAG_HINT,Alt+Drag to move individually,Alt+拖动可单独移动
+AURASMENU_EQUIPMENT_BORDER_COLOR,Border Color,边框颜色
+AURASMENU_EQUIPMENT_BORDER_NONE,None,无
+AURASMENU_EQUIPMENT_BORDER_SQUARE,Square,方形
+AURASMENU_EQUIPMENT_DESATURATE_TOOLTIP,Desaturate icon,图标去色
+AURASMENU_EQUIPMENT_GLOW_ACTIVE,Glow active,生效时发光
+AURASMENU_EQUIPMENT_GLOW_INACTIVE,Glow inactive,未生效时发光
+AURASMENU_EQUIPMENT_GLOW_OFF,Glow off,关闭发光
+AURASMENU_EQUIPMENT_GLOW_TOOLTIP_LEFT,Left click: toggle on/off,左键：开启／关闭
+AURASMENU_EQUIPMENT_GLOW_TOOLTIP_RIGHT,Right click: choose type,右键：选择类型
+AURASMENU_EQUIPMENT_GROWTH_DOWN,Down,向下
+AURASMENU_EQUIPMENT_GROWTH_LEFT,Left,左侧
+AURASMENU_EQUIPMENT_GROWTH_RIGHT,Right,右侧
+AURASMENU_EQUIPMENT_GROWTH_UP,Up,向上
+AURASMENU_EQUIPMENT_HEIGHT,Height,高度
+AURASMENU_EQUIPMENT_ICON_HEIGHT,Icon Height,图标高度
+AURASMENU_EQUIPMENT_ICON_WIDTH,Icon Width,图标宽度
+AURASMENU_EQUIPMENT_NO_ITEMS,"No items detected (equip trinkets, then /reload)",未检测到物品（请装备饰品后输入 /reload）
+AURASMENU_EQUIPMENT_OPACITY,Opacity,不透明度
+AURASMENU_EQUIPMENT_SECTION_BORDER,BORDER,边框
+AURASMENU_EQUIPMENT_SECTION_DISPOSITION,Layout (trinkets / racials / equip.),布局（饰品／种族技能／装备）
+AURASMENU_EQUIPMENT_SECTION_EQUIPEMENT,EQUIPMENT,装备
+AURASMENU_EQUIPMENT_SECTION_POSITION,POSITION & SIZE,位置与大小
+AURASMENU_EQUIPMENT_SPACING,Spacing,间距
+AURASMENU_EQUIPMENT_STACKING,Stacking,堆叠方式
+AURASMENU_EQUIPMENT_STYLE,Style,样式
+AURASMENU_EQUIPMENT_THICKNESS,Thickness,厚度
+AURASMENU_EQUIPMENT_WIDTH,Width,宽度
+AURASMENU_INFOPANEL_PREVIEW_COMING_SOON,Preview coming soon,预览即将推出
+AURASMENU_PREVIEW_RECENTER,Recenter,重新居中
+AURASMENU_PREVIEW_RECENTER_ALL,Recenter All,全部重新居中
+AURASMENU_PREVIEW_RENDER_CIRCLE_BARS,Circle Bars,环形进度条
+AURASMENU_PREVIEW_RENDER_EQUIPMENT,Equipment,装备
+AURASMENU_PREVIEW_RENDER_FREE_BARS,Free Bars,自由进度条
+AURASMENU_PREVIEW_RENDER_ICONLIST,Icon List,图标列表
+AURASMENU_PREVIEW_RENDER_ICONS,Icons,图标
+AURASMENU_PREVIEW_RENDER_TOTEMS,Totems,图腾
+AURASMENU_PREVIEW_SECTION_AISHUI,AISHUI (PREVIEW),AISHUI（预览）
+AURASMENU_PREVIEW_SECTION_PLACEHOLDERS,PLACEHOLDERS / ANCHORS,占位框／锚点
+AURASMENU_PREVIEW_TOGGLE_HINT,Shows the partner panel's frames,显示关联面板的框架
+AURASMENU_PREVIEW_TOGGLE_LABEL,Show AishUI Preview,显示 AishUI 预览
+AURASMENU_PROFILES_BTN_APPLY_PRESET,Apply preset,应用预设
+AURASMENU_PROFILES_BTN_CREATE,Create,创建
+AURASMENU_PROFILES_BTN_DELETE_PROFILE,Delete this profile,删除此配置
+AURASMENU_PROFILES_BTN_EXPORT,Export,导出
+AURASMENU_PROFILES_BTN_IMPORT,Import,导入
+AURASMENU_PROFILES_LBL_IMPORTED_PROFILE_NAME,Imported profile name:,导入配置的名称：
+AURASMENU_PROFILES_LBL_OVERWRITE,Overwrite,覆盖
+AURASMENU_PROFILES_LBL_PROFILE_TO_EXPORT,Profile to export,要导出的配置
+AURASMENU_PROFILES_MSG_CANNOT_DELETE_DEFAULT,Cannot delete Default,无法删除默认配置
+AURASMENU_PROFILES_MSG_EXPORTED,Exported: %s (%d characters),已导出：%s（%d 个字符）
+AURASMENU_PROFILES_MSG_EXPORT_ERROR,Export error,导出失败
+AURASMENU_PROFILES_MSG_IMPORT_SUCCESS,Successfully imported: %s,导入成功：%s
+AURASMENU_PROFILES_MSG_LIBS_MISSING,LibSerialize or LibDeflate missing — export/import disabled,缺少 LibSerialize 或 LibDeflate，导入／导出已禁用
+AURASMENU_PROFILES_MSG_PASTE_EXPORT_STRING,Paste an export string,请粘贴导出字符串
+AURASMENU_PROFILES_MSG_PRESET_API_UNAVAILABLE,Preset API unavailable,预设接口不可用
+AURASMENU_PROFILES_MSG_PRESET_APPLIED_FULL,%d spell(s) configured. Go to Tactics to see them.,已配置 %d 个技能，请到追踪策略中查看。
+AURASMENU_PROFILES_MSG_PRESET_APPLIED_PARTIAL,"%d spell(s) configured, %d not found (play them once then reapply).",已配置 %d 个技能，未找到 %d 个（请先使用一次，再重新应用）。
+AURASMENU_PROFILES_MSG_PRESET_APPLIED_PRINT,Preset '%s' applied (%d spells),已应用预设“%s”（%d 个技能）
+AURASMENU_PROFILES_MSG_PROFILE_CREATED,Profile '%s' created,已创建配置“%s”
+AURASMENU_PROFILES_MSG_PROFILE_IMPORTED,Profile '%s' imported,已导入配置“%s”
+AURASMENU_PROFILES_SECTION_ACTIVE_PROFILE,ACTIVE PROFILE,当前配置
+AURASMENU_PROFILES_SECTION_CONFIGURE_CLASS,CONFIGURE MY CLASS,配置我的职业
+AURASMENU_PROFILES_SECTION_CREATE_PROFILE,CREATE A PROFILE,创建配置
+AURASMENU_PROFILES_SECTION_EXPORT_IMPORT,EXPORT / IMPORT,导入／导出
+AURASMENU_PROFILES_TXT_CLASS_INTRO,Applies a recommended configuration to spells already discovered by the Cooldown Manager.,对冷却管理器已经发现的技能应用推荐配置。
+AURASMENU_PROFILES_TXT_NO_PRESET,"No preset available for your current specialization.
+Come back when you're playing a spec covered by the collection.","当前专精暂无预设。
+使用预设集已支持的专精时再来查看。"
+AURASMENU_RENDER_ABOVE,Above,上方
+AURASMENU_RENDER_ALWAYS_GRAY,Always Gray,始终灰显
+AURASMENU_RENDER_ANIMATE_EXIT,Animate Exit,退出动画
+AURASMENU_RENDER_ANIM_ENABLED,Animation Enabled,启用动画
+AURASMENU_RENDER_ANIM_STYLE_NONE,None,无
+AURASMENU_RENDER_ANIM_STYLE_POP,Pop (scale+fade),弹出（缩放＋渐隐）
+AURASMENU_RENDER_ANIM_STYLE_SLIDE,Slide (from right),滑入（从右侧）
+AURASMENU_RENDER_ANIM_STYLE_STANDARD,Standard (fade+slide),标准（渐隐＋滑动）
+AURASMENU_RENDER_ANIM_STYLE_SURGE,Surge (scale+rise),涌现（缩放＋上升）
+AURASMENU_RENDER_APPLY_PRESET,Apply Preset,应用预设
+AURASMENU_RENDER_BAR_BG_COLOR,Bar Background Color,进度条背景颜色
+AURASMENU_RENDER_BAR_COLOR,Bar Color,进度条颜色
+AURASMENU_RENDER_BAR_HEIGHT,Bar Height,进度条高度
+AURASMENU_RENDER_BAR_OPACITY,Bar Opacity,进度条不透明度
+AURASMENU_RENDER_BAR_OPACITY_3D,Bar Opacity with 3D,使用 3D 时的进度条不透明度
+AURASMENU_RENDER_BAR_POSITION,Bar Position,进度条位置
+AURASMENU_RENDER_BAR_TEXTURE,Bar Texture,进度条材质
+AURASMENU_RENDER_BAR_WIDTH,Bar Width,进度条宽度
+AURASMENU_RENDER_BELOW_ICON,Below Icon,图标下方
+AURASMENU_RENDER_BG_OPACITY,Background Opacity (0=transparent),背景不透明度（0 为透明）
+AURASMENU_RENDER_CHARGES_COLOR,Charges Color,充能次数颜色
+AURASMENU_RENDER_CHOOSE_STYLE,-- Choose a style --,-- 选择样式 --
+AURASMENU_RENDER_CLICK_CHOOSE_COLOR,Click to choose the color,点击选择颜色
+AURASMENU_RENDER_CRITICAL_COLOR,Critical Color (aura ending),即将结束时的颜色
+AURASMENU_RENDER_CUSTOMIZE_COLOR_HEADER,Customize the color or gradient per spell,为每个技能自定义颜色或渐变
+AURASMENU_RENDER_DESATURATION,Desaturation,去色
+AURASMENU_RENDER_DISPOSITION_CIRCLEBARS,(side bar),（侧边条）
+AURASMENU_RENDER_DISPOSITION_FREEBARS,(around the resource circle),（资源圆环周围）
+AURASMENU_RENDER_DISPOSITION_HEADER,Layout %s,布局 %s
+AURASMENU_RENDER_DISPOSITION_ICONLIST,(below the circle),（圆环下方）
+AURASMENU_RENDER_DISPOSITION_ICONS,(below the player portrait),（玩家头像下方）
+AURASMENU_RENDER_DISPOSITION_TOTEMS,"(side bar, dedicated to totems)",（图腾专用侧边条）
+AURASMENU_RENDER_DURATION_SECONDS,Duration (s),时长（秒）
+AURASMENU_RENDER_DURATION_TEXT_NATIVE_NOTE,This uses Blizzard's native cooldown counter -- font size and color below can't be customized here.,此处使用暴雪原生冷却计时，无法在下方自定义其字号与颜色。
+AURASMENU_RENDER_EASING_INTENSITY,Easing Intensity,缓动强度
+AURASMENU_RENDER_ENABLE_COLOR_CURVE,Enable Color Curve,启用颜色曲线
+AURASMENU_RENDER_ENABLE_GLOW,Enable Glow,启用发光
+AURASMENU_RENDER_ENABLE_SPARK,Enable Spark,启用端点光效
+AURASMENU_RENDER_FADE_ALPHA,Fade Alpha,渐隐透明度
+AURASMENU_RENDER_FONT_LABEL,Font,字体
+AURASMENU_RENDER_FONT_SIZE,Font Size,字号
+AURASMENU_RENDER_GLOW_MODE_ON,Own glow for this mode,此模式独立发光
+AURASMENU_RENDER_GLOW_MODE_ON_TT,"Shared glow for this display mode, for spells that follow the default glow. A spell whose glow was customized in ""Auras to track"" keeps its own settings, which take priority.",此显示模式的共用发光，适用于采用默认发光的技能。在“需要追踪的光环”中单独设置过发光的技能，会优先使用其自身设置。
+AURASMENU_RENDER_GLOW_OVERRIDE_INFO,Overrides the glow of all spells in this render,覆盖此视图中所有技能的发光
+AURASMENU_RENDER_GLOW_PER_SPELL_DEFAULT,Per spell (default),按技能（默认）
+AURASMENU_RENDER_GLOW_SPELL_COLOR,Use each spell's glow color,使用各技能的发光颜色
+AURASMENU_RENDER_GLOW_TYPE,Glow Type,发光类型
+AURASMENU_RENDER_GRADIENT_END_COLOR,Gradient End Color,渐变终点颜色
+AURASMENU_RENDER_GRADIENT_LABEL,Gradient,渐变
+AURASMENU_RENDER_GROWTH_BOTTOM_TO_TOP,Bottom to Top,从下到上
+AURASMENU_RENDER_GROWTH_LEFT_TO_RIGHT,Left to Right,从左到右
+AURASMENU_RENDER_GROWTH_RIGHT_TO_LEFT,Right to Left,从右到左
+AURASMENU_RENDER_GROWTH_TOP_TO_BOTTOM,Top to Bottom,从上到下
+AURASMENU_RENDER_HIDE_ICON,Hide Icon (bars only),隐藏图标（仅进度条）
+AURASMENU_RENDER_HORIZONTAL_GRADIENT,Horizontal Gradient,水平渐变
+AURASMENU_RENDER_ICON_OPACITY,Icon Opacity,图标不透明度
+AURASMENU_RENDER_MAX_BARS,Max Bars,最多进度条数
+AURASMENU_RENDER_MEDIUM_COLOR,Medium Color (~20% remaining),中段颜色（约剩余 20%）
+AURASMENU_RENDER_MIRROR_LABEL,Mirror,镜像
+AURASMENU_RENDER_MIRROR_TOOLTIP,Moves the bar to the other side of the icon. It always keeps emptying toward the icon.,将进度条移到图标另一侧，仍始终朝图标方向耗尽。
+AURASMENU_RENDER_NEVER_GRAY,Never Gray,不灰显
+AURASMENU_RENDER_NO_SPELL_TO_CUSTOMIZE,No spell to customize yet,暂无可自定义的技能
+AURASMENU_RENDER_OPACITY_COMBAT,Combat Opacity,战斗中不透明度
+AURASMENU_RENDER_OPACITY_OOC,Out of Combat Opacity,脱战时不透明度
+AURASMENU_RENDER_PER_SPELL,Per Spell,逐技能设置
+AURASMENU_RENDER_POSITION_LABEL,Position,位置
+AURASMENU_RENDER_POSITION_LABEL_BAR,Position (vs. bar),位置（相对进度条）
+AURASMENU_RENDER_POS_BOTTOM_LEFT,Bottom Left,左下
+AURASMENU_RENDER_POS_BOTTOM_RIGHT,Bottom Right,右下
+AURASMENU_RENDER_POS_CENTER,Center,居中
+AURASMENU_RENDER_POS_TOP_LEFT,Top Left,左上
+AURASMENU_RENDER_POS_TOP_RIGHT,Top Right,右上
+AURASMENU_RENDER_PRESET_APPLIED_PRINT,[AishUI]|r Preset applied: %s,[AishUI]|r 已应用预设：%s
+AURASMENU_RENDER_PRESET_LABEL,Preset,预设
+AURASMENU_RENDER_PRESET_PREVIEW_LABEL,|cff888888Preset Preview:|r,|cff888888预设预览：|r
+AURASMENU_RENDER_RESET_CUSTOMIZATION,Reset this customization,重置此项自定义
+AURASMENU_RENDER_REVERSE_FILL,Reverse Fill,反向填充
+AURASMENU_RENDER_ROW_SPACING,Row Spacing,行间距
+AURASMENU_RENDER_SECTION_ANIM_APPEARANCE,APPEARANCE ANIMATION,入场动画
+AURASMENU_RENDER_SECTION_ANIM_ICON,ICON ANIMATION,图标动画
+AURASMENU_RENDER_SECTION_BAR_COLOR_TEXTURE,BAR (COLOR & TEXTURE),进度条（颜色与材质）
+AURASMENU_RENDER_SECTION_CHARGES,CHARGES,充能次数
+AURASMENU_RENDER_SECTION_COLOR_PER_SPELL,COLOR PER SPELL,各技能颜色
+AURASMENU_RENDER_SECTION_DIMENSIONS,DIMENSIONS,尺寸
+AURASMENU_RENDER_SECTION_DURATION_TEXT,DURATION TEXT,持续时间文字
+AURASMENU_RENDER_SECTION_GLOW,GLOW,发光
+AURASMENU_RENDER_SECTION_ICONS_DIMENSIONS,ICONS & DIMENSIONS,图标与尺寸
+AURASMENU_RENDER_SECTION_OPACITY_FADE,OPACITY & FADE,不透明度与渐隐
+AURASMENU_RENDER_SECTION_POSITION,POSITION,位置
+AURASMENU_RENDER_SECTION_PRESETS,BAR PRESETS,进度条预设
+AURASMENU_RENDER_SECTION_SPARK,SPARK,端点光效
+AURASMENU_RENDER_SECTION_STACKS,STACKS,层数
+AURASMENU_RENDER_SECTION_URGENCY_COLORS,URGENCY COLORS,紧急程度颜色
+AURASMENU_RENDER_SHOW_BAR,Show Bar,显示进度条
+AURASMENU_RENDER_SHOW_CHARGES,Show Charges,显示充能次数
+AURASMENU_RENDER_SHOW_DURATION,Show Duration,显示持续时间
+AURASMENU_RENDER_SHOW_DURATION_ON_ICON,Show Duration on Icon,在图标上显示持续时间
+AURASMENU_RENDER_SHOW_STACKS,Show Stacks,显示层数
+AURASMENU_RENDER_SIZE_GENERIC,Size,大小
+AURASMENU_RENDER_SPARK_COLOR,Spark Color,端点颜色
+AURASMENU_RENDER_SPARK_GRADIENT,Spark Gradient,端点渐变
+AURASMENU_RENDER_SPARK_GRADIENT_END_COLOR,Spark Gradient End Color,端点渐变终点颜色
+AURASMENU_RENDER_SPARK_LAYER_BACK,Behind Bar,进度条后方
+AURASMENU_RENDER_SPARK_LAYER_FRONT,In Front of Bar,进度条前方
+AURASMENU_RENDER_SPARK_POSITION,Spark Position,端点位置
+AURASMENU_RENDER_SPARK_SAME_AS_BAR,Same color as bar,与进度条同色
+AURASMENU_RENDER_SPARK_TEXTURE,Spark Texture,端点材质
+AURASMENU_RENDER_SPARK_TEX_CASTINGBAR,CastingBar (default),施法条（默认）
+AURASMENU_RENDER_SPARK_TEX_CASTINGBAR_SPARK,CastingBar Spark,施法条端点
+AURASMENU_RENDER_SPARK_TEX_GRADIENT,Gradient,渐变
+AURASMENU_RENDER_SPARK_TEX_HONOR,Honor Spark (golden),荣誉条端点（金色）
+AURASMENU_RENDER_SPARK_TEX_SMALL,Small Spark,小型端点
+AURASMENU_RENDER_STACKS_COLOR,Stacks Color,层数颜色
+AURASMENU_RENDER_STACK_DIRECTION,Stack Direction,堆叠方向
+AURASMENU_RENDER_SWIPE_COOLDOWN,Swipe Cooldown,冷却扫光
+AURASMENU_RENDER_TEXT_COLOR,Text Color,文字颜色
+AURASMENU_TACTICS_ADMIN_BANNER,ADMIN MODE ACTIVE -- /aishadmin to exit,管理模式已开启，输入 /aishadmin 退出
+AURASMENU_TACTICS_BAR_COLOR_TOOLTIP,Bar Color,进度条颜色
+AURASMENU_TACTICS_CHECK_ALL,Check All,全部勾选
+AURASMENU_TACTICS_CLEAR_DISCOVERED,Clear Discovered Spells,清除已发现的技能
+AURASMENU_TACTICS_DEFAULT_GLOW_COLOR_TOOLTIP,"Left click: pick a color.
+Right click: reset to the active spec's ""Glow"" color.","左键：选择颜色。
+右键：重置为当前专精的“发光”颜色。"
+AURASMENU_TACTICS_DEFAULT_GLOW_HEADER,DEFAULT GLOW,默认发光
+AURASMENU_TACTICS_DEFAULT_GLOW_INFO,"Automatically applied to any checked aura that has no custom glow set (manual setting in the list below). Without a color chosen here, follows the active spec's ""Glow"" color (Colors module).",自动应用于已勾选且未单独设置发光的光环（可在下方列表手动设置）。此处未指定颜色时，跟随颜色模块中当前专精的“发光”颜色。
+AURASMENU_TACTICS_DELETE_SPELL_TOOLTIP,Remove this spell from the list (undoable while admin mode is on),从列表移除此技能（管理模式开启时可撤销）
+AURASMENU_TACTICS_DEST_TOOLTIP,%s: click to toggle,%s：点击切换
+AURASMENU_TACTICS_DISCOVERED_AURAS,Discovered Auras (CDM),已发现的光环（冷却管理器）
+AURASMENU_TACTICS_EMPTY_PLACEHOLDER,(none),（无）
+AURASMENU_TACTICS_ENTRY_ANIMATION,Entry Animation,入场动画
+AURASMENU_TACTICS_EXPORT_OVERRIDES,Export Admin Overrides,导出管理覆盖设置
+AURASMENU_TACTICS_GLOW_COLOR,Glow Color,发光颜色
+AURASMENU_TACTICS_GLOW_SECTION_TITLE,GLOW (HIGHLIGHT EFFECT),发光（高亮效果）
+AURASMENU_TACTICS_GLOW_SIZE,Glow Size,发光大小
+AURASMENU_TACTICS_GLOW_TITLE,Glow — %s,发光 — %s
+AURASMENU_TACTICS_GLOW_TYPE_LOOP,Glow Type (loop),发光类型（循环）
+AURASMENU_TACTICS_LEGEND,[L] Icon List  [C] Circle Bars  [I] Icons  [B] Free Bars,[L] 图标列表  [C] 环形条  [I] 图标  [B] 自由条
+AURASMENU_TACTICS_NO_SPELL_DISCOVERED,No spell discovered.,尚未发现技能。
+AURASMENU_TACTICS_PROC_SIZE,Proc Size,触发效果大小
+AURASMENU_TACTICS_RECLASSIFY_TOOLTIP,Left click: next category (Debuff -> Buff -> Totem -> Debuff...),左键：下一类别（减益 → 增益 → 图腾 → 减益……）
+AURASMENU_TACTICS_RECLASSIFY_TOOLTIP_RIGHT,Right click: previous category,右键：上一类别
+AURASMENU_TACTICS_RESCAN_AURAS,Rescan Auras,重新扫描光环
+AURASMENU_TACTICS_SECTION_ACTIONS,ACTIONS,操作
+AURASMENU_TACTICS_SECTION_BUFFS_PLAYER,PLAYER BUFFS,玩家增益
+AURASMENU_TACTICS_SECTION_DEBUFFS_TARGET,TARGET DEBUFFS,目标减益
+AURASMENU_TACTICS_SECTION_TOTEMS,TOTEMS,图腾
+AURASMENU_TACTICS_TEST_PROC,v Test Proc,v 测试触发效果
+AURASMENU_TACTICS_TOOLTIP_ALT_COMBAT,Aura tooltip in combat only with ALT  |cff888888(independent from Priority Bar)|r,战斗中仅按住 ALT 时显示光环提示  |cff888888（与优先级提示条无关）|r
+AURASMENU_TACTICS_UNCHECK_ALL,Uncheck All,全部取消勾选
+AURASMENU_TACTICS_UNDELETE_LABEL,<-,←
+AURASMENU_TACTICS_UNDELETE_SPELL_TOOLTIP,Undo removal,撤销移除
+AURASMENU_TACTICS_USE_NATIVE_CDM,Use native CDM  |cff888888(disables all our custom bars/icons)|r,使用原生冷却管理器  |cff888888（禁用我们的所有自定义进度条／图标）|r
+CASTBAR_INTERRUPTED,Interrupted,已打断
+CASTBAR_PREVIEW_SPELL_NAME,Fireball,火球术
+CDM_LAYOUT_APPLY_BTN,Apply (reload),应用并重载
+CDM_LAYOUT_BUILD_DEFAULT,Default (Blizzard),默认（暴雪）
+CDM_LAYOUT_CREATE_BTN,Create,创建
+CDM_LAYOUT_CREATE_HINT,"This spec has no active build yet: a build is created from the current Cooldown Manager, then your change is applied to it.",此专精尚无启用方案：将根据当前冷却布局创建方案，再应用本次更改。
+CDM_LAYOUT_CREATE_TITLE,Create a build,创建布局方案
+CDM_LAYOUT_DEFAULT_NAME,Custom,自定义
+CDM_LAYOUT_DELETE_BTN,Delete this build,删除此布局方案
+CDM_LAYOUT_DELETE_CONFIRM,Click again to delete,再次点击确认删除
+CDM_LAYOUT_DESC,"Choose which cooldowns the Cooldown Manager tracks for this spec (spells, trinkets, potions), and whether they go to Essential or Utility. Each spec can have several named builds, saved in your profile and shared with it. These setups are independent from tracked buffs, which are set in ""Auras to Track"".",选择此专精由冷却管理器追踪的技能、饰品和药水，并将其归入核心或功能分组。每个专精可保存多个命名方案，随配置一起保存和分享。需要追踪的增益在“需要追踪的光环”中单独设置。
+CDM_LAYOUT_DIFF_LINE,profile: %s  /  CDM: %s,配置：%s ／ 冷却管理器：%s
+CDM_LAYOUT_DIFF_MORE,... and %d more,……另有 %d 项
+CDM_LAYOUT_DIFF_ORDER,Essential order differs,核心技能排列顺序不同
+CDM_LAYOUT_DIFF_TITLE,Differences between the profile and the Cooldown Manager,配置方案与当前冷却布局的差异
+CDM_LAYOUT_EDIT_DIRECT,"Edit ""%s""",编辑“%s”
+CDM_LAYOUT_ERR_COMBAT,Cannot change the Cooldown Manager in combat.,战斗中无法更改冷却管理器。
+CDM_LAYOUT_ERR_NO_CONFIG,No Cooldown Manager setup for this spec in the profile.,当前配置没有此专精的冷却布局方案。
+CDM_LAYOUT_ERR_REFUSED,The Cooldown Manager refused some changes: %s,冷却管理器拒绝了部分更改：%s
+CDM_LAYOUT_ERR_UNAVAILABLE,Cooldown Manager unavailable (not loaded yet).,冷却管理器暂不可用（尚未加载）。
+CDM_LAYOUT_ESSENTIAL,Essential,核心技能
+CDM_LAYOUT_FORK_HINT,"The original build stays untouched, so you can always go back to it.",原方案保持不变，便于随时切回。
+CDM_LAYOUT_FORK_TITLE,"Edit ""%s"": create a new build?",编辑“%s”：是否创建新方案？
+CDM_LAYOUT_NEVER_BTN,Don't ask for this spec,此专精不再提醒
+CDM_LAYOUT_NONE,None (free Cooldown Manager),无（自行管理冷却布局）
+CDM_LAYOUT_PROMPT,"Your AishCore profile uses the build ""%s"" for this spec, but the Cooldown Manager does not match it.
+
+Apply it now? The interface will reload.","此专精的 AishCore 配置使用“%s”方案，但当前冷却管理器布局与其不一致。
+
+是否立即应用？界面将重新加载。"
+CDM_LAYOUT_SAVEAS_BTN,Save current Cooldown Manager as...,将当前冷却布局另存为…
+CDM_LAYOUT_SAVEAS_HINT,"Creates a build from the Cooldown Manager as it is now (or replaces the build with the same name), then makes it active.",根据当前冷却布局创建方案（或覆盖同名方案），并将其设为启用状态。
+CDM_LAYOUT_SAVEAS_TITLE,Save current Cooldown Manager as,另存当前冷却布局
+CDM_LAYOUT_SEC_ESSENTIAL,ESSENTIAL,核心技能
+CDM_LAYOUT_SEC_NONE,NOT TRACKED,不追踪
+CDM_LAYOUT_SEC_UTILITY,UTILITY,功能技能
+CDM_LAYOUT_SHOW_UNKNOWN,Show spells not learned,显示尚未学会的技能
+CDM_LAYOUT_SPEC,Spec: %s,专精：%s
+CDM_LAYOUT_STATUS_APPLIED,Applied,已应用
+CDM_LAYOUT_STATUS_NONE,No active build: this spec is not managed (showing the current Cooldown Manager),无启用方案：此专精暂不受管理（显示当前冷却布局）
+CDM_LAYOUT_STATUS_PENDING,Changes not applied yet (reload required),更改尚未应用（需要重载界面）
+CDM_LAYOUT_STATUS_SAME,Not applied (identical to the current Cooldown Manager),尚未应用（与当前冷却布局相同）
+CDM_LAYOUT_TITLE,Cooldown Manager,冷却管理器
+CDM_LAYOUT_TRINKET,Trinket (slot %d): %s,饰品（栏位 %d）：%s
+CDM_LAYOUT_UTILITY,Utility,功能技能
+CDM_RELOAD_LATER,Later,稍后
+CDM_RELOAD_PROMPT,%d aura(s) were pinned to the native Cooldown Manager (Bars). Reload the UI now to apply the change safely?,已将 %d 个光环固定到原生冷却管理器（进度条）。是否立即重载界面以安全应用？
+CHARARMORY_EMPTY_SOCKET,|cffff0000Empty socket|r,|cffff0000空插槽|r
+CHARARMORY_NOT_ENCHANTED,|cffff0000Not enchanted|r,|cffff0000未附魔|r
+COLORSMOD_CLASS_DEATHKNIGHT,Death Knight,死亡骑士
+COLORSMOD_CLASS_DEMONHUNTER,Demon Hunter,恶魔猎手
+COLORSMOD_CLASS_DRUID,Druid,德鲁伊
+COLORSMOD_CLASS_EVOKER,Evoker,唤魔师
+COLORSMOD_CLASS_HUNTER,Hunter,猎人
+COLORSMOD_CLASS_MAGE,Mage,法师
+COLORSMOD_CLASS_MONK,Monk,武僧
+COLORSMOD_CLASS_PALADIN,Paladin,圣骑士
+COLORSMOD_CLASS_PRIEST,Priest,牧师
+COLORSMOD_CLASS_ROGUE,Rogue,潜行者
+COLORSMOD_CLASS_SHAMAN,Shaman,萨满祭司
+COLORSMOD_CLASS_WARLOCK,Warlock,术士
+COLORSMOD_CLASS_WARRIOR,Warrior,战士
+COLORSMOD_COND_STEALTH,Condition: Stealth,条件：潜行
+COLORSMOD_ELEM_GLOW,Glow,发光
+COLORSMOD_ELEM_MISC,Misc,其他
+COLORSMOD_ELEM_OOCDOT,OoC Dot,脱战资源点
+COLORSMOD_ELEM_OOCHEALTH,OoC Health,脱战生命值
+COLORSMOD_ELEM_PETDOTS,Pet Dots,宠物资源点
+COLORSMOD_ELEM_PETHEALTHBAR,Pet HP,宠物生命值
+COLORSMOD_ELEM_PLAYERDOTS,Player Dots,玩家资源点
+COLORSMOD_ELEM_PLAYERHEALTHBAR,Player HP,玩家生命值
+COLORSMOD_ELEM_POWERCIRCLE,Power Circle,资源圆环
+COLORSMOD_ELEM_POWERDOTSA,Power Dots A,资源点 A
+COLORSMOD_ELEM_POWERDOTSB,Power Dots B,资源点 B
+COLORSMOD_ELEM_POWERTEXT,Power Text,资源文字
+COLORSMOD_ELEM_XPBAR,XP Bar,经验条
+COLORSMOD_SPEC_AFFLICTION,Affliction,痛苦
+COLORSMOD_SPEC_AMELIORATION,Enhancement,增强
+COLORSMOD_SPEC_ARCANE,Arcane,奥术
+COLORSMOD_SPEC_ARMES,Arms,武器
+COLORSMOD_SPEC_ASSASSINAT,Assassination,奇袭
+COLORSMOD_SPEC_AUGMENTATION,Augmentation,增辉
+COLORSMOD_SPEC_BM,Beast Mastery,野兽控制
+COLORSMOD_SPEC_BREWMASTER,Brewmaster,酒仙
+COLORSMOD_SPEC_COMBAT,Combat,战斗
+COLORSMOD_SPEC_DEMONOLOGIE,Demonology,恶魔学识
+COLORSMOD_SPEC_DESTRUCTION,Destruction,毁灭
+COLORSMOD_SPEC_DEVASTATION_EVOKER,Devastation,湮灭
+COLORSMOD_SPEC_DEVOREUR,Devourer,噬灭
+COLORSMOD_SPEC_DISCIPLINE,Discipline,戒律
+COLORSMOD_SPEC_ELEMENTAIRE,Elemental,元素
+COLORSMOD_SPEC_EQUILIBRE,Balance,平衡
+COLORSMOD_SPEC_FAROUCHE,Feral,野性
+COLORSMOD_SPEC_FEU,Fire,火焰
+COLORSMOD_SPEC_FUREUR,Fury,狂怒
+COLORSMOD_SPEC_GARDIEN,Guardian,守护
+COLORSMOD_SPEC_GIVRE,Frost,冰霜
+COLORSMOD_SPEC_HAVOC,Havoc,浩劫
+COLORSMOD_SPEC_IMPIE,Unholy,邪恶
+COLORSMOD_SPEC_MISTWEAVER,Mistweaver,织雾
+COLORSMOD_SPEC_OMBRE,Shadow,暗影
+COLORSMOD_SPEC_OUTLAW,Outlaw,狂徒
+COLORSMOD_SPEC_PRESERVATION,Preservation,恩护
+COLORSMOD_SPEC_PROTECTION,Protection,防护
+COLORSMOD_SPEC_RESTAURATION,Restoration,恢复
+COLORSMOD_SPEC_SACRE,Holy,神圣
+COLORSMOD_SPEC_SANG,Blood,鲜血
+COLORSMOD_SPEC_SUBTILITE,Subtlety,敏锐
+COLORSMOD_SPEC_SURVIE,Survival,生存
+COLORSMOD_SPEC_TIR,Marksmanship,射击
+COLORSMOD_SPEC_VENGEANCE,Vengeance,复仇
+COLORSMOD_SPEC_VINDICTE,Retribution,惩戒
+COLORSMOD_SPEC_WINDWALKER,Windwalker,踏风
+ELLESMERE_SETUP_PROMPT,"AishUI has applied its settings (EllesmereUI modules, Platynator and ElvUI profiles, Edit Mode layout).
+
+Reload the UI now to apply them.","AishUI 已应用设置（EllesmereUI 模块、Platynator 与 ElvUI 配置、编辑模式布局）。
+
+请立即重载界面以应用。"
+ELLESMERE_SETUP_RELOAD,Reload UI,重载界面
+ELLESMERE_SETUP_TITLE,Welcome to AishUI,欢迎使用 AishUI
+EXTRABARS_ANCHOR,Anchor (growth),锚点（延伸方向）
+EXTRABARS_ANCHOR_CENTER,Center (grows both ways),居中（向两侧延伸）
+EXTRABARS_ANCHOR_LEFT,Left edge (grows right),左端（向右延伸）
+EXTRABARS_ANCHOR_RIGHT,Right edge (grows left),右端（向左延伸）
+EXTRABARS_BANDAGE_CD,Bandage cooldown,绷带冷却
+EXTRABARS_BANDAGE_CD_TT,"Shows the ""Recently Bandaged"" debuff duration on bandages.",在绷带上显示“最近使用过绷带”减益的持续时间。
+EXTRABARS_BAR_N,Bar %d,动作条 %d
+EXTRABARS_BG_BORDER_COLOR,Border color,边框颜色
+EXTRABARS_BG_BORDER_SIZE,Border thickness,边框厚度
+EXTRABARS_BG_COLOR,Background color,背景颜色
+EXTRABARS_BG_EDGE,Edge size,边缘大小
+EXTRABARS_BG_PAD_X,Horizontal margin,水平边距
+EXTRABARS_BG_PAD_Y,Vertical margin,垂直边距
+EXTRABARS_BG_SHOW,Show a bar background,显示动作条背景
+EXTRABARS_BG_TEXTURE,Texture,材质
+EXTRABARS_BG_TEX_GRUNGE,Grunge,斑驳纹理
+EXTRABARS_BG_TEX_GRUNGESOFT,Blurred grunge,模糊斑驳纹理
+EXTRABARS_BG_TEX_SOFT,Blurred,模糊
+EXTRABARS_BG_TEX_SOLID,Solid,纯色
+EXTRABARS_BINDING_NAME,Bar %d - Button %d,动作条 %d - 按钮 %d
+EXTRABARS_BL_ADD,Add,添加
+EXTRABARS_BL_EMPTY,No excluded item,没有排除物品
+EXTRABARS_BL_HINT,Items never shown on this bar. Type an item ID or drag an item from your bags into the field.,此动作条永不显示的物品。输入物品 ID，或将背包物品拖入输入框。
+EXTRABARS_BL_INVALID,Dynamic Bars: unknown item ID.,动态动作条：未知的物品 ID。
+EXTRABARS_BL_REMOVE,Click to remove from the blacklist,点击从排除列表移除
+EXTRABARS_BORDER,Border,边框
+EXTRABARS_BORDER_COLOR,Border color,边框颜色
+EXTRABARS_BUTTON_HEIGHT,Button height,按钮高度
+EXTRABARS_BUTTON_WIDTH,Button width,按钮宽度
+EXTRABARS_CENTER,Center,居中
+EXTRABARS_COOLDOWN_NUMBERS,Show cooldown numbers,显示冷却数字
+EXTRABARS_COPIED,Dynamic Bars: settings copied.,动态动作条：设置已复制。
+EXTRABARS_COPY_ALL,All the other bars,其他所有动作条
+EXTRABARS_COPY_HINT,"Copies layout, visibility, icons and texts. Items shown, position and on/off are kept.",复制布局、显示条件、图标与文字设置。保留显示物品、位置与开关状态。
+EXTRABARS_COPY_TO,Copy settings to...,将设置复制到……
+EXTRABARS_CORNER_BOTTOMLEFT,Bottom left,左下
+EXTRABARS_CORNER_BOTTOMRIGHT,Bottom right,右下
+EXTRABARS_CORNER_TOPLEFT,Top left,左上
+EXTRABARS_CORNER_TOPRIGHT,Top right,右上
+EXTRABARS_ICON_ZOOM,Crop icon edges,裁剪图标边缘
+EXTRABARS_ICON_ZOOM_TT,Zooms the icon slightly to hide Blizzard's built-in border.,略微放大图标，以隐藏暴雪自带的边框。
+EXTRABARS_KEYBINDS_HINT,"Bind keys in Game Menu > Options > Keybindings > AddOns > ""AishCore - Dynamic Bars"" (12 buttons per bar).",在游戏菜单 > 选项 > 按键设置 > 插件 >“AishCore - Dynamic Bars”中绑定按键（每条 12 个按钮）。
+EXTRABARS_LOCK,Lock the bars,锁定动作条
+EXTRABARS_MAX_BUTTONS,Number of buttons,按钮数量
+EXTRABARS_MOUSEOVER,Mouseover,鼠标悬停
+EXTRABARS_MOUSEOVER_ALPHA,Opacity when not hovered,未悬停时不透明度
+EXTRABARS_MOUSEOVER_TT,The bar fades to the opacity on the right until the cursor is over it.,鼠标未悬停时，动作条淡出至右侧指定的不透明度。
+EXTRABARS_MOVE,Move the bars,移动动作条
+EXTRABARS_NO_TAG,No item type selected,未选择物品类型
+EXTRABARS_OFFSET_X,X offset,X 偏移
+EXTRABARS_OFFSET_Y,Y offset,Y 偏移
+EXTRABARS_PER_ROW,Buttons per row,每行按钮数
+EXTRABARS_SEC_BACKGROUND,Background,背景
+EXTRABARS_SEC_BLACKLIST,Blacklist,排除列表
+EXTRABARS_SEC_COOLDOWN,Cooldown,冷却
+EXTRABARS_SEC_ICONS,Icons,图标
+EXTRABARS_SEC_KEYBINDS,Keybinds,快捷键
+EXTRABARS_SEC_LAYOUT,Layout,布局
+EXTRABARS_SEC_STACKS,Stacks,层数／数量
+EXTRABARS_SEC_TAGS,Items shown,显示的物品
+EXTRABARS_SEC_WHITELIST,Whitelist,强制显示列表
+EXTRABARS_SHOW_KEYBINDS,Show keybinds,显示快捷键
+EXTRABARS_SHOW_STACKS,Show stack count,显示堆叠数量
+EXTRABARS_SPACING,Button spacing,按钮间距
+EXTRABARS_START_CORNER,Icon order,图标顺序
+EXTRABARS_SWIPE_ALPHA,Swipe opacity,冷却扫光不透明度
+EXTRABARS_TAG_BANDAGE,Bandages,绷带
+EXTRABARS_TAG_CONJURED,Mage food,法师食物
+EXTRABARS_TAG_ELIXIR,Elixirs,药剂
+EXTRABARS_TAG_ENHANCEMENT,Oils & stones,武器油与磨刀石
+EXTRABARS_TAG_EXPLOSIVE,Explosives & devices,爆炸物与装置
+EXTRABARS_TAG_FLASK,Flasks & phials,合剂与瓶剂
+EXTRABARS_TAG_FOOD,Food & drinks,食物与饮料
+EXTRABARS_TAG_GADGET,Gadgets,小工具
+EXTRABARS_TAG_HEALTHSTONE,Healthstones,治疗石
+EXTRABARS_TAG_KNOWLEDGE,Profession knowledge,专业知识
+EXTRABARS_TAG_OPENABLE,Openable items,可开启物品
+EXTRABARS_TAG_POTION,Potions,药水
+EXTRABARS_TAG_QUEST,Quest items,任务物品
+EXTRABARS_TAG_SCROLL,Scrolls,卷轴
+EXTRABARS_TAG_TELEPORT,Teleports,传送物品
+EXTRABARS_TAG_TRINKET,Equipped trinkets,已装备饰品
+EXTRABARS_TAG_VANTUS,Vantus runes,凡图斯符文
+EXTRABARS_TEXT_POSITION,Position,位置
+EXTRABARS_VERTICAL,Vertical,垂直
+EXTRABARS_VISIBILITY,Visibility,显示条件
+EXTRABARS_VIS_ALWAYS,Always,始终
+EXTRABARS_VIS_COMBAT,In combat only,仅战斗时显示
+EXTRABARS_VIS_INJURED,Injured or in combat,受伤或战斗中
+EXTRABARS_VIS_NOCOMBAT,Out of combat only,仅脱战时
+EXTRABARS_WL_EMPTY,No forced item,没有强制显示的物品
+EXTRABARS_WL_HINT,"Items always shown on this bar when they are in your bags, even if automatic detection misses them (sharpening stones...). Type an item ID or drag an item from your bags into the field.",只要背包中存在就始终显示在此动作条上的物品，即使自动检测遗漏（如磨刀石）。输入物品 ID，或将背包物品拖入输入框。
+EXTRABARS_WL_REMOVE,Click to remove from the whitelist,点击从强制显示列表移除
+HSTWEAK_ENABLE,Shift the quest panel vertically,垂直移动任务面板
+HSTWEAK_ENABLE_TT,"Moves the Horizon Suite quest panel beyond its usual limit (it normally stops at the screen edge). The shift is written into Horizon Suite's own saved position, so dragging the panel afterwards keeps it.",允许 Horizon Suite 任务面板超出通常的位置限制（一般止于屏幕边缘）。偏移会写入 Horizon Suite 自己保存的位置，之后拖动面板也会保留。
+HSTWEAK_OFFSET,"Vertical shift (px, + = up)",垂直偏移（像素，正数向上）
+HSTWEAK_SEC,Horizon Suite,Horizon Suite
+MENUBAR_ACT_ACHIEVEMENTS,Achievements,成就
+MENUBAR_ACT_ACHIEVEMENTS_LEGACY,Legacy,传承
+MENUBAR_ACT_ADVENTURE,Adventure Guide,冒险指南
+MENUBAR_ACT_BAGS,Bags,背包
+MENUBAR_ACT_CALENDAR,Calendar,日历
+MENUBAR_ACT_CHARACTER,Character,角色
+MENUBAR_ACT_CLOCK,Clock,时钟
+MENUBAR_ACT_COLLECTIONS,Collections,收藏
+MENUBAR_ACT_FRIENDS,Friends,好友
+MENUBAR_ACT_GAMEMENU,Game Menu,游戏菜单
+MENUBAR_ACT_GROUPFINDER,Group Finder,队伍查找器
+MENUBAR_ACT_GUILD,Guild and Communities,公会与社区
+MENUBAR_ACT_HEARTHSTONE,Hearthstone,炉石
+MENUBAR_ACT_HOUSING,Housing Dashboard,住宅面板
+MENUBAR_ACT_MAP,World Map,世界地图
+MENUBAR_ACT_NONE,None (spacer),无（占位间隔）
+MENUBAR_ACT_PETJOURNAL,Pet Journal,宠物手册
+MENUBAR_ACT_PROFESSIONS,Professions,专业
+MENUBAR_ACT_QUESTS,Quest Log,任务日志
+MENUBAR_ACT_RELOAD,Reload UI,重载界面
+MENUBAR_ACT_SCREENSHOT,Screenshot,截图
+MENUBAR_ACT_SHOP,Shop,商城
+MENUBAR_ACT_SPELLBOOK,Spellbook,法术书
+MENUBAR_ACT_TALENTS,Talents,天赋
+MENUBAR_ACT_TOYBOX,Toy Box,玩具箱
+MENUBAR_ACT_VOLUME,Volume,音量
+MENUBAR_ADD_SLOT,Add a shortcut,添加快捷入口
+MENUBAR_CLOCK_24H,24-hour mode,24 小时制
+MENUBAR_CLOCK_BLINK,Blinking separator,分隔符闪烁
+MENUBAR_CLOCK_BLINK_TT,The colon between hours and minutes blinks every second.,时与分之间的冒号每秒闪烁。
+MENUBAR_CLOCK_ENABLE,Show the clock,显示时钟
+MENUBAR_CLOCK_POS,Position on the bar,在菜单栏上的位置
+MENUBAR_CLOCK_SERVER,Server time,服务器时间
+MENUBAR_CLOCK_TT,"Left click: Calendar
+Right click: Stopwatch","左键：日历
+右键：秒表"
+MENUBAR_CONFIRM_REMOVE,"Remove the shortcut ""%s"" from the Menu Bar?",从菜单栏移除快捷入口“%s”？
+MENUBAR_DESATURATE,Monochrome icons,单色图标
+MENUBAR_DESATURATE_TT,Removes the color of the icons so the icon color below applies to all of them.,去除图标原有颜色，让下方的图标颜色设置对全部图标生效。
+MENUBAR_DROP_REMOVE,Release to remove this shortcut,松开以移除此快捷入口
+MENUBAR_ENABLE,Enable Menu Bar,启用菜单栏
+MENUBAR_HIDE_BLIZZARD,Hide the Blizzard menu bar,隐藏暴雪菜单栏
+MENUBAR_HIDE_BLIZZARD_TT,Hides the default Blizzard menu bar while the Menu Bar is enabled.,启用此菜单栏时隐藏暴雪默认菜单栏。
+MENUBAR_HOVER,Highlight on hover,悬停时高亮
+MENUBAR_HOVER_COLOR,Hover color,悬停颜色
+MENUBAR_HOVER_GROW,Enlarge icons on hover,悬停时放大图标
+MENUBAR_ICON_COLOR,Icon color,图标颜色
+MENUBAR_ICON_SIZE,Icon size,图标大小
+MENUBAR_LOCK,Lock the bar,锁定菜单栏
+MENUBAR_MOD_ALT,Alt,Alt
+MENUBAR_MOD_CTRL,Ctrl,Ctrl
+MENUBAR_MOD_CTRLALT,Ctrl + Alt,Ctrl + Alt
+MENUBAR_MOD_SHIFT,Shift,Shift
+MENUBAR_MOVE,Move the bar,移动菜单栏
+MENUBAR_MUTED,Muted,已静音
+MENUBAR_POS_CENTER,Center,居中
+MENUBAR_POS_LEFT,Left,左侧
+MENUBAR_POS_RIGHT,Right,右侧
+MENUBAR_PREVIEW_HINT,Click a shortcut to change it  -  drag one onto another to swap them  -  + adds a shortcut,点击入口修改；拖到另一入口上交换；点击 + 添加入口
+MENUBAR_PROF_MAIN,main profession,主要专业
+MENUBAR_PROF_SECOND,secondary profession,次要专业
+MENUBAR_PROF_TT,"Left click: professions
+Shift + click: %s
+Ctrl + click: %s
+Alt + click: Cooking
+Shift + Ctrl + click: Fishing
+Ctrl + Alt + click: Archaeology","左键：专业
+Shift+点击：%s
+Ctrl+点击：%s
+Alt+点击：烹饪
+Shift+Ctrl+点击：钓鱼
+Ctrl+Alt+点击：考古学"
+MENUBAR_PROF_TT_FOREVER,"Left click: professions
+Shift + click: %s
+Ctrl + click: %s
+Alt + click: Cooking
+Shift + Ctrl + click: Fishing
+Ctrl + Alt + click: First Aid","左键：专业
+Shift+点击：%s
+Ctrl+点击：%s
+Alt+点击：烹饪
+Shift+Ctrl+点击：钓鱼
+Ctrl+Alt+点击：急救"
+MENUBAR_REMOVE_SLOT,Remove this shortcut,移除此快捷入口
+MENUBAR_SEC_CLOCK,Clock,时钟
+MENUBAR_SEC_COLORS,Colors and hover,颜色与悬停
+MENUBAR_SEC_GENERAL,General,常规
+MENUBAR_SLOT_HINT,"Click: change the shortcut
+Drag onto another: swap
+Drag outside the bar: remove","点击：修改入口
+拖到另一入口上：交换
+拖到菜单栏外：移除"
+MENUBAR_TALENTS_SPEC,%s + click: %s,%s+点击：%s
+MENUBAR_TALENTS_TT,Left click: talents,左键：天赋
+MENUBAR_THEMED,Themed Colors,主题颜色
+MENUBAR_THEMED_TT,"Checked: uses the ""%s"" color of the Themed Colors module. Unchecked: uses the color picked on this line.",勾选：使用主题颜色模块中的“%s”颜色。取消勾选：使用本行选择的颜色。
+MENUBAR_TOOLTIP,Show tooltips,显示鼠标提示
+MENUBAR_UNAVAILABLE,Not available on this client.,当前客户端不支持。
+MENUBAR_VOLUME_TT,Volume: %s,音量：%s
+MENUBAR_VOLUME_TT2,"Click: mute / unmute
+Shift + click: toggle music
+Ctrl + click: toggle sound effects
+Mouse wheel: master volume
+Shift + wheel: music volume
+Ctrl + wheel: sound effects volume","点击：静音／取消静音
+Shift+点击：开关音乐
+Ctrl+点击：开关音效
+滚轮：主音量
+Shift+滚轮：音乐音量
+Ctrl+滚轮：音效音量"
+MENUBAR_VOLUME_TT3,Music: %s  -  Effects: %s,音乐：%s － 音效：%s
+MINIMAP_TOOLTIP_DRAG,Drag: move the button,拖动：移动按钮
+MINIMAP_TOOLTIP_LEFT_CLICK,Left-click: open settings,左键：打开设置
+MINIMAP_TOOLTIP_TITLE,AishCore,AishCore
+MISSINGBUFFS_ALERT_APPLY_LETHAL,APPLY POISON,涂抹毒药
+MISSINGBUFFS_ALERT_APPLY_NONLETHAL,APPLY POISON,涂抹毒药
+MISSINGBUFFS_ALERT_APPLY_WEAPON_STONE,APPLY TO WEAPON,涂抹到武器
+MISSINGBUFFS_ALERT_BAGS_FULL,BAGS FULL,背包已满
+MISSINGBUFFS_ALERT_BUFF_ALLY,BUFF AN ALLY,为队友补增益
+MISSINGBUFFS_ALERT_EAT_FOOD,EAT FOOD,吃食物
+MISSINGBUFFS_ALERT_EXPIRING_SOON,REFRESH,刷新
+MISSINGBUFFS_ALERT_LOW_AMMO,LOW AMMO,弹药不足
+MISSINGBUFFS_ALERT_LOW_SHARDS,LOW SOUL SHARDS,灵魂碎片不足
+MISSINGBUFFS_ALERT_MISSING,MISSING,缺失
+MISSINGBUFFS_ALERT_NO_HEALTHSTONE,NO HEALTHSTONE,没有治疗石
+MISSINGBUFFS_ALERT_NO_SOULSTONE,NO SOULSTONE,没有灵魂石
+MISSINGBUFFS_ALERT_PET_PASSIVE,PET ON PASSIVE,宠物处于被动
+MISSINGBUFFS_ALERT_PET_UNHAPPY,PET UNHAPPY,宠物不开心
+MISSINGBUFFS_ALERT_REAPPLY,REAPPLY,重新施加
+MISSINGBUFFS_ALERT_REVIVE_PET,REVIVE PET,复活宠物
+MISSINGBUFFS_ALERT_SPEND_LEGACY,HERITAGE POINTS,传承点数
+MISSINGBUFFS_ALERT_SPEND_TALENTS,TALENT POINTS,天赋点数
+MISSINGBUFFS_ALERT_SUMMON_PET,SUMMON PET,召唤宠物
+MISSINGBUFFS_ALERT_TRACKING_OFF,TRACKING OFF,未开启追踪
+MISSINGBUFFS_ALERT_USE_ATTUNEMENT,CHANGE ATTUNEMENT,切换调谐
+MISSINGBUFFS_ALERT_USE_AURA,CHANGE AURA,切换光环
+MISSINGBUFFS_ALERT_USE_FLASK,DRINK A FLASK,使用合剂
+MISSINGBUFFS_ALERT_USE_STANCE,CHANGE STANCE,切换姿态
+MISSINGBUFFS_ALERT_USE_WEAPON_BUFF,ENCHANT WEAPON,武器附魔
+MISSINGBUFFS_ALERT_WRONG,WRONG,不匹配
+MISSINGBUFFS_BAGS_FULL,Bags Full,背包已满
+MISSINGBUFFS_BORDER_COLOR,Border color,边框颜色
+MISSINGBUFFS_BORDER_ENABLE,Border,边框
+MISSINGBUFFS_BORDER_THICKNESS,Border thickness,边框厚度
+MISSINGBUFFS_BURNING_RUSH_ALERT,Burning Rush Alert,爆燃冲刺提醒
+MISSINGBUFFS_CLICKABLE,Clickable icon (casts the missing spell),可点击图标（施放缺失的技能）
+MISSINGBUFFS_COL_GENERAL,General,常规
+MISSINGBUFFS_ENABLE,Enable,启用
+MISSINGBUFFS_ENTRY_AMMO,Ammo,弹药
+MISSINGBUFFS_ENTRY_SHARDS,Soul Shards,灵魂碎片
+MISSINGBUFFS_EXPIRING_ENABLE,Reminder before expiration,到期前提醒
+MISSINGBUFFS_EXPIRING_THRESHOLD,Show reminder when less than (minutes) remains,剩余时间少于此值时提醒（分钟）
+MISSINGBUFFS_FLASKS,Flasks / Phials,合剂／瓶剂
+MISSINGBUFFS_GATHER_TRACKING,Find Herbs/Minerals,寻找草药／矿物
+MISSINGBUFFS_HEADER,Missing buffs,缺失增益
+MISSINGBUFFS_HIDE_TEXT,Hide the text under the icon,隐藏图标下方文字
+MISSINGBUFFS_ICON_HEADER,Icon appearance,图标外观
+MISSINGBUFFS_ICON_SHAPE,Shape,形状
+MISSINGBUFFS_ICON_SIZE,Icon size,图标大小
+MISSINGBUFFS_IGNORE_MOUNTED,Ignore while mounted,骑乘时忽略
+MISSINGBUFFS_IGNORE_RESTING,Ignore in rested areas,休息区域内忽略
+MISSINGBUFFS_LEGACY_POINTS,Heritage Points,传承点数
+MISSINGBUFFS_LOCK,Lock position (disables drag),锁定位置（禁止拖动）
+MISSINGBUFFS_MASK_CIRCLE,Circle,圆形
+MISSINGBUFFS_MASK_DEFAULT,Default (square),默认（方形）
+MISSINGBUFFS_MASK_FEATHER,Softened (feather),柔化（羽化）
+MISSINGBUFFS_MASK_GRUNGE,Feather grunge,羽化斑驳
+MISSINGBUFFS_MASK_HEXAGON,Hexagon,六边形
+MISSINGBUFFS_OFFHAND,off-hand,副手
+MISSINGBUFFS_ROW_ATTUNEMENT,Attunement,调谐
+MISSINGBUFFS_ROW_AURA,Aura,光环
+MISSINGBUFFS_ROW_FORM,Form,形态
+MISSINGBUFFS_ROW_HEALTHSTONE,Healthstone,治疗石
+MISSINGBUFFS_ROW_LETHAL,Lethal poison,致命毒药
+MISSINGBUFFS_ROW_NONLETHAL,Non-lethal poison,非致命毒药
+MISSINGBUFFS_ROW_PET,Pet,宠物
+MISSINGBUFFS_ROW_SOULSTONE,Soulstone,灵魂石
+MISSINGBUFFS_ROW_STANCE,Stance,姿态
+MISSINGBUFFS_SEC_ALERTS,Alerts,提醒
+MISSINGBUFFS_TALENT_POINTS,Talent Points,天赋点数
+MISSINGBUFFS_TEXT_ANIM_BLINK,Blink,闪烁
+MISSINGBUFFS_TEXT_ANIM_BOUNCE,Bounce,弹跳
+MISSINGBUFFS_TEXT_ANIM_PULSE,Pulse,脉动
+MISSINGBUFFS_TEXT_COLOR,Text color,文字颜色
+MISSINGBUFFS_TEXT_FONT,Font,字体
+MISSINGBUFFS_TEXT_HEADER,Text appearance,文字外观
+MISSINGBUFFS_TEXT_SIZE,Text size,文字大小
+MISSINGBUFFS_THRESHOLD_SHORT,Threshold: %d,阈值：%d
+MISSINGBUFFS_THROTTLE,Delay between checks (s),检查间隔（秒）
+MISSINGBUFFS_WEAPON_STONES,Sharpening Stones / Oils,磨刀石／武器油
+MISSINGBUFFS_WELLFED_FOOD,Well Fed,进食充分
+MODULEHOVER_GEAR_TOOLTIP,"Open this module's settings section
+(right-click anywhere on the preview: same shortcut)","打开此模块的设置页
+（在预览任意位置点击右键也可打开）"
+PATCHNOTES_CLICK_TT,Click to open: %s,点击打开：%s
+PATCHNOTES_EMPTY,No patch notes yet.,暂无更新说明。
+PATCHNOTES_VERSION,Version %s,版本 %s
+PB_BOOK_TITLE,Priority Bar,优先级提示条
+PB_DROP_INCOMPATIBLE,This spell can't be added to the rotation bar.,此技能无法添加到技能循环条。
+PB_TT_MIDDLE_CLICK,Middle click: %s first,中键：优先 %s
+PB_TT_RIGHT_CLICK,Right click: %s first,右键：优先 %s
+PRIO_GLOW_NONE,None,无
+PRIO_LAYOUT_2X2,2×2 (default),2×2（默认）
+PRIO_LAYOUT_3X3,3×3,3×3
+PRIO_LAYOUT_4X4_INLINE,4×4 Inline,4×4 横排
+PRIO_LAYOUT_4X4_SQUARE,4×4 Square,4×4 方形
+PRIO_LAYOUT_6X6,6×6,6×6
+PRIO_LAYOUT_6X6_VERTICAL,6×6 vertical,6×6 竖排
+PROFILE_ALREADY_EXISTS_NAMED,"A profile named ""%s"" already exists",名为“%s”的配置已存在
+PROFILE_APPLY_SETTINGS_ERROR,|cffff4444[AishCore Profiles] ApplySettings Error %s: %s|r,|cffff4444[AishCore Profiles] 应用设置错误 %s：%s|r
+PROFILE_CANNOT_DELETE_ACTIVE,"Cannot delete the active profile
+(switch profiles first)","无法删除当前配置
+（请先切换到其他配置）"
+PROFILE_CANNOT_DELETE_LAST,Cannot delete the last profile,无法删除最后一个配置
+PROFILE_DESERIALIZE_NOT_STRING,not a string,不是字符串
+PROFILE_DESERIALIZE_NOT_TABLE,result is not a table,结果不是数据表
+PROFILE_DEST_NAME_EMPTY,Empty destination name,目标名称为空
+PROFILE_DEST_NAME_INVALID,Invalid destination name,目标名称无效
+PROFILE_IMPORT_FORMAT_UNRECOGNIZED,"Unrecognized format.
+Expected: %s...","无法识别格式。
+应为：%s……"
+PROFILE_IMPORT_READ_ERROR,Read error: %s,读取错误：%s
+PROFILE_ITEM_ANIM_AURAS,Aura Animations,光环动画
+PROFILE_ITEM_ANIM_LOGOS,Logo Animations,标志动画
+PROFILE_ITEM_ANIM_MISSING,Missing Buff Animations,缺失增益动画
+PROFILE_ITEM_ANIM_OOC,Out-of-Combat Health Circle Animations,脱战生命圆环动画
+PROFILE_ITEM_ANIM_ORBS,External Globe Animations,外部球体动画
+PROFILE_ITEM_ANIM_SPELLS,Spell Animations,技能动画
+PROFILE_MODULES_ALL,Select all,全选
+PROFILE_MODULES_ANALYZE,Analyze,解析
+PROFILE_MODULES_COPY_BTN,Copy to active profile,复制到当前配置
+PROFILE_MODULES_COPY_FROM,Copy from,复制来源
+PROFILE_MODULES_COPY_TARGET,Target: active profile %s,目标：当前配置 %s
+PROFILE_MODULES_COPY_TITLE,Copy / reset modules,复制／重置模块
+PROFILE_MODULES_DONE,Modules applied to profile %s.,模块已应用到配置 %s。
+PROFILE_MODULES_EXPORT_TITLE,Export profile modules,导出配置模块
+PROFILE_MODULES_GENERATING,Generating…,正在生成…
+PROFILE_MODULES_IMPORT_TITLE,Import profile modules,导入配置模块
+PROFILE_MODULES_NEWER_WARN,This string comes from a newer AishCore version (%s): some settings may be ignored.,此字符串来自较新的 AishCore 版本（%s），部分设置可能被忽略。
+PROFILE_MODULES_NONE,No module selected.,未选择任何模块。
+PROFILE_MODULES_NONE_BTN,Select none,全不选
+PROFILE_MODULES_OVERWRITE_WARN,The checked modules will replace those of profile %s.,勾选的模块将覆盖配置 %s 中的对应模块。
+PROFILE_MODULES_RESET_BTN,Reset checked modules,重置勾选模块
+PROFILE_MODULES_RESET_CONFIRM,Click again to confirm,再次点击确认
+PROFILE_MODULES_SIZE,Length: %s characters,长度：%s 个字符
+PROFILE_MODULES_SOURCE_INFO,Exported from version %s on %s.,由版本 %s 于 %s 导出。
+PROFILE_MODULES_TARGET_EXISTING,Existing profile,已有配置
+PROFILE_MODULES_TARGET_NEW,New profile,新建配置
+PROFILE_MODULE_MISC,Other settings,其他设置
+PROFILE_MODULE_MODEL_LIBRARY,Model Library,模型库
+PROFILE_NAME_ALREADY_EXISTS,This name already exists,此名称已存在
+PROFILE_NAME_EMPTY,Empty name,名称为空
+PROFILE_NAME_INVALID,Invalid name,名称无效
+PROFILE_NOT_FOUND,Profile not found,未找到配置
+PROFILE_NOT_FOUND_NAMED,Profile not found: %s,未找到配置：%s
+PROFILE_SOURCE_DEST_IDENTICAL,Source and destination are identical,来源与目标相同
+PROFILE_SOURCE_NOT_FOUND,Source profile not found,未找到来源配置
+PROFILE_STRING_INVALID,Invalid string,字符串无效
+RESOURCE_DRAG_TOOLTIP,Click and drag to move,按住并拖动以移动
+SETTINGS_ACTIVE_BADGE,ACTIVE,生效中
+SETTINGS_ACTIVE_PROFILE,Active Profile,当前配置方案
+SETTINGS_ADD_BTN,+Add,+添加
+SETTINGS_ADD_BTN_FULL,Add,添加
+SETTINGS_ADD_SPELL_BTN,+ Add a Spell,+ 添加技能
+SETTINGS_ADD_SPELL_TITLE,Add a Spell,添加技能
+SETTINGS_AFK_ACCENT_COLOR,Accent color,强调色
+SETTINGS_AFK_ANIM_BOUNCE,Bounce easing,弹跳缓动
+SETTINGS_AFK_ANIM_NONE,None,无
+SETTINGS_AFK_ANIM_SLIDEIN,Slide (vertical),滑动（垂直）
+SETTINGS_AFK_ANIM_SLIDESIDE,Slide (horizontal),滑动（水平）
+SETTINGS_AFK_ANIM_TIME,Animation duration,动画时长
+SETTINGS_AFK_ANIM_TYPE,Entry animation,入场动画
+SETTINGS_AFK_CAMERA_SPIN,Slow camera rotation,镜头缓慢旋转
+SETTINGS_AFK_CHAT_FONT,Chat font,聊天字体
+SETTINGS_AFK_CHAT_SHOW,Show whispers/guild chat,显示密语／公会聊天
+SETTINGS_AFK_CREST_CLASS,Class crest,职业徽章
+SETTINGS_AFK_CREST_FACTION,Faction crest,阵营徽章
+SETTINGS_AFK_CREST_RACE,Race crest,种族徽章
+SETTINGS_AFK_DATE_FORMAT,Format,格式
+SETTINGS_AFK_DATE_FORMAT_DAYMONTH,"Day Month (28 August, Friday)",日 月（28 八月，星期五）
+SETTINGS_AFK_DATE_FORMAT_MONTHDAY,"Month, Day (August 28, Friday)",月 日（八月 28，星期五）
+SETTINGS_AFK_DATE_FORMAT_WEEKDAYFIRST,Weekday Day Month (Friday 28 August),星期 日 月（星期五 28 八月）
+SETTINGS_AFK_ELEMENT_COLOR,Color,颜色
+SETTINGS_AFK_ELEMENT_HEIGHT,Height,高度
+SETTINGS_AFK_ELEMENT_WIDTH,Width,宽度
+SETTINGS_AFK_ENABLE,Enable custom AFK screen,启用自定义暂离画面
+SETTINGS_AFK_ENABLE_TT,"Replaces the default Blizzard AFK screen with a custom one (3D model, timer, crests...).",以自定义画面替代暴雪默认暂离画面，支持 3D 模型、计时器和徽章等。
+SETTINGS_AFK_EXIT_KEYPRESS,Exit on keypress,按键退出
+SETTINGS_AFK_EXIT_KEYPRESS_TT,"Any key (except a few modifiers and the screenshot key) cancels AFK mode, like the native Blizzard screen.",与暴雪原生画面一样，按任意键（少数修饰键及截图键除外）退出暂离模式。
+SETTINGS_AFK_LOGO_AISHUI,AishUI logo,AishUI 标志
+SETTINGS_AFK_LOGO_EXPANSION,Expansion logo,资料片标志
+SETTINGS_AFK_LOGO_FACTION,Faction logo,阵营标志
+SETTINGS_AFK_MODEL_ANIM,Animation,动画
+SETTINGS_AFK_MODEL_ANIM_BATTLESTANCE,Battle Stance,战斗姿态
+SETTINGS_AFK_MODEL_ANIM_DANCE,Dance,跳舞
+SETTINGS_AFK_MODEL_ANIM_LEAN,Lean,倚靠
+SETTINGS_AFK_MODEL_ANIM_RANDOM,Random,随机
+SETTINGS_AFK_MODEL_ANIM_ROAR,Roar,咆哮
+SETTINGS_AFK_MODEL_ANIM_RUN,Run,奔跑
+SETTINGS_AFK_MODEL_ANIM_SALUTE,Salute,敬礼
+SETTINGS_AFK_MODEL_ANIM_SHY,Shy,害羞
+SETTINGS_AFK_MODEL_ANIM_TALK,Talk,说话
+SETTINGS_AFK_MODEL_ANIM_WALK,Walk,行走
+SETTINGS_AFK_MODEL_ANIM_WAVE,Wave,波浪
+SETTINGS_AFK_MODEL_DISTANCE,Camera distance,镜头距离
+SETTINGS_AFK_MODEL_ENABLE,Show player model,显示玩家模型
+SETTINGS_AFK_MODEL_ROTATION,Rotation,旋转
+SETTINGS_AFK_PANEL_BOTTOM_HEIGHT,Bottom panel height,底部面板高度
+SETTINGS_AFK_PANEL_COLOR,Panel color,面板颜色
+SETTINGS_AFK_PANEL_TOP_HEIGHT,Top panel height,顶部面板高度
+SETTINGS_AFK_SHOW_CLASS,Class,职业
+SETTINGS_AFK_SHOW_DATE,Date,日期
+SETTINGS_AFK_SHOW_GUILD,Guild,公会
+SETTINGS_AFK_SHOW_LEVEL,Level,等级
+SETTINGS_AFK_SHOW_NAME,Player name,玩家名字
+SETTINGS_AFK_SHOW_TIME,Time,时间
+SETTINGS_AFK_SHOW_TIMER,Timer,计时器
+SETTINGS_AFK_SHOW_TIPS,Scrolling tips,滚动提示
+SETTINGS_AFK_STYLE_AUTO,Auto (current expansion),自动（当前资料片）
+SETTINGS_AFK_STYLE_BLIZZARD,Blizzard,暴雪
+SETTINGS_AFK_STYLE_RELEAFFLAT,Releaf Flat,Releaf Flat
+SETTINGS_AFK_STYLE_SLTHEME,S&L,S&L
+SETTINGS_AFK_TEXT_SIZE,Text size,文字大小
+SETTINGS_AFK_TIMER_COUNTDOWN,Countdown to logout,登出倒计时
+SETTINGS_AFK_TIMER_COUNTDOWN_TT,Shows the time left before Blizzard's automatic AFK logout (30 min) instead of a plain elapsed timer.,显示距离暴雪自动暂离登出（30 分钟）的剩余时间，而非累计暂离时间。
+SETTINGS_AFK_TIPS_LINE_WIDTH,Line width,线宽
+SETTINGS_AFK_TIP_THROTTLE,Tip interval (sec),提示间隔（秒）
+SETTINGS_AFK_USE_THEME_COLORS,Use themed colors,使用主题颜色
+SETTINGS_AFK_USE_THEME_COLORS_TT,"Replaces the accent color above with your current spec's ""power text"" color (same color used by the resource circle).",将上方强调色替换为当前专精的“资源文字”颜色（与资源圆环使用相同颜色）。
+SETTINGS_ALIGN_CENTER,Center,居中
+SETTINGS_ALIGN_LEFT,Left,左侧
+SETTINGS_ALIGN_RIGHT,Right,右侧
+SETTINGS_ALT_IDS,Alt IDs:,备用 ID：
+SETTINGS_ANCHOR_BOTTOM,Bottom,底部
+SETTINGS_ANCHOR_BOTTOMLEFT,Bottom-left,左下
+SETTINGS_ANCHOR_BOTTOMRIGHT,Bottom-right,右下
+SETTINGS_ANCHOR_CENTER,Center,居中
+SETTINGS_ANCHOR_COLON,Anchor:,锚点：
+SETTINGS_ANCHOR_LEFT,Left,左侧
+SETTINGS_ANCHOR_MIDDLE,Middle,中央
+SETTINGS_ANCHOR_RIGHT,Right,右侧
+SETTINGS_ANCHOR_TOP,Top,顶部
+SETTINGS_ANCHOR_TOPLEFT,Top-left,左上
+SETTINGS_ANCHOR_TOPRIGHT,Top-right,右上
+SETTINGS_ANIMATION_NUM,Animation #%d,动画 #%d
+SETTINGS_ANIM_ADD_BTN,+ Anim,+ 动画
+SETTINGS_ANIM_EDITOR_NO_SELECTION,Animation Editor (no selection),动画编辑器（未选择）
+SETTINGS_ANIM_EDITOR_TITLE,Animation Editor,动画编辑器
+SETTINGS_ANIM_REMOVE_BTN,- Anim,- 动画
+SETTINGS_ANIM_ROW_NAMED,#%d  %s%s,#%d  %s%s
+SETTINGS_ANIM_ROW_UNNAMED,#%d  Model %d%s,#%d  模型 %d%s
+SETTINGS_ANIM_TRIGGER_CAST_TT,Casting,施法中
+SETTINGS_ANIM_TRIGGER_ONHIT_TT,Spell Succeeded,施法成功
+SETTINGS_ARCANE_CHARGES,Arcane Charges,奥术充能
+SETTINGS_ARC_COLOR,Arc color,圆弧颜色
+SETTINGS_ARC_DURATION_COLOR,Secondary arc color,次要圆弧颜色
+SETTINGS_ARC_DURATION_HEADER,Secondary Arc (%s),次要圆弧（%s）
+SETTINGS_ARC_DURATION_SHOW,Show the %s secondary arc,显示 %s 次要圆弧
+SETTINGS_ARC_END_ANGLE,End angle,结束角度
+SETTINGS_ARC_LABEL_CONSECRATION,Consecration,奉献
+SETTINGS_ARC_LABEL_DND,Death and Decay,枯萎凋零
+SETTINGS_ARC_LABEL_EBONYPOWER,Ebony Power,黑檀之力
+SETTINGS_ARC_LABEL_IGNORE_PAIN,Ignore Pain,无视苦痛
+SETTINGS_ARC_LABEL_IRONFUR,Ironfur,铁鬃
+SETTINGS_ARC_MODE_ABSORB_TOGGLE,Fill arc with absorption instead of duration,按吸收量填充圆弧，而非持续时间
+SETTINGS_ARC_MODE_ABSORB_TOGGLE_TT,"The arc fills based on Ignore Pain's stack count
+(an approximation of the remaining absorption)
+instead of counting down the remaining duration.","按无视苦痛的层数填充圆弧
+（近似表示剩余吸收量），
+而非按剩余持续时间倒计时。"
+SETTINGS_ARC_MODE_STACKS_TOGGLE,Fill by stacks instead of duration,按层数填充，而非持续时间
+SETTINGS_ARC_MODE_STACKS_TOGGLE_TT,The arc fills according to the buff's stack count (5 = full) instead of remaining time.,圆弧按增益层数填充（5 层为满），而非剩余时间。
+SETTINGS_ARC_REVERSE,Reverse direction,反向填充
+SETTINGS_ARC_REVERSE_TT,Fills counter-clockwise instead of clockwise.,改为逆时针填充。
+SETTINGS_ARC_SIZE,Arc size,圆弧大小
+SETTINGS_ARC_SIZE_RATIO,Arc size (ratio),圆弧大小（比例）
+SETTINGS_ARC_START_ANGLE,Start angle,起始角度
+SETTINGS_ARC_THICKNESS,Arc thickness,圆弧厚度
+SETTINGS_ARMORY_BG_CASTLE,Castle,城堡
+SETTINGS_ARMORY_BG_CUSTOM_TEXTURE,Custom texture (path),自定义纹理（路径）
+SETTINGS_ARMORY_BG_EMPIRE,The Empire,帝国
+SETTINGS_ARMORY_BG_SELECT,Select Image,选择图片
+SETTINGS_ARMORY_BG_SPACE,Space,太空
+SETTINGS_ARMORY_DURABILITY_ALWAYS,Always display,始终显示
+SETTINGS_ARMORY_DURABILITY_DAMAGED,Only if damaged,仅耐久受损时
+SETTINGS_ARMORY_DURABILITY_DISPLAY,Display,显示方式
+SETTINGS_ARMORY_DURABILITY_THRESHOLD,Durability warning threshold (%),耐久警告阈值（%）
+SETTINGS_ARMORY_ENABLE,Enable enriched character sheet,启用增强角色面板
+SETTINGS_ARMORY_ENABLE_LAYOUT,Enlarge the character sheet,放大角色面板
+SETTINGS_ARMORY_ENABLE_LAYOUT_TT,Enlarges the character panel and adds a background behind the 3D model.,放大角色面板，并在 3D 模型后添加背景。
+SETTINGS_ARMORY_ENABLE_TRANSMOG,Enable transmog indicator,启用幻化指示器
+SETTINGS_ARMORY_ENABLE_TRANSMOG_TT,Shows a clickable icon on slots whose appearance differs from the equipped item.,在外观与装备本体不同的栏位显示可点击图标。
+SETTINGS_ARMORY_ENABLE_TT,Enables the enriched character sheet.,启用增强角色面板。
+SETTINGS_ARMORY_ENCHANT_ICONONLY,Icon only,仅图标
+SETTINGS_ARMORY_ENCHANT_ICONONLY_TT,"Hides the enchant name and only shows its quality icon (requires ""Display full text"").",隐藏附魔名称，仅显示品质图标（需要启用“显示完整文字”）。
+SETTINGS_ARMORY_ENCHANT_SHOWREAL,Display full text,显示完整文字
+SETTINGS_ARMORY_ENCHANT_SHOWREAL_TT,"Displays the full enchant string with the crafting quality icon, exactly as shown in the item's tooltip, instead of Blizzard's short text.",显示与物品提示一致的完整附魔说明及制造品质图标，而非暴雪简略文字。
+SETTINGS_ARMORY_FONT,Font,字体
+SETTINGS_ARMORY_FONT_OUTLINE,Outline,描边
+SETTINGS_ARMORY_FONT_SIZE,Size,大小
+SETTINGS_ARMORY_FRAME_HEIGHT,Sheet height,角色面板高度
+SETTINGS_ARMORY_GEM_SIZE,Gem size,宝石大小
+SETTINGS_ARMORY_GLOBAL_ILVL_COLOR,Color,颜色
+SETTINGS_ARMORY_GLOBAL_ILVL_ENABLE,Customize global item level,自定义整体物品等级
+SETTINGS_ARMORY_GLOBAL_ILVL_ENABLE_TT,"Overrides the font/size/color of the aggregate item level shown in the stats column, right above Attributes.",覆盖属性栏上方整体物品等级的字体、字号与颜色。
+SETTINGS_ARMORY_GRADIENT_COLOR,Gradient color,渐变颜色
+SETTINGS_ARMORY_GRADIENT_ENABLE,Enable gradient,启用渐变
+SETTINGS_ARMORY_GRADIENT_ENABLE_TT,Shows a tinted backdrop behind each equipment icon.,在每个装备图标后显示着色背景。
+SETTINGS_ARMORY_GRADIENT_QUALITY,Use quality color,使用品质颜色
+SETTINGS_ARMORY_GRADIENT_SET_ARMOR,Special color for set items,套装物品使用特殊颜色
+SETTINGS_ARMORY_GRADIENT_SET_ARMOR_COLOR,Set item color,套装物品颜色
+SETTINGS_ARMORY_GRADIENT_WARNING_BAR_COLOR,Warning bar color,警告条颜色
+SETTINGS_ARMORY_GRADIENT_WARNING_COLOR,Gradient color (warning),渐变颜色（警告）
+SETTINGS_ARMORY_HIDE_CORNERS,Hide default background,隐藏默认背景
+SETTINGS_ARMORY_HIDE_CORNERS_TT,Hides Blizzard's default corner background behind the 3D model.,隐藏 3D 模型后暴雪默认的角落背景。
+SETTINGS_ARMORY_ILVL_GRADIENT,Gradient vs. average,相对平均值渐变
+SETTINGS_ARMORY_ILVL_MODE,Item level coloring,物品等级着色
+SETTINGS_ARMORY_ILVL_NONE,None,无
+SETTINGS_ARMORY_ILVL_QUALITY,Quality color,品质颜色
+SETTINGS_ARMORY_MODEL_SCALE,Model scale,模型缩放
+SETTINGS_ARMORY_OUTLINE_NONE,None,无
+SETTINGS_ARMORY_OUTLINE_THICK,Thick,粗描边
+SETTINGS_ARMORY_OUTLINE_THIN,Thin,细描边
+SETTINGS_ARMORY_SHOW_GEMS,Gem tooltips,宝石鼠标提示
+SETTINGS_ARMORY_SHOW_WARNING,Show Warning Icon,显示警告图标
+SETTINGS_ARMORY_SHOW_WARNING_TT,Shows a warning on slots with no enchant or a missing gem.,在缺少附魔或宝石的栏位显示警告。
+SETTINGS_ARMORY_TAB_BACKGROUND,Background,背景
+SETTINGS_ARMORY_TAB_DURABILITY,Durability,耐久度
+SETTINGS_ARMORY_TAB_ENCHANT,Enchant,附魔
+SETTINGS_ARMORY_TAB_GEM,Gems,宝石
+SETTINGS_ARMORY_TAB_GLOBAL_ILVL,Global Item Level,整体物品等级
+SETTINGS_ARMORY_TAB_GRADIENT,Gradient,渐变
+SETTINGS_ARMORY_TAB_ILVL,Item Level,物品等级
+SETTINGS_ARMORY_TAB_LOOK,Layout,布局
+SETTINGS_ARMORY_TAB_TRANSMOG,Transmog,幻化
+SETTINGS_ARMORY_TRANSMOG_GLOW,Glow on transmog icon,幻化图标发光
+SETTINGS_ARMORY_TRANSMOG_GLOW_COLOR,Glow color,发光颜色
+SETTINGS_ARMORY_TRANSMOG_GLOW_STYLE,Glow style,发光样式
+SETTINGS_ARMORY_TRANSMOG_SIZE,Icon size,图标大小
+SETTINGS_ARMORY_ZONE_WIDTH,Gap between columns,两列间距
+SETTINGS_ARMORY_ZONE_WIDTH_TT,Gap added between the 2 equipment columns (the background behind the model adjusts automatically).,两列装备之间额外增加的间距（模型后方背景会自动调整）。
+SETTINGS_AURAS,Auras,光环
+SETTINGS_AXIS_X_LR,X (L/R),X（左／右）
+SETTINGS_AXIS_Y_UD,Y (U/D),Y（上／下）
+SETTINGS_AXIS_Z_DEPTH,Z (depth),Z（深度）
+SETTINGS_BAR_TEXTURE,Bar texture,进度条材质
+SETTINGS_BIGCURSOR_ENABLE,Enlarge cursor size in combat,战斗中放大鼠标指针
+SETTINGS_BIGCURSOR_SIZE,Cursor size in combat,战斗中指针大小
+SETTINGS_BORDER_COLOR,Border color,边框颜色
+SETTINGS_BORDER_GLOW,Glowing,发光
+SETTINGS_BORDER_SHADOW,Shadowed,阴影
+SETTINGS_BORDER_SOLID,Solid,纯色
+SETTINGS_BROWSE_BTN,Browse,浏览
+SETTINGS_BUFFS,Buffs,增益
+SETTINGS_CANCEL,Cancel,取消
+SETTINGS_CANCEL_BACK,< Cancel,< 取消
+SETTINGS_CANNOT_OPEN_IN_COMBAT,|cff00b0ff[AishCore]|r Cannot open the panel in combat.,|cff00b0ff[AishCore]|r 战斗中无法打开面板。
+SETTINGS_CAT_AFK_MODE,AFK Screen,暂离画面
+SETTINGS_CAT_AURAS_TRACKED,Auras to Track,需要追踪的光环
+SETTINGS_CAT_CDM_ESSENTIAL,Essential CDs,核心技能冷却
+SETTINGS_CAT_CDM_LAYOUT,Cooldown Manager,冷却管理器
+SETTINGS_CAT_CDM_LAYOUT_TT,"Sorts your Essential and Utility cooldowns (and their order) from your profile, without touching your tracked buffs and bars.",按配置设置核心与功能冷却的分类和顺序，不改动已追踪的增益和进度条。
+SETTINGS_CAT_CDM_UTILITY,Utility CDs,功能技能冷却
+SETTINGS_CAT_CENTRAL_CIRCLE,Central Circle,中央圆环
+SETTINGS_CAT_CHARACTER_ARMORY,Character Sheet,角色面板
+SETTINGS_CAT_CIRCLE_BARS,Mode: Circle Bars,模式：环形进度条
+SETTINGS_CAT_COLORS,Themed Colors,主题颜色
+SETTINGS_CAT_COMFORT,EXTRAS,实用功能
+SETTINGS_CAT_EXTRA_BARS,Dynamic Bars,动态条
+SETTINGS_CAT_EXTRA_BARS_TT,"Up to 5 item bars filled automatically from your bags by tags (potions, flasks, food, openable items...).",最多 5 条物品动作条，按标签自动从背包填入药水、合剂、食物、可开启物品等。
+SETTINGS_CAT_FREE_BARS,Mode: Free Bars,模式：自由进度条
+SETTINGS_CAT_HEALTH_BARS,Health Bars,血条
+SETTINGS_CAT_HEROIC_SUPPORT,Heroic Support,Heroic Support
+SETTINGS_CAT_ICONS,Mode: Icons,模式：图标
+SETTINGS_CAT_ICON_LIST,Mode: Icon List,模式：图标列表
+SETTINGS_CAT_LOCATION,Location,地点
+SETTINGS_CAT_MENU_BAR,Menu Bar,菜单栏
+SETTINGS_CAT_MENU_BAR_TT,Replaces the Blizzard menu bar with a customizable one: shortcuts to the game windows around an optional clock.,以可自定义菜单栏替代暴雪菜单栏，在可选时钟周围放置游戏窗口快捷入口。
+SETTINGS_CAT_MODULES,Modules,模块
+SETTINGS_CAT_MOVEMENT_BUFFS,Movement Buffs,移动增益
+SETTINGS_CAT_OOC_CIRCLES,Out-of-Combat Circles,脱战圆环
+SETTINGS_CAT_PATCH_NOTES,Patch Notes,更新说明
+SETTINGS_CAT_ROTATION_HELPER,Rotation Button Module,技能轮换按钮
+SETTINGS_CAT_SKYRIDING,Skyriding,驭空术
+SETTINGS_CAT_STEALTH_MODE,Stealth Mode,潜行模式
+SETTINGS_CAT_TARGET_AURAS,Target Auras,目标光环
+SETTINGS_CAT_TARGET_CAST,Cast Bar: Target,目标施法条
+SETTINGS_CAT_TOP_TARGET,Top Target,顶部目标框架
+SETTINGS_CAT_TOTEMS,Mode: Totems,模式：图腾
+SETTINGS_CAT_TRINKETS,Trinkets,饰品
+SETTINGS_CAT_VISIBILITY,Integration,插件整合
+SETTINGS_CAT_XP_BAR,XP Bar,经验条
+SETTINGS_CB_BAR_COLOR,Bar color,进度条颜色
+SETTINGS_CB_BAR_COLOR_TT,Color of the player cast bar fill.,玩家施法条的填充颜色。
+SETTINGS_CB_COLOR_BY_SCHOOL,Color by school of magic,按法术学派着色
+SETTINGS_CB_COLOR_BY_SCHOOL_TT,(Not yet implemented) Will color the bar according to the spell's school of magic.,（尚未实现）按技能所属法术学派设置进度条颜色。
+SETTINGS_CB_DRAG_HINT,Drag the bar — click to finish,拖动进度条，点击结束
+SETTINGS_CB_ENABLE,Enable the cast bar,启用施法条
+SETTINGS_CB_ENABLE_TT,Shows a bar while casting.,施法时显示进度条。
+SETTINGS_CB_NAME_ALIGNMENT,Name alignment,名称对齐
+SETTINGS_CB_SPARK_BURST,Burst,爆发
+SETTINGS_CB_SPARK_COLOR,Spark color,端点颜色
+SETTINGS_CB_SPARK_DEFAULT,Spark (default),端点光效（默认）
+SETTINGS_CB_SPARK_DOT,Dot,圆点
+SETTINGS_CB_SPARK_LINE,Line,线条
+SETTINGS_CB_SPARK_SIZE,Spark size (%),端点大小（%）
+SETTINGS_CB_SPARK_STAR,Star,星形
+SETTINGS_CB_SPARK_TEXTURE,Spark texture,端点材质
+SETTINGS_CB_TEXT_COLOR,Text color,文字颜色
+SETTINGS_CB_TEXT_SCHOOL,Text: magic school color,文字：法术学派颜色
+SETTINGS_CB_TEXT_SCHOOL_TT,"The spell name and timer take the color of the spell's magic school (fire, frost, shadow...). When the school is unknown, the spec color or the chosen text color is used.",技能名称与计时使用其法术学派颜色（火焰、冰霜、暗影等）。未知学派时使用专精颜色或选择的文字颜色。
+SETTINGS_CB_TEXT_SPEC,Text: spec color,文字：专精颜色
+SETTINGS_CB_TEXT_SPEC_TT,The spell name and timer use your specialization's Themed Colors instead of the chosen text color.,技能名称与计时使用当前专精的主题颜色，而非选择的文字颜色。
+SETTINGS_CB_TIMER_ALIGNMENT,Timer alignment,计时对齐
+SETTINGS_CB_TIMER_FONT,Timer font,计时字体
+SETTINGS_CB_USE_SPEC_COLOR,Use spec color,使用专精颜色
+SETTINGS_CB_USE_SPEC_COLOR_TT,"Replaces the color above with your current spec's ""Power Dots A"" shade, from Themed Colors. Only applies when the school-of-magic coloring finds no match for the spell being cast.",将上方颜色替换为主题颜色中当前专精的“资源点 A”颜色。仅在无法确定所施放技能的法术学派颜色时生效。
+SETTINGS_CDM_AURA_REMOVE_SWIPE,Hide swipe while showing buff duration,显示增益持续时间时隐藏扫光
+SETTINGS_CDM_AURA_REVERSE_SWIPE,Reverse buff swipe,反向增益扫光
+SETTINGS_CDM_BACKDROP_AURA_COLOR,Buff border color,增益边框颜色
+SETTINGS_CDM_BACKDROP_COLOR,Border color,边框颜色
+SETTINGS_CDM_BACKDROP_PANDEMIC_COLOR,Pandemic border color,可延长刷新期边框颜色
+SETTINGS_CDM_BACKDROP_SIZE,Border thickness,边框厚度
+SETTINGS_CDM_COLOR_DESATURATE,Desaturate,去色
+SETTINGS_CDM_COLOR_USE,Enable,启用
+SETTINGS_CDM_COOLDOWN_AURA_COLOR,Buff swipe color,增益扫光颜色
+SETTINGS_CDM_COOLDOWN_COLOR,Swipe color,扫光颜色
+SETTINGS_CDM_ENABLE,Enable customization,启用自定义
+SETTINGS_CDM_ENABLE_TT,"Lets AishCore customize this Blizzard cooldown viewer
+(colors, layout, borders, fonts...). Off by default.","允许 AishCore 自定义此暴雪冷却视图
+（颜色、布局、边框、字体等）。默认关闭。"
+SETTINGS_CDM_FADE_ALPHA,Faded opacity,淡出后不透明度
+SETTINGS_CDM_FADE_CASTING,While casting,施法时
+SETTINGS_CDM_FADE_COMBAT,In combat,战斗中
+SETTINGS_CDM_FADE_HOVER,Mouse hover,鼠标悬停
+SETTINGS_CDM_FADE_TARGET,Target selected,已选中目标
+SETTINGS_CDM_FADE_TARGET_TT,Reveals the icons while the target is attackable. In combat they stay revealed even with no target; on a healing spec they stay revealed out of combat whatever the target.,目标可攻击时显示图标；战斗中即使没有目标也保持显示。治疗专精在脱战时不受目标条件限制。
+SETTINGS_CDM_GRID_CENTERED,Centered,居中
+SETTINGS_CDM_GRID_STANDARD,Standard,标准
+SETTINGS_CDM_GRID_STANDARD_KEEPEMPTY,Standard (keep empty space),标准（保留空位）
+SETTINGS_CDM_GRID_TYPE,Grid type,网格类型
+SETTINGS_CDM_GROW_RIGHT,Grow to the right,向右延伸
+SETTINGS_CDM_GROW_UP,Grow upward,向上延伸
+SETTINGS_CDM_HIDE_INACTIVE,Hide inactive icons,隐藏未生效图标
+SETTINGS_CDM_HIDE_INACTIVE_TT,Controls which icons stay visible when the ability isn't tracking anything.,控制技能没有追踪任何效果时，哪些图标仍然显示。
+SETTINGS_CDM_HIDE_NEVER,Never (always show),从不隐藏（始终显示）
+SETTINGS_CDM_HIDE_UNLESS_ACTIVE,Hide unless on CD / buff / charges used,仅在冷却／增益生效／已消耗充能时显示
+SETTINGS_CDM_HIDE_UNLESS_AURA,Hide unless a buff is active,仅在增益生效时显示
+SETTINGS_CDM_ICON_MASK,Icon mask,图标遮罩
+SETTINGS_CDM_ICON_SPACING,Icon spacing,图标间距
+SETTINGS_CDM_ITEM_SIZE,Icon size,图标大小
+SETTINGS_CDM_LINK_GAP,Spacing,间距
+SETTINGS_CDM_LINK_OFFSET,Offset,偏移
+SETTINGS_CDM_LINK_PLAYER_BAR,Link to player health bar,关联玩家血条
+SETTINGS_CDM_LINK_PLAYER_BAR_TT,Positions the Essential cooldowns against the player health bar: they follow its width and position instead of the Edit Mode position.,将核心冷却靠在玩家血条旁，跟随其宽度和位置，而非编辑模式中的位置。
+SETTINGS_CDM_LINK_SIDE,Side of the bar,血条侧边
+SETTINGS_CDM_MASK_CDM,Cooldown Manager Mask,冷却管理器遮罩
+SETTINGS_CDM_MASK_CIRCLE,Circle,圆形
+SETTINGS_CDM_MASK_DEFAULT,Default (Blizzard),默认（暴雪）
+SETTINGS_CDM_MASK_HEXAGON,Hexagon,六边形
+SETTINGS_CDM_MASK_SQUARE,Plain square,普通方形
+SETTINGS_CDM_MASK_TALENT,Talent Node,天赋节点
+SETTINGS_CDM_REMOVE_GCD_SWIPE,Hide swipe during GCD-only cooldown,只有公共冷却时隐藏扫光
+SETTINGS_CDM_REMOVE_PANDEMIC,Remove the pandemic flash animation,移除可延长刷新期的闪烁动画
+SETTINGS_CDM_REVERSE_SWIPE,Reverse cooldown swipe,反向冷却扫光
+SETTINGS_CDM_SHOW_CHARGES_COUNTDOWN,Show countdown numbers on charge-based cooldowns,在充能类冷却上显示倒计时数字
+SETTINGS_CDM_STACKS_POINT,Anchor point,锚点
+SETTINGS_CDM_STATE_AURA,Buff Active,增益生效
+SETTINGS_CDM_STATE_CD,On Cooldown,冷却中
+SETTINGS_CDM_STATE_GCD,On GCD,公共冷却中
+SETTINGS_CDM_STATE_NORMAL,Normal,正常
+SETTINGS_CDM_STATE_NOUSE,Unusable,无法使用
+SETTINGS_CDM_STATE_OOM,Not Enough Resource,资源不足
+SETTINGS_CDM_STATE_OOR,Out of Range,超出距离
+SETTINGS_CDM_STRIDE_OVERRIDE,Icons per row (0 = auto),每行图标数（0 为自动）
+SETTINGS_CDM_STRIDE_OVERRIDE_TT,Forces the number of icons per row before wrapping to a new line. 0 = let Blizzard decide (may wrap to multiple lines if many spells are tracked). Increase this to keep everything on a single line.,强制设置每行换行前的图标数。0 表示由暴雪决定（技能较多时可能显示多行）。增大此值可让图标保持单行。
+SETTINGS_CDM_USE_BACKDROP,Enable border,启用边框
+SETTINGS_CDM_USE_BACKDROP_AURA,Different color while a buff is active,增益生效时使用不同颜色
+SETTINGS_CDM_USE_BACKDROP_PANDEMIC,Different color during pandemic window,可延长刷新期使用不同颜色
+SETTINGS_CDM_USE_COOLDOWN_AURA_COLOR,Different swipe color while a buff is active,增益生效时使用不同扫光颜色
+SETTINGS_CDM_USE_COOLDOWN_COLOR,Custom swipe color,自定义扫光颜色
+SETTINGS_CDM_USE_COOLDOWN_FONT_COLOR,Custom text color,自定义文字颜色
+SETTINGS_CDM_USE_COOLDOWN_FONT_SIZE,Custom text size,自定义文字大小
+SETTINGS_CDM_USE_FADING,Enable fading,启用渐隐
+SETTINGS_CDM_USE_FADING_TT,Fades the whole viewer to a lower opacity when none of the conditions below are met.,下方条件均不满足时，将整个视图淡出至较低的不透明度。
+SETTINGS_CDM_USE_ICON_SPACING,Force icon spacing,强制图标间距
+SETTINGS_CDM_USE_ICON_SPACING_TT,Replaces the icon padding set in Blizzard's Edit Mode.,替换暴雪编辑模式中设置的图标间隔。
+SETTINGS_CDM_USE_ITEM_SIZE,Override icon size,覆盖图标大小
+SETTINGS_CDM_USE_STACKS_COLOR,Custom text color,自定义文字颜色
+SETTINGS_CDM_USE_STACKS_FONT_SIZE,Custom text size,自定义文字大小
+SETTINGS_CLOSE,Close,关闭
+SETTINGS_COLORS_DEFAULT_SPEC_TT,"Right-click. Used when no spec is determined (no talent points, or tied trees on Forever).",右键设置。无法确定专精时使用（尚未分配天赋点，或 Forever 中多系点数相同）。
+SETTINGS_COLORS_FEW_SPECS_MSG,Enjoy themed colors for every specialization %s!,%s，即可享用每个专精的主题配色！
+SETTINGS_COLORS_MODULE_NOT_FOUND,Colors module not found,未找到颜色模块
+SETTINGS_COLORS_SET_DEFAULT_SPEC,Set as default spec,设为默认专精
+SETTINGS_COLORS_UNSET_DEFAULT_SPEC,Remove default spec,取消默认专精
+SETTINGS_COLOR_MODE_CLASS_DEFAULTS,Default Class Colors (Disables the Module),默认职业颜色（禁用此模块）
+SETTINGS_COLOR_MODE_CUSTOM,Use custom colors,使用自定义颜色
+SETTINGS_COLOR_MODE_HEADER,Themed Colors,主题颜色
+SETTINGS_COLOR_THEME_GUI,Themed Colors for Options,设置面板使用主题颜色
+SETTINGS_COLOR_THEME_GUI_TT,"Uses the active spec's ""Power Dots B"" color for the options panel's accents (section dots, hovers, underlines...). Disabled, the panel falls back to the fixed gold ochre.",使用当前专精的“资源点 B”颜色作为设置面板强调色（分区圆点、悬停、下划线等）。关闭时使用固定的赭金色。
+SETTINGS_COMBO_NO_SELECTION,Combo (no selection),组合（未选择）
+SETTINGS_COMBO_NO_SPELL_SELECTED,Combo (no spell selected),组合（未选择技能）
+SETTINGS_COMBO_RANDOM,Random,随机
+SETTINGS_COMBO_RANDOM_TT,"Plays ONE animation of the combo per trigger, instead of all of them together. Draw without repeats: each animation plays once before the whole set is shuffled again.",每次触发只播放组合中的一个动画，而非同时播放全部。采用无重复抽取：每个动画播放一次后，再将整组打乱。
+SETTINGS_COMBO_TITLE,Combo: %s,组合：%s
+SETTINGS_COMFORT_AUTO_TURNIN,Quest auto turn-in checkbox,自动交任务复选框
+SETTINGS_COMFORT_AUTO_TURNIN_BOX,Auto turn-in quests,自动交任务
+SETTINGS_COMFORT_AUTO_TURNIN_TT,"Shows a square checkbox on screen, which can be moved at any time. When checked, completed quests are turned in automatically when you talk to an NPC, and the reward is taken when there is no choice. Hold Shift during the conversation to skip it once.",在屏幕上显示可随时移动的方形复选框。勾选后，与 NPC 对话时会自动提交已完成任务；没有奖励选择时自动领取。对话时按住 Shift 可跳过本次自动操作。
+SETTINGS_COMFORT_CTRL_FOCUS,Ctrl + left-click: set focus,Ctrl+左键：设为焦点
+SETTINGS_COMFORT_CTRL_FOCUS_TT,Ctrl + left-clicking a character or creature in the world sets it as your focus.,按住 Ctrl 左键点击世界中的角色或生物，可将其设为焦点。
+SETTINGS_COMFORT_DENSITY,Dense vegetation,茂密植被
+SETTINGS_COMFORT_DENSITY_TT,Shows much more grass and ground detail (groundEffectDensity 256 instead of 48).,显示更多草地与地面细节（groundEffectDensity 从 48 调为 256）。
+SETTINGS_COMFORT_DIST,Far vegetation,远距离植被
+SETTINGS_COMFORT_DIST_TT,Shows vegetation much farther away (groundEffectDist 500 instead of 320).,在更远处显示植被（groundEffectDist 从 320 调为 500）。
+SETTINGS_COMFORT_FADE,Vegetation fade,植被淡出距离
+SETTINGS_COMFORT_FADE_TT,Pushes back the distance at which vegetation fades out (groundEffectFade 370 instead of 70).,延后植被开始淡出的距离（groundEffectFade 从 70 调为 370）。
+SETTINGS_COMFORT_HIDE_ERRORS,Hide red error messages,隐藏红色错误提示
+SETTINGS_COMFORT_HIDE_ERRORS_TT,"Hides the red error messages in the middle of the screen (""Not enough mana"", ""Out of range"", ""You can't do that yet""...). Yellow information messages, such as quest progress, are still shown.",隐藏屏幕中央的红色错误提示（如法力不足、超出距离、尚无法执行等）。任务进度等黄色信息仍会显示。
+SETTINGS_COMFORT_HORIZON,Disable Horizon Suite with RestedXP,使用 RestedXP 时禁用 Horizon Suite
+SETTINGS_COMFORT_HORIZON_TT,"While RestedXP is loaded, Horizon Suite's modules are turned off (no /reload). They are turned back on as soon as the option is unchecked or RestedXP is no longer loaded.",加载 RestedXP 时关闭 Horizon Suite 模块，无需重载。取消此选项或不再加载 RestedXP 时，模块会重新启用。
+SETTINGS_COMFORT_MERCHANT,Enlarge merchant windows,扩大商人窗口
+SETTINGS_COMFORT_MERCHANT_PAGES,Pages shown,显示页数
+SETTINGS_COMFORT_MERCHANT_TT,"Shows several pages of items at once at merchants (more than 2 columns). Ignored if ExtVendor, Krowi ExtendedVendorUI, CompactVendor or WindTools are loaded.",在商人处同时显示多页物品（超过两列）。已加载 ExtVendor、Krowi ExtendedVendorUI、CompactVendor 或 WindTools 时忽略此项。
+SETTINGS_COMFORT_MINIMAP_TRACKING,Right-click on the minimap opens Tracking,右键小地图打开追踪菜单
+SETTINGS_COMFORT_MINIMAP_TRACKING_TT,"Right-clicking the minimap opens the Tracking menu (gathering, minerals, herbs, creatures...), so you don't have to aim for the small tracking button.",右键小地图即可打开追踪菜单（采集、矿物、草药、生物等），无需点击小型追踪按钮。
+SETTINGS_COMFORT_MODIFIERS,Modifiers,修饰键
+SETTINGS_COMFORT_MOD_NONE,None,无
+SETTINGS_COMFORT_OBJCULL,Distant objects,远处物体
+SETTINGS_COMFORT_OBJCULL_TT,Sets the size below which objects disappear at a distance (lodObjectCullSize 8 instead of the game default).,设置远处物体因过小而消失的尺寸阈值（lodObjectCullSize 设为 8，而非游戏默认值）。
+SETTINGS_COMFORT_OBJFADE,Object distance,物体显示距离
+SETTINGS_COMFORT_OBJFADE_TT,Objects stay visible much farther before fading out (lodObjectFadeScale 200 instead of the game default).,让物体在更远处才淡出（lodObjectFadeScale 设为 200，而非游戏默认值）。
+SETTINGS_COMFORT_REFLECTION,Reflections,反射
+SETTINGS_COMFORT_REFLECTION_TT,Maximum reflection mode (reflectionMode 3 instead of the game default).,使用最高反射模式（reflectionMode 设为 3，而非游戏默认值）。
+SETTINGS_COMFORT_SEC_INTERFACE,Interface,界面
+SETTINGS_COMFORT_SEC_QOL,QoL,便捷功能
+SETTINGS_COMFORT_SEC_RENDER,Graphics rendering,画面渲染
+SETTINGS_COMFORT_SHARPEN,Extra sharpening,额外锐化
+SETTINGS_COMFORT_SHARPEN_TT,Applies a permanent sharpen filter to the image (ResampleAlwaysSharpen 1 instead of 0).,持续启用画面锐化（ResampleAlwaysSharpen 从 0 调为 1）。
+SETTINGS_COMFORT_SHORTCUTS,Command shortcuts,快捷命令
+SETTINGS_COMFORT_SHORTCUTS_TT,"Enables /rl (reload the UI), /edit (Blizzard Edit Mode) and /cdm (Cooldown Manager settings).",启用 /rl（重载界面）、/edit（暴雪编辑模式）和 /cdm（冷却管理器设置）。
+SETTINGS_COMFORT_SPELLID,Show spell ID in buff/debuff tooltips,在增益／减益提示中显示技能 ID
+SETTINGS_COMFORT_SPELLID_TT,Adds the spell ID line to the tooltip of buffs and debuffs.,在增益和减益的鼠标提示中添加技能 ID。
+SETTINGS_COMFORT_TERRAINLOD,Distant terrain,远处地形
+SETTINGS_COMFORT_TERRAINLOD_TT,Shows high-quality terrain farther away (terrainLodDist 1000 instead of the game default).,在更远处显示高质量地形（terrainLodDist 设为 1000，而非游戏默认值）。
+SETTINGS_COMFORT_WEATHER,Weather density,天气密度
+SETTINGS_COMFORT_WEATHER_TT,"Maximum density of rain, snow and other weather effects (weatherDensity 3 instead of the game default).",使用最高雨雪等天气效果密度（weatherDensity 设为 3，而非游戏默认值）。
+SETTINGS_CONFIRM,Confirm,确认
+SETTINGS_CONFIRM_DELETE_PROFILE,"Confirm deletion of ""%s""?",确认删除“%s”？
+SETTINGS_CONFIRM_DELETE_TAG,"Delete the tag ""%s""?
+This action cannot be undone.","删除标签“%s”？
+此操作无法撤销。"
+SETTINGS_CONFIRM_QUESTION,Confirm?,确认？
+SETTINGS_COPY_FROM_DESC,Copies the settings from an existing profile into the currently active profile.,将已有配置的设置复制到当前启用的配置中。
+SETTINGS_COPY_LINK_TITLE,Copy link,复制链接
+SETTINGS_COPY_MODULES_BTN,Copy / reset modules…,复制／重置模块…
+SETTINGS_CTX_CLIPBOARD_FROM,Clipboard: %s,剪贴板：%s
+SETTINGS_CTX_COPY,Copy animations (%d),复制动画（%d）
+SETTINGS_CTX_COPY_ONE,Copy this animation,复制此动画
+SETTINGS_CTX_DELETE,Delete this animation,删除此动画
+SETTINGS_CTX_DUPLICATE,Duplicate this animation,创建此动画副本
+SETTINGS_CTX_PASTE_APPEND,"Paste, appending (%d)",粘贴并追加（%d）
+SETTINGS_CTX_PASTE_REPLACE,"Paste, replacing (%d)",粘贴并替换（%d）
+SETTINGS_CURRENT_PROFILE,Current profile: %s,当前配置：%s
+SETTINGS_DEBUFFS,Debuffs,减益
+SETTINGS_DECO_FONT,Decoration font,装饰字体
+SETTINGS_DECO_NONE,None,无
+SETTINGS_DECO_SPACING,Decoration spacing,装饰间距
+SETTINGS_DECO_STYLE,Decoration style,装饰样式
+SETTINGS_DELAY,Delay,延迟
+SETTINGS_DELETE,Delete,删除
+SETTINGS_DELETE_PROFILE_DESC,Only inactive profiles can be deleted.,只能删除未启用的配置方案。
+SETTINGS_DELETE_SELECTED_PROFILE,Delete selected profile,删除选中的配置
+SETTINGS_DOT_CHI,Chi Points,真气
+SETTINGS_DOT_COMBO_DRUID,Combo Points (Druid),连击点（德鲁伊）
+SETTINGS_DOT_COMBO_ROGUE,Combo Points (Rogue),连击点（潜行者）
+SETTINGS_DOT_EXTERNAL,External orbs,外部球体
+SETTINGS_DOT_RUNES,Runes,符文
+SETTINGS_DRAG_CIRCLE_HINT,Drag the circle and click to finish,拖动圆环，点击结束
+SETTINGS_DURATION,Duration,持续时间
+SETTINGS_ENABLE,Enable,启用
+SETTINGS_ESSENCE,Essence,精华
+SETTINGS_EXPORT_ACTIVE_PROFILE_BTN,Export active profile…,导出当前配置…
+SETTINGS_EXPORT_KEYWORDS_TITLE,AishCore Export - Keywords & Tags,AishCore 导出 - 关键词与标签
+SETTINGS_EXPORT_NO_CUSTOM_TAGS,-- (no manual tag — modelCustomTags empty),--（没有手动标签，modelCustomTags 为空）
+SETTINGS_EXPORT_NO_KEYWORDS,-- (no keyword loaded — modelTagKeywords not exported),--（未加载关键词，不导出 modelTagKeywords）
+SETTINGS_EXPORT_NO_SPEC_DEFAULTS,-- (SPEC_DEFAULTS empty — not exported),--（SPEC_DEFAULTS 为空，不导出）
+SETTINGS_EXPORT_PASTE_INSTRUCTIONS,-- Paste these lines inside the { } of AishaddonDB in:,-- 将这些行粘贴到以下文件中 AishaddonDB 的 { } 内：
+SETTINGS_EXPORT_PATH_HINT,-- WTF/Account/<account>/SavedVariables/AishaddonDB.lua,-- WTF/Account/<account>/SavedVariables/AishaddonDB.lua
+SETTINGS_EXPORT_PROFILE_TITLE,Export Profile,导出配置方案
+SETTINGS_EXPORT_SELECT_COPY_HINT,Click in the area - Ctrl+A to select all — Ctrl+C to copy,点击区域，Ctrl+A 全选，Ctrl+C 复制
+SETTINGS_FILL_INVERTED,Reversed fill,反向填充
+SETTINGS_FILL_INVERTED_TT,"Reverses the fill: clockwise becomes counter-clockwise, mirror outward becomes mirror inward, vertical fills from top to bottom.",反转填充方向：顺时针变逆时针、镜像向外变向内、垂直填充改为从上到下。
+SETTINGS_FILL_MODE,Fill,填充
+SETTINGS_FILL_VERTICAL,Vertical,垂直
+SETTINGS_FONT,Font,字体
+SETTINGS_FONT_SIZE,Font size,字号
+SETTINGS_FX_COUNT,%d fx,%d 个特效
+SETTINGS_GLOW_COLOR,Glow color,发光颜色
+SETTINGS_GLOW_ENABLE,Enable background glow,启用背景发光
+SETTINGS_GLOW_OPACITY,Glow opacity,发光不透明度
+SETTINGS_GLOW_SIZE,Glow size,发光大小
+SETTINGS_GN_BADGE_COLOR,Badge color,标记颜色
+SETTINGS_GN_BADGE_SIZE,Badge size,标记大小
+SETTINGS_GN_ENABLE,Enable,启用
+SETTINGS_GN_ENABLE_TT,Shows your raid subgroup number (1-8) as an overlay. Only visible in a raid.,以叠加标记显示所在团队小队编号（1–8），仅团队中可见。
+SETTINGS_GN_POSITION,Position,位置
+SETTINGS_GN_PREVIEW,Preview,预览
+SETTINGS_GN_TEXT_SIZE,Text size,文字大小
+SETTINGS_GROUP_ANIMATIONS,3D ANIMATIONS,3D 动画
+SETTINGS_GROUP_AURAS_PROCS,AURAS & PROCS,光环与触发效果
+SETTINGS_GROUP_COMBAT,COMBAT,战斗
+SETTINGS_GROUP_COMFORT,EXTRAS,实用功能
+SETTINGS_GROUP_GLOBAL,GLOBAL,全局
+SETTINGS_GROUP_UNIT_FRAMES,UNIT FRAMES,单位框架
+SETTINGS_GROUP_WORLD,HUD,HUD 界面
+SETTINGS_HC_CLICKABLE,Clickable circle,可点击圆环
+SETTINGS_HC_CLICKABLE_TT,"Makes the circle behave like a health bar: left click targets yourself, right click opens your unit menu. The click area follows the circle and disappears with it.",让圆环像血条一样交互：左键选中自己，右键打开单位菜单。点击区域跟随圆环，并随圆环一起消失。
+SETTINGS_HC_ENABLE,Enable the health circle,启用生命圆环
+SETTINGS_HC_ENABLE_TT,Shows a health circle out of combat when the player is injured.,脱战且玩家受伤时显示生命圆环。
+SETTINGS_HC_HEALPRED,Show incoming heals,显示即将到来的治疗
+SETTINGS_HC_HEALPRED_AXIS,"Heal prediction only works with a start angle of 0, 90, 180 or 270",治疗预估仅支持起始角度为 0、90、180 或 270
+SETTINGS_HC_HEALPRED_COLOR,Incoming heals color,预估治疗颜色
+SETTINGS_HC_HEALPRED_COLOR_TT,Color of the incoming heals arc. Click to choose.,预估治疗圆弧颜色，点击选择。
+SETTINGS_HC_HEALPRED_NO_SINGLE,Heal prediction is not possible with clockwise / counter-clockwise fill,顺时针／逆时针填充不支持治疗预估
+SETTINGS_HC_HEALPRED_TT,Fills a second arc up to health plus the heals already on their way. Out of combat only: in combat the values are unreadable and the arc stays empty.,以第二道圆弧显示当前生命值加上即将到来的治疗。仅脱战有效：战斗中数值不可读取，圆弧保持为空。
+SETTINGS_HC_HEARTBEAT_PULSE,Heartbeat pulse,心跳脉动
+SETTINGS_HC_HEARTBEAT_PULSE_TT,Subtle heartbeat scale animation on the out-of-combat health circle.,在脱战生命圆环上播放轻微的心跳缩放动画。
+SETTINGS_HC_MOVE,Move the health circle,移动生命圆环
+SETTINGS_HC_VIS_ALWAYS_TT,Shows the circle even at full health.,满血时也显示圆环。
+SETTINGS_HC_VIS_IMPORTANT_TT,Shows the circle only when the player is injured (default behavior).,仅受伤时显示圆环（默认行为）。
+SETTINGS_HEIGHT,Height,高度
+SETTINGS_HEIGHT_SHORT,H:,高：
+SETTINGS_HEROIC_CAROUSEL_1,Reshade presets - A collection of cinematic profiles to elevate your games,Reshade 预设 — 为游戏增添电影感的配置合集
+SETTINGS_HEROIC_CAROUSEL_10,Customized Details profile,定制 Details 配置
+SETTINGS_HEROIC_CAROUSEL_11,Customized Horizon profile,定制 Horizon 配置
+SETTINGS_HEROIC_CAROUSEL_12,Platynator profiles - Minimalist nameplates,Platynator 配置 — 简约姓名板
+SETTINGS_HEROIC_CAROUSEL_2,Visual effects for all your spells and buffs,为所有技能和增益提供视觉特效
+SETTINGS_HEROIC_CAROUSEL_3,Easily customize your animations with a model library sorted by keyword,通过按关键词整理的模型库轻松自定义动画
+SETTINGS_HEROIC_CAROUSEL_4,Visual effects for every class,为各职业提供视觉特效
+SETTINGS_HEROIC_CAROUSEL_5,Themed colors for every specialization,为各专精提供主题配色
+SETTINGS_HEROIC_CAROUSEL_6,Enhanced specialization flavor,更鲜明的专精特色
+SETTINGS_HEROIC_CAROUSEL_7,DynamicCam profiles for a cinematic experience,带来电影感体验的 DynamicCam 配置
+SETTINGS_HEROIC_CAROUSEL_8,Baganator profile,Baganator 配置
+SETTINGS_HEROIC_CAROUSEL_9,8 ElvUI/EllesmereUI profiles for every role,适用于各职责的 8 套 ElvUI/EllesmereUI 配置
+SETTINGS_HEROIC_PERKS_HEADER,Heroic support unlocks:,Heroic Support 可解锁：
+SETTINGS_HEROIC_PERK_1,A fully configured AishCore profile,完整配置的 AishCore 方案
+SETTINGS_HEROIC_PERK_10,Convenient installer software,便捷的安装程序
+SETTINGS_HEROIC_PERK_11,Step-by-step installation guides,逐步安装指南
+SETTINGS_HEROIC_PERK_12,Long-term development support for AishUI's future updates,支持 AishUI 未来更新的长期开发
+SETTINGS_HEROIC_PERK_2,"Customized, cohesive addon profiles (Baganator, ElvUI/EllesmereUI, Horizon Suite, Details, Platynator...)",协调一致的定制插件配置（Baganator、ElvUI/EllesmereUI、Horizon Suite、Details、Platynator 等）
+SETTINGS_HEROIC_PERK_3,"""Feedback"" visual effects for every spell and proc",为每个技能与触发效果提供视觉反馈
+SETTINGS_HEROIC_PERK_4,Color themes for every specialization,各专精的配色主题
+SETTINGS_HEROIC_PERK_5,CDM and Priority Bar setups for every specialization,各专精的冷却管理器与优先级提示条配置
+SETTINGS_HEROIC_PERK_6,Cast bar colors based on spells' magic schools,按技能法术学派设置施法条颜色
+SETTINGS_HEROIC_PERK_7,Automatic mount colors for the Skyriding HUD,驭空术 HUD 自动匹配坐骑颜色
+SETTINGS_HEROIC_PERK_8,"A fully sorted 3D model library, organized by keyword (XXX models)",按关键词完整整理的 3D 模型库（XXX 个模型）
+SETTINGS_HEROIC_PERK_9,Reshade profile collection,Reshade 配置合集
+SETTINGS_HEROIC_SPECIAL_THANKS,"Special Thanks :
+
+- Xinderah: for their valuable testing and feedback on AishUI's Classic versions
+- Yoah: for their help overhauling the GUI and developing the aura-tracking features
+- Every Discord member, for their many bug reports, suggestions, patience and encouragement
+- Every Ko-fi contributor who made continuous development possible since Dragonflight — without you, AishUI would never have seen the light of day!","特别感谢：
+
+- Xinderah：为 AishUI 经典版提供宝贵测试与反馈
+- Yoah：帮助重构设置界面并开发光环追踪功能
+- 每位 Discord 成员：感谢大家提交问题、提出建议，以及耐心与鼓励
+- 每位 Ko-fi 支持者：让巨龙时代以来的持续开发成为可能；没有你们，就不会有 AishUI！"
+SETTINGS_HEROIC_SUPPORT_THANKYOU,"AishUI is a solo project I've been developing for 4 years now, with a simple goal: offer a more immersive, polished and cinematic experience, without sacrificing performance or usability.
+
+The arrival of Midnight made maintaining the project particularly demanding. Keeping AishUI evolving today takes a huge amount of time: maintaining what already exists, rebuilding what got broken, developing new features, configuring the pack's addons and evolving the whole set of tools that make up AishUI.
+
+Your support lets me keep doing all of that and dedicate myself to it full time!
+
+And above all, it gives you access to a turnkey experience, with a fully configured interface, animations, visual effects and color themes for every spec, carefully integrated addons, and a full installation in under 2 minutes.
+
+Thank you so much for helping make AishUI what it is today, and what it can become tomorrow. |TInterface\AddOns\AishCore\Media\UI\heart.tga:14:14:0:-2|t","AishUI 是我独立开发了四年的项目，目标很简单：在不牺牲性能与易用性的前提下，带来更沉浸、更精致、更有电影感的体验。
+
+至暗之夜的到来让维护工作格外繁重。如今要让 AishUI 持续发展，需要大量时间维护现有功能、重建失效部分、开发新功能、配置整合包插件，并完善组成 AishUI 的整套工具。
+
+你们的支持让我能够继续这些工作，并全职投入开发！
+
+更重要的是，你们能获得开箱即用的体验：为每个专精配置好的界面、动画、特效和配色，以及精心整合的插件，整套安装不到两分钟。
+
+衷心感谢你们成就今天的 AishUI，也帮助它走向更好的未来。 |TInterface\AddOns\AishCore\Media\UI\heart.tga:14:14:0:-2|t"
+SETTINGS_HIDE_BLIZZARD_FRAME_TT,Hides this Blizzard unit frame. Unchecking brings it back without a reload (out of combat).,隐藏此暴雪单位框架。取消勾选即可恢复，无需重载（须脱战）。
+SETTINGS_HIDE_DELAY_S,Hide delay (s),隐藏延迟（秒）
+SETTINGS_HOLY_POWER,Holy Power,圣能
+SETTINGS_HOVER_MODEL_PREVIEW,Hover over a model to preview,悬停模型以预览
+SETTINGS_IMPORT,Import,导入
+SETTINGS_IMPORT_PROFILE_BTN,Import a profile…,导入配置方案…
+SETTINGS_IMPORT_PROFILE_TITLE,Import a Profile,导入配置方案
+SETTINGS_LAYER,Layer:,图层：
+SETTINGS_LAYER_BACKGROUND,Background,背景
+SETTINGS_LAYER_FOREGROUND,Foreground,前景
+SETTINGS_LAYER_MIDGROUND,Midground,中景
+SETTINGS_LAYOUT_2X2,2×2,2×2
+SETTINGS_LAYOUT_3X3,3×3,3×3
+SETTINGS_LAYOUT_4X4_INLINE,4×4 Inline,4×4 横排
+SETTINGS_LAYOUT_4X4_SQUARE,4×4 Square,4×4 方形
+SETTINGS_LAYOUT_6X6,6×6,6×6
+SETTINGS_LAYOUT_6X6_VERTICAL,6×6 vertical,6×6 竖排
+SETTINGS_LOCK_POSITION,Lock position,锁定位置
+SETTINGS_LOCK_POSITION_TT,Prevents moving this element by drag & drop.,锁定后无法通过拖动移动此元素。
+SETTINGS_LOC_ALIGNMENT,Alignment,对齐
+SETTINGS_LOC_DRAG_HINT,"Drag the zone name, then click again to finish.",拖动地区名称，再次点击结束。
+SETTINGS_LOC_ENABLE,Enable the zone name,启用地区名称
+SETTINGS_LOC_ENABLE_TT,Displays the name of the zone and subzone you are currently in.,显示当前所在地区与子区域的名称。
+SETTINGS_LOC_HIDE_COMBAT,Hide in combat,战斗中隐藏
+SETTINGS_LOC_HIDE_COMBAT_TT,Fades the zone name out while you are in combat.,战斗中淡出地区名称。
+SETTINGS_LOC_HOVER_ALPHA,Opacity on mouseover,悬停时不透明度
+SETTINGS_LOC_HOVER_ALPHA_TT,Opacity while the cursor is over the zone name. The opacity on the left applies the rest of the time.,鼠标位于地区名称上时的不透明度；其余时间使用左侧设置。
+SETTINGS_LOC_MOUSEOVER,Mouseover,鼠标悬停
+SETTINGS_LOC_MOUSEOVER_TT,Switches the zone name to the mouseover opacity below while the cursor is over it.,鼠标悬停地区名称时，使用下方指定的不透明度。
+SETTINGS_LOC_SHADOW,Text shadow,文字阴影
+SETTINGS_LOC_SHADOW_TT,"Adds a black drop shadow behind the text. Ignored with the SLUG outline, which already provides one.",在文字后添加黑色投影。SLUG 描边自带阴影，因此会忽略此项。
+SETTINGS_LOC_SHOW_ZONE,Show the parent zone,显示上级地区
+SETTINGS_LOC_SHOW_ZONE_TT,"Displays ""Zone: Subzone"" when the two differ. Unchecked, only the subzone is shown.",地区与子区域不同时显示“地区：子区域”；取消勾选只显示子区域。
+SETTINGS_LOC_WIDTH,Box width,文本框宽度
+SETTINGS_LOC_WIDTH_TT,"Total width of the text box. A longer name is truncated with ""..."".",文本框总宽度，过长的名称会以“...”截断。
+SETTINGS_LOC_ZONE_COLOR,Color by zone status,按地区状态着色
+SETTINGS_LOC_ZONE_COLOR_TT,"Colors the text after the PvP status of the zone (sanctuary, friendly, hostile, contested), like LocationPlus. Unchecked, the color chosen alongside is used.",根据地区 PvP 状态（庇护所、友方、敌方、争夺中）着色，类似 LocationPlus。取消勾选则使用旁边选择的颜色。
+SETTINGS_MAPREVEAL_COLOR,Color,颜色
+SETTINGS_MAPREVEAL_COLORED,Colored fog,未探索区域着色
+SETTINGS_MAPREVEAL_COLORED_TT,"Tints the undiscovered areas with the chosen color, to tell them apart from the explored ones.",用指定颜色标识未探索区域，与已探索区域区分。
+SETTINGS_MAPREVEAL_ENABLE,Enable,启用
+SETTINGS_MAPREVEAL_ENABLE_TT,Shows the areas your character has not discovered yet on the world map.,在世界地图上显示角色尚未探索的区域。
+SETTINGS_MAPREVEAL_TITLE,Reveal the map,揭示地图
+SETTINGS_MMN_DOTS,Game dots size (%),原生圆点大小（%）
+SETTINGS_MMN_ENABLE,Show herbs and ore as icons on the minimap,在小地图上以图标显示草药和矿物
+SETTINGS_MMN_ENABLE_TT,Replaces the minimap dots of Find Herbs / Find Minerals with the picture of each plant or ore vein. Needs one of those trackings to be on. Names are read from the minimap tooltip in your game language; a node that isn't recognised gets the tracking's generic icon.,将寻找草药／矿物的小地图圆点替换为对应植物或矿脉的图片，需要启用相应追踪。名称从游戏语言的小地图提示读取；无法识别的节点使用该追踪的通用图标。
+SETTINGS_MMN_FRAME_SCALE,Frame size (%),边框大小（%）
+SETTINGS_MMN_SIZE,Icon size,图标大小
+SETTINGS_MMN_STYLE,Icon shape,图标形状
+SETTINGS_MMN_STYLE_ACTIONBAR,Action bar frame,动作条边框
+SETTINGS_MMN_STYLE_CREATEFRAME,Frame (character creation),边框（角色创建）
+SETTINGS_MMN_STYLE_CREATEGLOW,Glow (character creation),发光（角色创建）
+SETTINGS_MMN_STYLE_DIAMOND,Diamond (Journeys),菱形（旅程）
+SETTINGS_MMN_STYLE_FOLLOWERRING,Mission ring,任务圆环
+SETTINGS_MMN_STYLE_RING,Round with gold border,金边圆形
+SETTINGS_MMN_STYLE_ROUND,Round,圆形
+SETTINGS_MMN_STYLE_SQUARE,Square,方形
+SETTINGS_MMN_TITLE,Herbs and ore on the minimap,小地图草药与矿物
+SETTINGS_MMN_UNAVAILABLE,Not available on this client: it lacks the minimap calls this needs (%s).,当前客户端不支持：缺少所需的小地图接口（%s）。
+SETTINGS_MODEL,Model,模型
+SETTINGS_MODEL_FILE_ID,Model File ID,模型文件 ID
+SETTINGS_MODEL_NO_TAGS_MSG,Enjoy the fully theme-sorted model library %s!,%s，即可使用按主题完整整理的模型库！
+SETTINGS_MODEL_PICKER_TITLE,Choose a 3D Model,选择 3D 模型
+SETTINGS_MOD_ANIM_AURAS,Aura Anims,光环动画
+SETTINGS_MOD_ANIM_LOGOS,Logo Anims,标志动画
+SETTINGS_MOD_ANIM_MISSING,Missing Buff Anims,缺失增益动画
+SETTINGS_MOD_ANIM_OOC,Out-of-Combat Health Circle Anims,脱战生命圆环动画
+SETTINGS_MOD_ANIM_ORBS,External Globe Anims,外部球体动画
+SETTINGS_MOD_ANIM_SPELLS,Spell Anims,技能动画
+SETTINGS_MOD_AURAS_TRACKING,Aura Tracking,光环追踪
+SETTINGS_MOD_AURAS_TRACKING_TT,"Enables AishCore's custom aura tracking system (icons, bars, circles...). Automatically disables Blizzard's native CDM, and vice versa.",启用 AishCore 自定义光环追踪系统（图标、进度条、圆环等）。会自动关闭暴雪原生冷却管理器，反之亦然。
+SETTINGS_MOD_BIG_CURSOR,Cursor in combat,战斗中指针
+SETTINGS_MOD_BIG_CURSOR_TT,"Enlarges the mouse cursor during combat (easier to spot in the heat of the action), normal size the rest of the time.",战斗中放大鼠标指针，便于在激烈战斗中找到；其余时间恢复正常大小。
+SETTINGS_MOD_CATEGORY_OFF_TT,"Disables every module in this category and collapses the block.
+Re-enabling restores each module's individual state.","禁用此类别中的所有模块并折叠分区。
+重新启用后恢复各模块原来的开关状态。"
+SETTINGS_MOD_ELVUI_BUFFS,Buffs transparency,增益透明度
+SETTINGS_MOD_ELVUI_BUFFS_TT,Automatically adjusts the opacity of the player buffs frame (ElvUI or EllesmereUI) based on combat state.,根据战斗状态自动调整玩家增益框架（ElvUI 或 EllesmereUI）的不透明度。
+SETTINGS_MOD_HEALTH_CIRCLE,Health Circle (Out of Combat),脱战生命圆环
+SETTINGS_MOD_OPEN_HINT,Right-click: open settings,右键：打开设置
+SETTINGS_MOD_ORBS,Resource Orbs,资源球
+SETTINGS_MOD_ORBS_TT,"3D orb decorations around the resource circle (combo points, runes, essence…), independent from spell impact animations.",资源圆环周围的 3D 球体装饰（连击点、符文、精华等），独立于技能命中特效。
+SETTINGS_MVB_BAR_COLOR,Bar color,进度条颜色
+SETTINGS_MVB_BAR_HEIGHT,Bar height,进度条高度
+SETTINGS_MVB_BAR_WIDTH,Bar width,进度条宽度
+SETTINGS_MVB_DOT_COLOR,Dot color,圆点颜色
+SETTINGS_MVB_DOT_SIZE,Dot diameter,圆点直径
+SETTINGS_MVB_ENABLE,Enable,启用
+SETTINGS_MVB_ENABLE_TT,"A small dot with two bars on each side that drain toward it for the duration of a speed buff (Sprint, Dash, Angelic Feather...). One row per active buff. Hidden while mounted, in a vehicle or in a pet battle.",小圆点两侧各有两条进度条，在加速增益（疾跑、急奔、天堂之羽等）持续期间朝圆点耗尽。每个生效增益一行。骑乘、载具或宠物对战中隐藏。
+SETTINGS_MVB_GAP,Dot / bar spacing,圆点与进度条间距
+SETTINGS_MVB_ITEMS,Items,物品
+SETTINGS_MVB_RACIALS,Racials,种族技能
+SETTINGS_MVB_RESET_POSITION,Reset position,重置位置
+SETTINGS_MVB_ROW_SPACING,Row spacing,行间距
+SETTINGS_MVB_SEC_LOOK,Appearance,外观
+SETTINGS_MVB_SEC_SPELLS,Tracked buffs,追踪的增益
+SETTINGS_MVB_SPEC_COLOR_TT,"Themed Colors of your specialization: the dot uses ""Power Dots B"", the bars ""Power Circle"".",使用当前专精主题色：圆点使用“资源点 B”，进度条使用“资源圆环”。
+SETTINGS_MVB_STACKS_TT,The bars grow with the number of stacks (30 max) instead of draining over the duration.,进度条随层数增长（最多 30 层），而非随持续时间耗尽。
+SETTINGS_MVB_VIS_OOC,Out of combat only,仅脱战时
+SETTINGS_NEW_BADGES_HIDE,Hide new features,隐藏新功能标记
+SETTINGS_NEW_BADGES_SHOW,Show new features,显示新功能标记
+SETTINGS_NEW_PROFILE_NAME,New profile name:,新配置名称：
+SETTINGS_NEW_TAG_BTN,+ New Tag,+ 新建标签
+SETTINGS_NEW_TAG_DEFAULT_NAME,New Tag %d,新标签 %d
+SETTINGS_NO_KEYWORD,(no keyword),（无关键词）
+SETTINGS_OCRC_ENABLE,Enable the out-of-combat resource circle,启用脱战资源圆环
+SETTINGS_OCRC_ENABLE_TT,"Shows your resource (mana/energy/etc.) out of combat, next to the health circle.",脱战时在生命圆环旁显示法力、能量等资源。
+SETTINGS_OCRC_ESSENCE_ORBS_TT,"Shows Essence orbs around the small out-of-combat circle
+in Devastation and Augmentation spec.",湮灭与增辉专精在脱战小圆环周围显示精华球。
+SETTINGS_OCRC_GLOW_ENABLE_TT,"Shows a glowing halo behind the small resource circle,
+colored according to the active specialization.","在小资源圆环后显示发光光晕，
+按当前专精着色。"
+SETTINGS_OCRC_HOLY_POWER_ORBS_TT,"Shows Holy Power orbs around the small out-of-combat circle
+in Protection and Retribution spec.",防护与惩戒专精在脱战小圆环周围显示圣能球。
+SETTINGS_OCRC_MOVE,Move the out-of-combat resource circle,移动脱战资源圆环
+SETTINGS_OCRC_RESET_POSITION,Reset the resource circle position,重置资源圆环位置
+SETTINGS_OCRC_VIS_ALWAYS_TT,Always shows the out-of-combat circle.,始终显示脱战圆环。
+SETTINGS_OCRC_VIS_IMPORTANT_TT,Shows the circle only when the resource changes (default behavior).,仅资源变化时显示圆环（默认行为）。
+SETTINGS_OFFSET_X,X offset,X 偏移
+SETTINGS_OFFSET_Y,Y offset,Y 偏移
+SETTINGS_OK,OK,确定
+SETTINGS_OOC_CIRCLE_DISABLED_TT,Circle disabled: settings unavailable. Tick its toggle at the top of this page to configure it.,圆环已禁用，无法设置。请勾选页面顶部开关后配置。
+SETTINGS_OPACITY,Opacity,不透明度
+SETTINGS_OPEN_AISHCORE_SETTINGS,Open AishCore Settings,打开 AishCore 设置
+SETTINGS_ORB_ARCANE_CHARGES_FULL,Arcane Charges (4/4),奥术充能（4/4）
+SETTINGS_ORB_CHI_POINTS,Chi Points,真气
+SETTINGS_ORB_COMBO_POINTS,Combo Points,连击点
+SETTINGS_ORB_COMBO_POINTS_MAX,Combo Points Max,连击点已满
+SETTINGS_ORB_COMBO_POINTS_MAX_STEALTH,Combo Points Max Stealth,潜行时连击点已满
+SETTINGS_ORB_COMBO_POINTS_STEALTH,Combo Points Stealth,潜行连击点
+SETTINGS_ORB_DEMONIC_CORE,Demonic Core,恶魔之核
+SETTINGS_ORB_DEMONIC_CORE_MAX,Demonic Core (4/4),恶魔之核（4/4）
+SETTINGS_ORB_GLOBE_COLOR,Orb color,球体颜色
+SETTINGS_ORB_HOLY_POWER_MAX,Holy Power Max,圣能已满
+SETTINGS_ORB_REVERSED_ORDER,Reversed order (left ↔ right),反向顺序（左右互换）
+SETTINGS_ORB_REVERSED_ORDER_TT,"Reverses the orbs' appearance order:
+by default right→left, checked left→right.","反转球体的出现顺序：
+默认从右向左，勾选后从左向右。"
+SETTINGS_ORB_ROTATION,Orb rotation,球体旋转
+SETTINGS_ORB_RUNE_BLOOD,Blood Runes,鲜血符文
+SETTINGS_ORB_RUNE_FROST,Frost Runes,冰霜符文
+SETTINGS_ORB_RUNE_UNHOLY,Unholy Rune,邪恶符文
+SETTINGS_ORB_SIZE,Orb size,球体大小
+SETTINGS_PANEL_AUTO_CLOSED,|cff00b0ff[AishCore]|r Panel automatically closed (combat).,|cff00b0ff[AishCore]|r 面板已因进入战斗而自动关闭。
+SETTINGS_PASTE_PROFILE_STRING,Paste the profile string here (click in the black area then Ctrl+V):,在此粘贴配置字符串（点击黑色区域后按 Ctrl+V）：
+SETTINGS_PB_CHARGES_COLOR,Charges color,充能次数颜色
+SETTINGS_PB_DESATURATE,Desaturate when unavailable,不可用时去色
+SETTINGS_PB_DESATURATE_TT,"Desaturates the icon when the spell cannot be cast: not enough resources, cooldown running, or no charge left. The global cooldown is ignored.",技能因资源不足、正在冷却或没有剩余充能而无法施放时，将图标去色。忽略公共冷却。
+SETTINGS_PB_ENABLE,Enable the Priority Bar,启用优先级提示条
+SETTINGS_PB_ENABLE_TT,Shows 4 spell icons on either side of the circle in combat.,战斗中在圆环两侧显示 4 个技能图标。
+SETTINGS_PB_HIDE_UNLEARNED,Hide unlearned spells,隐藏未学技能
+SETTINGS_PB_HIDE_UNLEARNED_TT,"Hides icons for spells that are not known
+(wrong talent, wrong level, wrong spec).","隐藏尚未学会的技能图标
+（天赋、等级或专精不符）。"
+SETTINGS_PB_HIGHLIGHT_COLOR,Highlight color,高亮颜色
+SETTINGS_PB_HIGHLIGHT_COLOR_TT1,"Left-click: set a specific glow color
+for this spell.","左键：为此技能设置
+独立发光颜色。"
+SETTINGS_PB_HIGHLIGHT_COLOR_TT2,"Right-click: reset (use the
+global color).","右键：重置为
+全局颜色。"
+SETTINGS_PB_HORIZ_DISTANCE,Horiz. distance,水平距离
+SETTINGS_PB_ICON_SIZE,Icon size,图标大小
+SETTINGS_PB_IGNORE_ASSIST,Ignore Blizzard Rotation Assistant,忽略暴雪技能循环助手
+SETTINGS_PB_IGNORE_ASSIST_TT,The bar no longer follows the spell suggested by Blizzard's Rotation Assistant: slots keep their default spell.,提示条不再跟随暴雪技能循环助手建议的技能，各栏位保留默认技能。
+SETTINGS_PB_LOOP_GLOW_TYPE,Glow type (loop),发光类型（循环）
+SETTINGS_PB_OOR_COLOR,Color,颜色
+SETTINGS_PB_OOR_THEME,Themed color,主题颜色
+SETTINGS_PB_OOR_THEME_TT,"Uses the active spec's ""Power Circle"" color from Themed Colors instead of the color chosen above.",使用主题颜色中当前专精的“资源圆环”颜色，而非上方选择的颜色。
+SETTINGS_PB_OOR_TINT,Tint when out of range,超出距离时着色
+SETTINGS_PB_OOR_TINT_TT,"Tints the icon when the current target is out of range for that spell, the same way the Essential and Utility cooldown viewers do. Spells that need no target are never tinted.",当前目标超出技能距离时，将图标着色，行为与核心／功能冷却视图一致。无需目标的技能不会着色。
+SETTINGS_PB_PROC_GLOW_ENABLE,Enable proc highlight,启用触发高亮
+SETTINGS_PB_PROC_GLOW_ENABLE_TT,Highlights the icon when Blizzard makes this spell glow on your action bars (e.g. a buff that enhances it). Does not include Rotation Assistant suggestions.,暴雪让动作条上的技能发光时（例如增益强化该技能），高亮此图标。不包含技能循环助手的建议。
+SETTINGS_PB_PROC_GLOW_ROLE,Only in Healer/Tank specs,仅治疗／坦克专精
+SETTINGS_PB_PROC_GLOW_ROLE_TT,Only shows the proc highlight in Healer or Tank specializations.,只在治疗或坦克专精中显示触发高亮。
+SETTINGS_PB_PROC_START_ANIM,Entry animation (proc start),入场动画（触发开始）
+SETTINGS_PB_SHOW_CHARGES,Show charges,显示充能次数
+SETTINGS_PB_SHOW_SWIPE,Show cooldown swipe,显示冷却扫光
+SETTINGS_PB_SHOW_SWIPE_TT,Animates a circular arc on the icon while the spell is on cooldown.,技能冷却时在图标上显示环形扫光。
+SETTINGS_PB_TOOLTIP_ALT_COMBAT,Aura tooltip in combat only with ALT,战斗中仅按住 ALT 显示光环提示
+SETTINGS_PB_TOOLTIP_ALT_COMBAT_TT,"Controls the buff/debuff icon tooltip (Auras module).
+In combat, the tooltip only appears while holding ALT.
+Outside combat, it always shows on hover.","控制光环模块的增益／减益图标提示。
+战斗中仅按住 ALT 才显示；
+脱战时悬停即显示。"
+SETTINGS_PB_USE_SPEC_COLOR,Use specialization color,使用专精颜色
+SETTINGS_PB_USE_SPEC_COLOR_TT,The glow uses the 'Glow' color defined in the Colors module for your active spec.,发光使用颜色模块中当前专精的“发光”颜色。
+SETTINGS_PB_VERTICAL_OFFSET_TANK,Vertical offset in tank spec,坦克专精垂直偏移
+SETTINGS_PB_VIS_ALWAYS_TT,Always shows the bar.,始终显示提示条。
+SETTINGS_PB_VIS_COMBAT_TT,Shows the bar only in combat (default behavior).,仅战斗中显示提示条（默认行为）。
+SETTINGS_PB_VIS_TARGET_TT,Shows the bar while the target is attackable. In combat it stays visible even with no target; on a healing spec it stays visible out of combat whatever the target.,目标可攻击时显示提示条；战斗中没有目标也保持显示。治疗专精在脱战时不受目标条件限制。
+SETTINGS_PLAYER_BUFFS,PLAYER BUFFS,玩家增益
+SETTINGS_POSITION,Position,位置
+SETTINGS_POSITION_X,Position X,X 位置
+SETTINGS_POSITION_Y,Position Y,Y 位置
+SETTINGS_POS_BOTTOM,Bottom,底部
+SETTINGS_POS_BOTTOMLEFT,Bottom-left,左下
+SETTINGS_POS_BOTTOMRIGHT,Bottom-right,右下
+SETTINGS_POS_LEFT,Left,左侧
+SETTINGS_POS_RIGHT,Right,右侧
+SETTINGS_POS_TOP,Top,顶部
+SETTINGS_POS_TOPLEFT,Top-left,左上
+SETTINGS_POS_TOPRIGHT,Top-right,右上
+SETTINGS_PREVIEW_BTN,> Preview,> 预览
+SETTINGS_PREVIEW_COMBO_BTN,> Preview Combo,> 预览组合
+SETTINGS_PROFILE_COPIED_MSG,|cff00b0ff[AishCore Profiles]|r %s copied into %s.,|cff00b0ff[AishCore Profiles]|r 已将 %s 复制到 %s。
+SETTINGS_PROFILE_DELETED_MSG,|cff00b0ff[AishCore Profiles]|r Profile %s deleted.,|cff00b0ff[AishCore Profiles]|r 已删除配置 %s。
+SETTINGS_PROFILE_ERROR_MSG,|cff00b0ff[AishCore Profiles]|r |cffff4444%s|r,|cff00b0ff[AishCore Profiles]|r |cffff4444%s|r
+SETTINGS_PROFILE_ERROR_MSG_LABELED,|cff00b0ff[AishCore Profiles]|r |cffff4444Error: %s|r,|cff00b0ff[AishCore Profiles]|r |cffff4444错误：%s|r
+SETTINGS_PROFILE_IMPORTED_MSG,|cff00b0ff[AishCore Profiles]|r Profile %s imported. Switching…,|cff00b0ff[AishCore Profiles]|r 已导入配置 %s，正在切换……
+SETTINGS_PROFILE_RESET_MSG,|cff00b0ff[AishCore Profiles]|r Profile %s reset.,|cff00b0ff[AishCore Profiles]|r 已重置配置 %s。
+SETTINGS_PROFILE_SELECT_TO_DELETE_MSG,|cff00b0ff[AishCore Profiles]|r Select a profile to delete.,|cff00b0ff[AishCore Profiles]|r 请选择要删除的配置。
+SETTINGS_PROFILE_TO_DELETE,Profile to delete,要删除的配置方案
+SETTINGS_PROFILE_USE_FOR_ALL_CHARS,Use this profile for all characters,所有角色使用此配置
+SETTINGS_PROFILE_USE_FOR_ALL_CHARS_TT,"Checked: the active profile applies to all your characters.
+Unchecked: this profile is bound only to the current character.","勾选：所有角色使用当前配置。
+取消勾选：此配置仅绑定当前角色。"
+SETTINGS_PSEUDO_ATTACK_VAR,Attack - Variation %s,攻击 - 变体 %s
+SETTINGS_PSEUDO_ESSENCE_BURST,Essence Burst,精华迸发
+SETTINGS_PSEUDO_HEATING_UP,Heating Up,热力迸发
+SETTINGS_PSEUDO_HOT_STREAK,Hot Streak!,炽热连击！
+SETTINGS_PSEUDO_LOW_AMMO,Low ammo,弹药不足
+SETTINGS_PSEUDO_LOW_SHARDS,Low soul shards,灵魂碎片不足
+SETTINGS_PSEUDO_MAELSTROM_10,Maelstrom Weapon (10),漩涡武器（10）
+SETTINGS_PSEUDO_MAELSTROM_5,Maelstrom Weapon (5+),漩涡武器（5+）
+SETTINGS_PSEUDO_MAELSTROM_8,Maelstrom Weapon (8+),漩涡武器（8+）
+SETTINGS_PSEUDO_MB_BAGS,Missing buff - Bags full,缺失提醒 - 背包已满
+SETTINGS_PSEUDO_MB_FLASK,Missing buff - Flask,缺失提醒 - 合剂
+SETTINGS_PSEUDO_MB_FOOD,Missing buff - Food,缺失提醒 - 食物
+SETTINGS_PSEUDO_MB_LEGACY,Missing buff - Heritage points,缺失提醒 - 传承点数
+SETTINGS_PSEUDO_MB_STONE,Missing buff - Sharpening stone / oil,缺失提醒 - 磨刀石／武器油
+SETTINGS_PSEUDO_MB_TALENTS,Missing buff - Talent points,缺失提醒 - 天赋点数
+SETTINGS_PSEUDO_MB_TRACKING_HERBS,Missing buff - Tracking off (herbs),缺失提醒 - 草药追踪未开启
+SETTINGS_PSEUDO_MB_TRACKING_ORE,Missing buff - Tracking off (minerals),缺失提醒 - 矿物追踪未开启
+SETTINGS_PSEUDO_PET_PASSIVE,Pet on Passive,宠物处于被动
+SETTINGS_PSEUDO_PET_UNHAPPY,Pet unhappy,宠物不开心
+SETTINGS_RADIUS,Radius,半径
+SETTINGS_RC_ARC_COLOR,Arc color,圆弧颜色
+SETTINGS_RC_ARC_SIZE,Arc radius,圆弧半径
+SETTINGS_RC_ARC_THICKNESS,Arc thickness,圆弧厚度
+SETTINGS_RC_BG_COLOR,Background color,背景颜色
+SETTINGS_RC_DRAG_HINT,Drag the circle — click to finish,拖动圆环，点击结束
+SETTINGS_RC_ELITE_HEADER,Elite Dragons,精英龙饰
+SETTINGS_RC_ELITE_SHOW,Show elite dragons,显示精英龙饰
+SETTINGS_RC_ELITE_SHOW_TT,"Frames the central circle with a dragon when the target is elite (outside instances only), rare, rare elite or a world boss.",目标为精英（仅副本外）、稀有、稀有精英或世界首领时，在中央圆环周围显示龙形装饰。
+SETTINGS_RC_ENABLE,Enable the resource circle,启用资源圆环
+SETTINGS_RC_ENABLE_TT,"Shows a mana/resource circle at the center of the screen
+in combat or when a target is selected.",在战斗中或选中目标时，在屏幕中央显示法力／资源圆环。
+SETTINGS_RC_ESSENCE_ORBS,Essence Orbs (Dev./Aug.),精华球（湮灭／增辉）
+SETTINGS_RC_ESSENCE_ORBS_TT,"Shows Essence orbs around the resource circle
+in Devastation and Augmentation spec (in addition to the arc).","湮灭与增辉专精除圆弧外，
+还在资源圆环周围显示精华球。"
+SETTINGS_RC_GLOBAL_SIZE,Global size,整体大小
+SETTINGS_RC_GLOW_ENABLE_TT,"Shows a glowing halo behind the resource circle,
+colored according to the active specialization.","在资源圆环后显示发光光晕，
+按当前专精着色。"
+SETTINGS_RC_HOLY_POWER_ORBS,Holy Power Orbs (Prot./Ret.),圣能球（防护／惩戒）
+SETTINGS_RC_HOLY_POWER_ORBS_TT,"Shows Holy Power orbs around the resource circle
+in Protection and Retribution spec (in addition to the arc).","防护与惩戒专精除圆弧外，
+还在资源圆环周围显示圣能球。"
+SETTINGS_RC_RADIAL_FILL,Radial fill,径向填充
+SETTINGS_RC_RADIAL_FILL_TT,Switches between the vertical fill (default) and a radial gauge-arc fill.,在垂直填充（默认）和径向仪表圆弧填充之间切换。
+SETTINGS_RC_TEXT_COLOR,Resource text color,资源文字颜色
+SETTINGS_RC_THEMED_COLORS,Themed Colors,主题颜色
+SETTINGS_RC_THEMED_COLORS_TT,Checked: the arc and the resource text use the colors of the Themed Colors module. Unchecked: pick the arc color and the main resource text color on this line.,勾选：圆弧和资源文字使用主题颜色模块。取消勾选：使用本行选择的圆弧颜色和主资源文字颜色。
+SETTINGS_RC_VIS_ALWAYS_TT,Shows the circle at all times (even out of combat).,始终显示圆环，包括脱战状态。
+SETTINGS_RC_VIS_COMBAT_TT,Shows the circle only in combat (default behavior).,仅在战斗中显示圆环（默认行为）。
+SETTINGS_RC_VIS_TARGET_TT,Shows the circle while the target is attackable. In combat it stays visible even with no target; on a healing spec it stays visible out of combat whatever the target.,存在可攻击目标时显示；战斗中即使没有目标也保持显示。治疗专精在脱战时不受目标条件限制。
+SETTINGS_REFRESH,Refresh,刷新
+SETTINGS_REMOVE_BTN,- Remove,- 移除
+SETTINGS_RH_DRAG_HINT,Drag to reposition — click to finish,拖动重新定位，点击结束
+SETTINGS_RH_ENABLE,Enable the Rotation Button Module,启用技能轮换按钮模块
+SETTINGS_RH_ENABLE_TT,Shows a mirrored icon of the spell currently highlighted by Blizzard's Assisted Combat rotation helper.,镜像显示暴雪辅助战斗循环助手当前高亮的技能图标。
+SETTINGS_RH_HIDE_RESTING,Hide in rest area,休息区域中隐藏
+SETTINGS_RH_HIDE_RESTING_TT,"Hides the icon in rest areas (city, inn...), unless an attackable target is selected (training dummy, stray enemy...).",在城市、旅店等休息区域隐藏图标，但选中了可攻击目标（训练假人、游荡敌人等）时仍会显示。
+SETTINGS_RH_VIS_ALWAYS_TT,"Shows the icon as soon as a spell is highlighted, even out of combat.",一旦有技能被高亮就显示图标，包括脱战时。
+SETTINGS_RH_VIS_COMBAT_TT,Shows the icon only in combat (default behavior).,仅战斗中显示图标（默认行为）。
+SETTINGS_RH_VIS_TARGET_TT,Shows the icon while the target is attackable. In combat it stays visible even with no target; on a healing spec it stays visible out of combat whatever the target.,目标可攻击时显示图标；战斗中没有目标也保持显示。治疗专精在脱战时不受目标条件限制。
+SETTINGS_ROTATION,Rotation,旋转
+SETTINGS_SCALE,Scale,缩放
+SETTINGS_SEARCH_PLACEHOLDER,Search…,搜索…
+SETTINGS_SEC_3D_ANIMATIONS,3D Animations,3D 动画
+SETTINGS_SEC_AFK_ELEMENT_DETAILS,Element Details,元素详情
+SETTINGS_SEC_AFK_GRAPHICS,Crests & Logos,徽章与标志
+SETTINGS_SEC_AFK_MISC,Misc,其他
+SETTINGS_SEC_AFK_MODEL,3D Model,3D 模型
+SETTINGS_SEC_AFK_PANELS,Panels & Animation,面板与动画
+SETTINGS_SEC_AFK_TEXTS,Displayed Information,显示的信息
+SETTINGS_SEC_AMMO_ALERT,Alert,警报
+SETTINGS_SEC_AMMO_BELOW,Below,低于
+SETTINGS_SEC_AMMO_CRITICAL,Critical,危急
+SETTINGS_SEC_AMMO_FROM,From,起始
+SETTINGS_SEC_AMMO_NORMAL,Normal,正常
+SETTINGS_SEC_AMMO_THRESHOLD,Quantity threshold:,数量阈值：
+SETTINGS_SEC_BG_GLOW,Background glow,背景光晕
+SETTINGS_SEC_BG_GLOW_OOC,Background glow (out of combat),背景光晕（脱战）
+SETTINGS_SEC_BORDER,Border,边框
+SETTINGS_SEC_CAST_BAR,Cast Bar: Player,玩家施法条
+SETTINGS_SEC_CDM_BORDER,Border / Backdrop,边框／背景
+SETTINGS_SEC_CDM_CHARGES,Charges,充能次数
+SETTINGS_SEC_CDM_COLORS,Icon Colors by State,各状态的图标颜色
+SETTINGS_SEC_CDM_COOLDOWN_FONT,Countdown,倒计时
+SETTINGS_SEC_CDM_FADING,Fading,渐隐
+SETTINGS_SEC_CDM_ICON_MASK,Icon Shape,图标形状
+SETTINGS_SEC_CDM_LAYOUT,Layout & Grid,布局与网格
+SETTINGS_SEC_CDM_PANDEMIC,Pandemic,可延长刷新期
+SETTINGS_SEC_CDM_POSITION,Position,位置
+SETTINGS_SEC_CDM_STACKS_FONT,Stacks,层数／数量
+SETTINGS_SEC_CDM_STACKS_POSITION,Text Position,文字位置
+SETTINGS_SEC_CDM_SWIPE,Cooldown Swipe,冷却扫光
+SETTINGS_SEC_CENTER_CIRCLE_SETTINGS,Central circle settings,中央圆环设置
+SETTINGS_SEC_CHARGES,Charges,充能次数
+SETTINGS_SEC_COLORS,Colors,颜色
+SETTINGS_SEC_CONFIGURED_SPELLS,Spells,技能
+SETTINGS_SEC_COOLDOWN_TEXT,Cooldown Text,冷却文字
+SETTINGS_SEC_COPY_FROM,Copy From,复制来源
+SETTINGS_SEC_DELETE_PROFILE,Delete a Profile,删除配置方案
+SETTINGS_SEC_EXISTING_PROFILES,Existing Profiles,已有配置方案
+SETTINGS_SEC_GLOW,Highlight (Rotation),高亮（输出循环）
+SETTINGS_SEC_GLOW_PROCS,Highlight (Procs),高亮（触发效果）
+SETTINGS_SEC_GN_BADGE,Badge,徽章
+SETTINGS_SEC_GN_NUMBER,Number,数字
+SETTINGS_SEC_GROUP_NUMBER,Group Number,队伍编号
+SETTINGS_SEC_HC_OOC,Out-of-Combat Health Circle,脱战生命圆环
+SETTINGS_SEC_HC_VISIBILITY,Health circle visibility,生命圆环显示条件
+SETTINGS_SEC_HEALTH_CIRCLE,Health Circle,生命圆环
+SETTINGS_SEC_HIDE_BLIZZARD_FRAMES,Hide Blizzard unit frames,隐藏暴雪单位框架
+SETTINGS_SEC_HP_TEXT,Health text,生命值文字
+SETTINGS_SEC_IMPORT_EXPORT,Import / Export,导入／导出
+SETTINGS_SEC_KEYBIND,Keybind,快捷键
+SETTINGS_SEC_LEVEL_BADGE_FONT,Level Badge — Font,等级徽章——字体
+SETTINGS_SEC_LOCATION,Zone Name,区域名称
+SETTINGS_SEC_LOC_TEXT,Text,文字
+SETTINGS_SEC_LOGOS,Logos,标志
+SETTINGS_SEC_MAX_LEVEL_BEHAVIOR,Max Level Behavior,满级时的行为
+SETTINGS_SEC_MODULES,Modules,模块
+SETTINGS_SEC_NEW_PROFILE,New Profile,新建配置方案
+SETTINGS_SEC_OCRC,Resource Circle (Out of Combat),脱战资源圆环
+SETTINGS_SEC_OCRC_VISIBILITY,Resource circle visibility,资源圆环显示条件
+SETTINGS_SEC_POSITION,Position,位置
+SETTINGS_SEC_POSITION_SCALE,Position & Scale,位置与缩放
+SETTINGS_SEC_PRIORITY_BAR,Priority Bar,优先级提示条
+SETTINGS_SEC_PROFILES,Profiles,配置方案
+SETTINGS_SEC_RESOURCE_CIRCLE,Central Circle,中央圆环
+SETTINGS_SEC_RES_ABBREVIATE,Abbreviate large numbers,缩写大数值
+SETTINGS_SEC_RES_ABBREVIATE_TT,"Shows the absorb amount abbreviated (ex: 10000 -> 10k)
+instead of the raw number.","以缩写显示吸收量（例如 10000 → 10k），
+而非完整数字。"
+SETTINGS_SEC_RES_DUR_BAR_ANCHOR,Position / text,位置／文字
+SETTINGS_SEC_RES_DUR_BAR_COLOR,Duration bar colour,持续时间条颜色
+SETTINGS_SEC_RES_DUR_BAR_HEADER,Duration bar (%s),持续时间条（%s）
+SETTINGS_SEC_RES_DUR_BAR_SHOW,Show duration bar,显示持续时间条
+SETTINGS_SEC_RES_DUR_BAR_SHOW_TT,"Two mirrored half-bars under the secondary resource text: they drain toward the centre, giving the illusion of a single bar shrinking from both ends.",在次要资源文字下显示两条镜像半条：向中心消退，呈现整条从两端向内缩短的效果。
+SETTINGS_SEC_RES_LABEL_AMMO,Ammo,弹药
+SETTINGS_SEC_RES_LABEL_BONE_SHIELD,Bone Shield,白骨之盾
+SETTINGS_SEC_RES_LABEL_DEVOURER,Fragments,碎片
+SETTINGS_SEC_RES_LABEL_MANA_TEA,Mana Tea,法力茶
+SETTINGS_SEC_RES_LABEL_SOUL_FRAGMENTS,Soul Fragments,灵魂残片
+SETTINGS_SEC_RES_LABEL_SOUL_SHARDS,Soul Shards,灵魂碎片
+SETTINGS_SEC_RES_TEXT_COLOR,Text Color,文字颜色
+SETTINGS_SEC_SECONDARY_RES_TEXT,Secondary resource text,次要资源文字
+SETTINGS_SEC_SECONDARY_RES_TEXT_NAMED,Secondary resource text (%s),次要资源文字（%s）
+SETTINGS_SEC_SHIELD_BAR,Shield bar,护盾条
+SETTINGS_SEC_SKYRIDING_GENERAL,Skyriding - General,驭空术——常规
+SETTINGS_SEC_SLOT_SPELLS,Spells by Slot (Active Spec),按栏位设置技能（当前专精）
+SETTINGS_SEC_SPEC_PROFILES,Specialization Profiles,按专精切换配置
+SETTINGS_SEC_SPELL_NAME_TEXT,Text - Spell Name,文字——技能名称
+SETTINGS_SEC_SR_CIRCLE_SIZES,Circle Sizes,圆环尺寸
+SETTINGS_SEC_SR_HIDE_DURING_FLIGHT,Hide while flying,飞行时隐藏
+SETTINGS_SEC_SR_SECOND_WIND,Second Wind Dots,复苏之风圆点
+SETTINGS_SEC_SR_SPEED_TEXT,Speed Text,速度文字
+SETTINGS_SEC_STAGGER_ARC,Secondary arc (Stagger),次要弧形条（醉拳）
+SETTINGS_SEC_SWING,Swing Timer,近战攻击计时
+SETTINGS_SEC_TARGET_CAST_BAR,Cast Bar: Target,目标施法条
+SETTINGS_SEC_TIMER_TEXT,Text - Timer,文字——计时器
+SETTINGS_SEC_TOT_BLACK_BG,Target-of-Target - Black Background,目标的目标——黑色背景
+SETTINGS_SEC_TOT_COLORED_BAR,Target-of-Target - Colored Bar,目标的目标——彩色条
+SETTINGS_SEC_TOT_CONTAINER,Target-of-Target - Container,目标的目标——容器
+SETTINGS_SEC_TOT_NAME_TEXT,Target-of-Target - Name Text,目标的目标——名称文字
+SETTINGS_SEC_TTB_BLACK_BG,Black Background,黑色背景
+SETTINGS_SEC_TTB_COLORED_BAR,Colored Bar,彩色条
+SETTINGS_SEC_TTB_CONTAINER,Container,容器
+SETTINGS_SEC_TTB_HP_TEXT,HP Text,生命值文字
+SETTINGS_SEC_TTB_NAME_TEXT,Name Text,名称文字
+SETTINGS_SEC_UB_BARS_SHOWN,Bars shown,显示的条
+SETTINGS_SEC_UB_BAR_DETAILS,Bar settings,条设置
+SETTINGS_SEC_UB_BAR_POSITION,Bar settings:,条设置：
+SETTINGS_SEC_UB_NAME_POSITION,Name settings:,名称设置：
+SETTINGS_SEC_UB_NAME_TEXT,Name text,名称文字
+SETTINGS_SEC_UNIT_BARS,Health Bars,血条
+SETTINGS_SEC_VISIBILITY,Visibility,显示条件
+SETTINGS_SEC_VISIBILITY_ELVUI_BUFFS,Player buffs zone opacity,玩家增益区域不透明度
+SETTINGS_SEC_WELLFED,Well Fed Circle,饱食提示圆环
+SETTINGS_SEC_XP_BAR,Experience Bar,经验条
+SETTINGS_SELECT_COPY_HINT,Select all (Ctrl+A) then copy (Ctrl+C).,全选（Ctrl+A），然后复制（Ctrl+C）。
+SETTINGS_SE_DISABLE_GROUP,Disable in group,小队中禁用
+SETTINGS_SE_DISABLE_GROUP_TT,Turns off all 3D animations whenever you are in a group (non-raid).,在小队中（非团队）关闭所有 3D 动画。
+SETTINGS_SE_DISABLE_RAID,Disable in raid,团队中禁用
+SETTINGS_SE_DISABLE_RAID_TT,Turns off all 3D animations whenever you are in a raid group.,在团队中关闭所有 3D 动画。
+SETTINGS_SE_ENABLE,Enable 3D animations,启用 3D 动画
+SETTINGS_SE_ENABLE_TT,Triggers 3D effects around the resource circle when casting.,施法时在资源圆环周围触发 3D 特效。
+SETTINGS_SHOW_BORDER,Show border,显示边框
+SETTINGS_SHOW_COOLDOWN,Show cooldown,显示冷却
+SETTINGS_SHOW_KEYBIND,Show keybind,显示快捷键
+SETTINGS_SHOW_KEYBIND_TT,"Displays the key bound to the spell shown on the icon, when that spell is found on one of your action bars (Blizzard bars or ElvUI).",若图标中的技能位于任一动作条（暴雪动作条或 ElvUI），显示该技能绑定的快捷键。
+SETTINGS_SIZE,Size,大小
+SETTINGS_SIZE_COLON,Size:,尺寸：
+SETTINGS_SLASH_COMMANDS_HINT,|cff00b0ff[AishCore]|r Commands: /aishcore export,|cff00b0ff[AishCore]|r 命令：/aishcore export
+SETTINGS_SLOT_FALLBACK_NAME,Slot %d,栏位 %d
+SETTINGS_SORT,Sort,排序
+SETTINGS_SORT_ALPHA,Alphabetical,按字母顺序
+SETTINGS_SORT_BLIZZARD_ORDER,Blizzard order,暴雪默认顺序
+SETTINGS_SORT_LONG_FIRST,Longest duration first,持续时间最长优先
+SETTINGS_SORT_PLAYER_FIRST,Player first,玩家优先
+SETTINGS_SORT_SHORT_FIRST,Shortest duration first,持续时间最短优先
+SETTINGS_SPACING,Spacing,间距
+SETTINGS_SPEC_ACTIVE_SUFFIX, |cffffff00- Active|r, |cffffff00- 已启用|r
+SETTINGS_SPEC_COLOR_ELEMENT,Color element,颜色来源
+SETTINGS_SPEC_FALLBACK_NAME,Spec %d,专精 %d
+SETTINGS_SPEC_PROFILES_DESC,Assigns a different profile to each specialization. The profile switches automatically when you change spec.,为不同专精指定配置，切换专精时自动切换。
+SETTINGS_SPEC_PROFILES_ENABLE,Enable specialization profiles,启用专精配置
+SETTINGS_SPEC_PROFILES_ENABLE_TT,Automatically switches profile based on your active specialization.,根据当前专精自动切换配置方案。
+SETTINGS_SPELLEFFECTS_FEW_COMBOS_MSG,Unlock hundreds of finely animated spells and auras %s!,解锁数百种精美的技能与光环动画 %s！
+SETTINGS_SPELLID_PLACEHOLDER,SpellID...,技能 ID…
+SETTINGS_SPELL_FALLBACK_HASH,Spell#%d,技能#%d
+SETTINGS_SPELL_FALLBACK_NAME,Spell %d,技能 %d
+SETTINGS_SPELL_PICKER_TITLE,Choose a Spell,选择技能
+SETTINGS_SPREAD,Spread,展开幅度
+SETTINGS_SR_ASCENT_CIRCLE,Ascent Circle,升空圆环
+SETTINGS_SR_BG,Background (BG),背景
+SETTINGS_SR_COLOR_CUSTOM,Custom color,自定义颜色
+SETTINGS_SR_COLOR_CUSTOM_TT,Uses the two colors defined below.,使用下方设定的两种颜色。
+SETTINGS_SR_COLOR_MOUNT,Mount color,坐骑颜色
+SETTINGS_SR_COLOR_MOUNT_TT,"Gradient extracted from the cast bar at takeoff:
+first color = without buff, second = with buff + boost.","从起飞时的施法条提取渐变色：
+第一种颜色＝无增益，第二种＝有增益并加速。"
+SETTINGS_SR_COLOR_NO_BUFF,Color without buff,无增益时的颜色
+SETTINGS_SR_COLOR_SPEC,Specialization color,专精颜色
+SETTINGS_SR_COLOR_SPEC_TT,"Without buff: the spec's Power Text color.
+With buff + boost: the spec's Power Circle color.","无增益：使用该专精的资源文字颜色。
+有增益并加速：使用该专精的资源圆环颜色。"
+SETTINGS_SR_COLOR_WITH_BUFF,Color with buff / boost,有增益／加速时的颜色
+SETTINGS_SR_DOT_SIZE,Dot size,圆点尺寸
+SETTINGS_SR_DRAG_HINT,Drag the ring — click to finish,拖动圆环——点击完成
+SETTINGS_SR_DRAG_HINT_LONG,"Drag the ring with left-click, click again to finish.",左键拖动圆环，再次点击完成。
+SETTINGS_SR_ENABLE,Enable the Skyriding module,启用驭空术模块
+SETTINGS_SR_ENABLE_TT,"Shows the vigor orbs, speed ring,
+and visual effects while Skyriding.","驭空飞行时显示精力球、速度圆环
+和视觉特效。"
+SETTINGS_SR_GLOBAL_SCALE,Global scale,整体缩放
+SETTINGS_SR_HIDE_HC,Health circle (out of combat),生命圆环（脱战）
+SETTINGS_SR_HIDE_HC_TT,"Hides the health circle (visible when taking damage)
+while Skyriding.","驭空飞行时隐藏生命圆环
+（通常在受到伤害时显示）。"
+SETTINGS_SR_HIDE_OCRC,Resource circle (out of combat),资源圆环（脱战）
+SETTINGS_SR_HIDE_OCRC_TT,"Hides the out-of-combat resource circle
+while Skyriding.",驭空飞行时隐藏脱战资源圆环。
+SETTINGS_SR_HIDE_ON_LANDING,Hide on landing,着陆时隐藏
+SETTINGS_SR_HIDE_ON_LANDING_TT,"Automatically hides the Skyriding HUD when
+speed is zero (on the ground / stopped).","速度为零时（在地面／停止移动）
+自动隐藏驭空术界面。"
+SETTINGS_SR_HIDE_PB,Priority Bar,优先级提示条
+SETTINGS_SR_HIDE_PB_TT,"Hides the 4 Priority Bar slots
+while Skyriding.",驭空飞行时隐藏优先技能条的 4 个栏位。
+SETTINGS_SR_HIDE_RC,Resource circle (combat),资源圆环（战斗中）
+SETTINGS_SR_HIDE_RC_TT,"Hides the main resource circle
+while Skyriding.",驭空飞行时隐藏主资源圆环。
+SETTINGS_SR_HIDE_RH,Rotation Button,输出循环按钮
+SETTINGS_SR_HIDE_RH_TT,"Hides the Rotation Button Module's icons
+during Skyriding or while flying on a flying mount.","驭空飞行或乘飞行坐骑飞行时，
+隐藏输出循环按钮模块的图标。"
+SETTINGS_SR_HIDE_UB,Unit bars,单位条
+SETTINGS_SR_HIDE_UB_TT,"Hides the player, target, focus, and pet bars
+while Skyriding.",驭空飞行时隐藏玩家、目标、焦点和宠物条。
+SETTINGS_SR_MASK_1,Mask 1,遮罩 1
+SETTINGS_SR_MASK_2,Mask 2,遮罩 2
+SETTINGS_SR_ORB_RADIUS,Orbs — radius,球体——半径
+SETTINGS_SR_ORB_SIZE,Orbs — size,球体——尺寸
+SETTINGS_SR_ORB_SPACING,Orbs — spacing (E),球体——间距（E）
+SETTINGS_SR_ORB_START_ANGLE,Orbs — start (E),球体——起点（E）
+SETTINGS_SR_SPEED_CIRCLE,Speed Circle,速度圆环
+SETTINGS_SR_SPEED_FONT,Speed font,速度字体
+SETTINGS_STAGGER_ARC_SIZE,Secondary arc radius,次要弧形条半径
+SETTINGS_STAGGER_ARC_THICKNESS,Secondary arc thickness,次要弧形条粗细
+SETTINGS_STAGGER_SHOW_PCT,Show stagger percentage,显示醉拳百分比
+SETTINGS_STAGGER_SHOW_PCT_TT,"Shows the stagger percentage under the central circle's resource text,
+in the same spot as the Stage Fright stacks.","在中央圆环资源文字下方显示醉拳百分比，
+与怯场层数位于同一位置。"
+SETTINGS_STEALTH_COLOR,Vignette color,暗角颜色
+SETTINGS_STEALTH_DARKNESS,Darkness,暗度
+SETTINGS_STEALTH_ENABLE,Enable Stealth Mode,启用潜行模式
+SETTINGS_STEALTH_ENABLE_TT,"Darkens the screen with a vignette while you are stealthed (Stealth, Vanish, Shadow Dance, Subterfuge, Prowl...). The vignette stretches to the whole screen, ultrawide included.",潜行时（潜行、消失、暗影之舞、诡诈、潜伏等）以暗角压暗屏幕。暗角覆盖整个屏幕，兼容超宽屏。
+SETTINGS_STEALTH_FADE_IN,Fade in (s),淡入（秒）
+SETTINGS_STEALTH_FADE_OUT,Fade out (s),淡出（秒）
+SETTINGS_STEALTH_FEATHER,Feather (1 soft - 5 sharp),羽化（1 柔和－5 锐利）
+SETTINGS_STEALTH_NO_COMBAT,Disabled in combat,战斗中禁用
+SETTINGS_STEALTH_NO_COMBAT_TT,"The screen is never darkened while you are in combat (stealth abilities usable in combat, such as Shadow Dance, included).",战斗中始终不压暗屏幕，包括暗影之舞等可在战斗中使用的潜行技能。
+SETTINGS_STEALTH_RATIO,Height ratio,高度比例
+SETTINGS_STEALTH_SIZE,Size,大小
+SETTINGS_STOP_ALL_ANIMS,x Stop all animations,x 停止所有动画
+SETTINGS_STOP_BTN,¦ Stop,¦ 停止
+SETTINGS_STOP_COMBO_BTN,¦ Stop Combo,¦ 停止组合动画
+SETTINGS_STYLE,Style,样式
+SETTINGS_SUPPORT_LINK_TEXT,by supporting AishUI,支持 AishUI 即可
+SETTINGS_SWING_ANGLE,Angle,角度
+SETTINGS_SWING_ARC_LABEL,Arc:,弧形条：
+SETTINGS_SWING_BAR_BG,Background,背景
+SETTINGS_SWING_BAR_IN,Toward the center (mirror),向中心（镜像）
+SETTINGS_SWING_BAR_LABEL,Bar:,进度条：
+SETTINGS_SWING_BAR_LTR,Left to right,从左到右
+SETTINGS_SWING_BAR_MODE,Show as a simple bar,显示为普通条形
+SETTINGS_SWING_BAR_MODE_TT,Replaces the arc with a bar. The arc settings are grayed out and the bar settings become available.,将弧形条替换为直条。弧形设置变灰，条形设置变为可用。
+SETTINGS_SWING_BAR_OUT,Outward (inverted mirror),向外（反向镜像）
+SETTINGS_SWING_BAR_RTL,Right to left,从右到左
+SETTINGS_SWING_COLOR,Color,颜色
+SETTINGS_SWING_DIRECTION,Direction,方向
+SETTINGS_SWING_DIR_CCW,Counter-clockwise,逆时针
+SETTINGS_SWING_DIR_CW,Clockwise,顺时针
+SETTINGS_SWING_DIR_MIRROR_IN,Mirror toward the start point,向起点镜像
+SETTINGS_SWING_DIR_MIRROR_OUT,Mirror outward,向外镜像
+SETTINGS_SWING_ENABLE,Show the swing timer,显示自动攻击计时
+SETTINGS_SWING_ENABLE_TT,"Radial arc that empties between two auto attacks (melee, Auto Shot, wand). Forever only.",在两次自动攻击之间逐渐清空的弧形条（近战、自动射击、魔杖）。仅限无限服。
+SETTINGS_SWING_FILL,Reversed Fill,反向填充
+SETTINGS_SWING_FILL_TT,Checked: the arc or bar fills during the delay instead of emptying.,勾选后，弧形条或直条在攻击间隔内逐渐填满，而非清空。
+SETTINGS_SWING_IGNORE_OH,Ignore off-hand weapon,忽略副手武器
+SETTINGS_SWING_IGNORE_OH_TT,"When dual wielding, only the main-hand auto attack is tracked.",双持时仅追踪主手自动攻击。
+SETTINGS_SWING_LENGTH,Length,长度
+SETTINGS_SWING_RANGED_ONLY,Ranged attacks only,仅限远程攻击
+SETTINGS_SWING_RANGED_ONLY_TT,No arc or bar for melee swings: only ranged attacks are tracked.,不显示近战攻击的弧形条或直条，仅追踪远程攻击。
+SETTINGS_SWING_ROTATION,Rotation,旋转
+SETTINGS_SWING_SIZE,Arc size,圆弧大小
+SETTINGS_SWING_STRATA,Layer,图层
+SETTINGS_SWING_STRATA_BG,Background (behind the circle background),背景（圆环背景后方）
+SETTINGS_SWING_STRATA_FRONT,Foreground (under the text),前景（文字下方）
+SETTINGS_SWING_STRATA_MID,Middle,中央
+SETTINGS_SWING_THICKNESS,Thickness,厚度
+SETTINGS_TAGS_HEADER,Tags,标签
+SETTINGS_TARGET_DEBUFFS,TARGET DEBUFFS,目标减益
+SETTINGS_TA_BORDER_THICKNESS,Border thickness,边框厚度
+SETTINGS_TA_DURATION_ANCHOR,Duration anchor,持续时间锚点
+SETTINGS_TA_DURATION_COLOR,Duration color,持续时间颜色
+SETTINGS_TA_DURATION_FONT,Duration font,持续时间字体
+SETTINGS_TA_DURATION_SIZE,Duration size,持续时间字号
+SETTINGS_TA_ENABLE,Enable Target Auras,启用目标光环
+SETTINGS_TA_ENABLE_TT,Shows the target's buffs and debuffs under Top Target.,在顶部目标条下方显示目标的增益与减益。
+SETTINGS_TA_GROW_UP,Rows grow upward,向上增加行
+SETTINGS_TA_GROW_UP_TT,New rows are added upward instead of downward.,新增行向上排列，而非向下。
+SETTINGS_TA_ICON_SIZE,Icon size,图标大小
+SETTINGS_TA_MAX_PER_ROW,Number per row,每行数量
+SETTINGS_TA_NUM_ROWS,Number of rows,行数
+SETTINGS_TA_ONLY_PLAYER_DEBUFFS,Player debuffs only,仅玩家施加的减益
+SETTINGS_TA_ONLY_PLAYER_DEBUFFS_TT,Only shows debuffs applied by the player.,仅显示玩家施加的减益。
+SETTINGS_TA_RELATIVE_POINT,Relative point,相对锚点
+SETTINGS_TA_REVERSE_SORT,Reverse sort,反向排序
+SETTINGS_TA_REVERSE_SORT_TT,Reverses the selected sort order.,反转所选排序方式。
+SETTINGS_TA_REVERSE_SWIPE,Reverse swipe,反向扫光
+SETTINGS_TA_REVERSE_SWIPE_TT,Reverses the direction of the cooldown swipe.,反转冷却扫光方向。
+SETTINGS_TA_ROW_SPACING,Space between rows,行间距
+SETTINGS_TA_SEC_BORDER,Border,边框
+SETTINGS_TA_SEC_COOLDOWN_SWIPE,Cooldown Swipe,冷却扫光
+SETTINGS_TA_SEC_DIRECTION,Direction,方向
+SETTINGS_TA_SEC_DURATION_TEXT,Duration Text,持续时间文字
+SETTINGS_TA_SEC_POSITION,Position,位置
+SETTINGS_TA_SEC_SORT,Sort,排序
+SETTINGS_TA_SEC_STACKS_TEXT,Stacks Text,层数文字
+SETTINGS_TA_SHOW_BORDER_TT,Enables or disables the border around the icons.,启用或禁用图标边框。
+SETTINGS_TA_SHOW_SWIPE,Show swipe,显示扫光
+SETTINGS_TA_SHOW_SWIPE_TT,Enables the cooldown swipe on the icons.,启用图标上的冷却扫光。
+SETTINGS_TA_STACKS_COLOR,Stacks color,层数颜色
+SETTINGS_TA_STACKS_FONT,Stacks font,层数字体
+SETTINGS_TA_STACKS_SIZE,Stacks size,层数字号
+SETTINGS_TA_TEXT_ANCHOR,Text anchor,文字锚点
+SETTINGS_TCB_COLOR_CHANNELING,Channeling,引导施法
+SETTINGS_TCB_COLOR_IMPORTANT,Important spell,重要技能
+SETTINGS_TCB_COLOR_INTERRUPTIBLE,Interruptible (turquoise),可打断（青绿色）
+SETTINGS_TCB_COLOR_NOT_INTERRUPTIBLE,Not interruptible,不可打断
+SETTINGS_TCB_DRAG_HINT,Drag the bar — click to finish,拖动进度条，点击结束
+SETTINGS_TCB_ENABLE,Enable the target cast bar,启用目标施法条
+SETTINGS_TCB_ENABLE_TT,Shows a bar while the target is casting.,目标施法时显示进度条。
+SETTINGS_TCB_SHOW_ICON,Show the spell icon,显示技能图标
+SETTINGS_TCB_SHOW_ICON_TT,Shows the spell icon to the left of the bar.,在进度条左侧显示技能图标。
+SETTINGS_TEXT_BACKDROP,Text backdrop,文字背景
+SETTINGS_TEXT_COLOR,Text color,文字颜色
+SETTINGS_TEXT_OUTLINE,Outline,描边
+SETTINGS_THICKNESS,Thickness,厚度
+SETTINGS_TOOLTIP_FILEID,FileID: %s,文件 ID：%s
+SETTINGS_TOTEMS,TOTEMS,图腾
+SETTINGS_TRIGGER_ESSENCE_BURST_GLOBAL,Essence Burst - Global,精华迸发——全局
+SETTINGS_TRIGGER_ESSENCE_BURST_SPEC,Essence Burst - %s,精华迸发——%s
+SETTINGS_TRIGGER_ESSENCE_GLOBAL,Essence - Global,精华——全局
+SETTINGS_TRIGGER_ESSENCE_SPEC,Essence - %s,精华——%s
+SETTINGS_TRIGGER_LOGO_GLOBAL,Logos - Global,标志——全局
+SETTINGS_TRIGGER_LOGO_SPEC,Logos - %s,标志——%s
+SETTINGS_TRIGGER_REGEN_GLOBAL,Regen - Global,恢复——全局
+SETTINGS_TRIGGER_REGEN_SPEC,Regen - %s,恢复——%s
+SETTINGS_TRIGGER_WF_EATING,Well Fed - While eating,进食充分——进食中
+SETTINGS_TRIGGER_WF_FED,Well Fed - Buff obtained,进食充分——已获得增益
+SETTINGS_TTB_ELITE_DECO,Elite decoration,精英装饰
+SETTINGS_TTB_ELITE_DECO_TT,"Adds an ornament in the middle of the bottom of Top Target: silver for rares and rare elites, gold for elites and world bosses.",在顶部目标条底部中央添加装饰：稀有和稀有精英为银色，精英与世界首领为金色。
+SETTINGS_TTB_ENABLE,Enable Top Target,启用顶部目标条
+SETTINGS_TTB_ENABLE_TT,Shows the target and target-of-target bar at the top of the screen.,在屏幕顶部显示目标及目标的目标条。
+SETTINGS_TTB_SHOW_POWER_BAR,Show the resource bar,显示资源条
+SETTINGS_TTB_SHOW_POWER_BAR_TT,"Shows the target's energy/mana/rage bar under the health bar (same style, colored by power type).",在生命条下方显示目标的能量／法力／怒气条（样式相同，按资源类型着色）。
+SETTINGS_TTB_SHOW_TOT,Show target of target,显示目标的目标
+SETTINGS_TTB_SHOW_TOT_TT,Shows a small health bar for your target's target under Top Target.,在顶部目标条下方显示目标的目标的小型生命条。
+SETTINGS_TT_LEFT_CLICK_EDIT,Left-click: edit,左键：编辑
+SETTINGS_TT_RIGHT_CLICK_RESET,Right-click to reset,右键重置
+SETTINGS_TT_RIGHT_CLICK_RESET_DEFAULT,Right-click: reset to default,右键：恢复默认
+SETTINGS_TT_SELECT_PROFILE_ACTIVATE,Select a profile to activate it.,选择配置方案以启用。
+SETTINGS_TURNIN_ENABLE,Show the checkbox,显示复选框
+SETTINGS_TURNIN_HINT,Click: turn on / off. Drag: move. Shift during the conversation: no auto turn-in.,点击：开关。拖动：移动。对话时按住 Shift：暂停自动交任务。
+SETTINGS_TURNIN_LABEL,auto accept.,自动接受。
+SETTINGS_TURNIN_OFF,Off,关闭
+SETTINGS_TURNIN_ON,On: completed quests are turned in automatically,开启：自动提交已完成的任务
+SETTINGS_TURNIN_RESET,Reset the checkbox position,重置复选框位置
+SETTINGS_TURNIN_SIZE,Checkbox size,复选框尺寸
+SETTINGS_UB_ABSORB_COLOR,Absorption color,吸收颜色
+SETTINGS_UB_ABSORB_COLOR_TT,Color of the shield (absorb) bar. Click to choose.,护盾（吸收）条的颜色。点击选择。
+SETTINGS_UB_ABSORB_MIRROR,Mirrored absorption (on the left),镜像吸收条（位于左侧）
+SETTINGS_UB_ABSORB_MIRROR_TT,"By default the absorb shows on the right of the HP fill.
+Mirrored, it shows on the left, overlapping the start of the bar.","默认在生命填充右侧显示吸收量。
+镜像后显示在左侧，与进度条起点重叠。"
+SETTINGS_UB_BAR_COLOR,Bar color,进度条颜色
+SETTINGS_UB_BAR_COLOR_TT,"Color of the health bars (fill, dots, texts) when Themed Colors is unchecked.",未勾选主题配色时，生命条的颜色（填充、圆点与文字）。
+SETTINGS_UB_BAR_DISABLED_TT,"Bar disabled: settings unavailable. Tick it under ""Bars shown"" (or on the Modules page) to configure it.",该条已禁用，设置不可用。在“显示的条”（或模块页）中勾选后即可配置。
+SETTINGS_UB_BAR_ENABLE_TT,Enables or disables this bar.,启用或禁用此条。
+SETTINGS_UB_BG_COLOR,Background color,背景颜色
+SETTINGS_UB_BG_COLOR_TT,"Color of everything shown in black on the bars (background, outline, third dot, inverted fill) when Themed Colors is unchecked.",未勾选主题配色时，条上所有黑色部分的颜色（背景、轮廓、第三个圆点与反向填充）。
+SETTINGS_UB_BG_TEXTURE,Background texture,背景材质
+SETTINGS_UB_COLOR_INVERTED,Inverted colors (colored background and black health),反转颜色（彩色背景、黑色生命填充）
+SETTINGS_UB_COLOR_INVERTED_TT,Colored background and black fill. Unchecked: colored fill and black background.,彩色背景与黑色填充。未勾选时使用彩色填充与黑色背景。
+SETTINGS_UB_DOT_GAP,Dot gap (px),圆点间距（像素）
+SETTINGS_UB_DOT_RATIO,Dot ratio,圆点比例
+SETTINGS_UB_DOT_SIZE,Dot size,圆点尺寸
+SETTINGS_UB_ENABLE,Enable health bars,启用生命条
+SETTINGS_UB_ENABLE_TT,"Shows health bars for the player, target, focus, pet, and target of target.",显示玩家、目标、焦点、宠物及目标的目标的生命条。
+SETTINGS_UB_FERAL_COMBAT,Feral Combat,野性战斗
+SETTINGS_UB_FILL_TEXTURE,Fill texture,填充材质
+SETTINGS_UB_HEALPRED,Show incoming heals,显示即将到来的治疗
+SETTINGS_UB_HEALPRED_COLOR,Incoming heals color,预估治疗颜色
+SETTINGS_UB_HEALPRED_COLOR_TT,Color of the incoming heals segment. Click to choose.,即将生效的治疗段颜色。点击选择。
+SETTINGS_UB_HEALPRED_TT,"Adds the heals already on their way to the right of the health fill, before the shield bar.",在生命填充右侧、护盾条之前显示即将生效的治疗量。
+SETTINGS_UB_HOVER_TOLERANCE,Hover tolerance (px),悬停容差（像素）
+SETTINGS_UB_HOVER_TOLERANCE_TT,"Grows the hover and click area by this many pixels on every side, without changing how the bar looks. Only counts while ""On hover"" is ticked, and drops back to zero in combat, where an oversized hitbox would make you miss whatever sits around the bar. Moving the slider outlines the area on screen for a few seconds.",向四周扩展指定像素的悬停与点击区域，不改变外观。仅在勾选“鼠标悬停时”后生效；战斗中归零，避免扩大的点击区域挡住周围元素。拖动滑块时会短暂显示区域轮廓。
+SETTINGS_UB_HP_FONT,HP font,生命值字体
+SETTINGS_UB_HP_FONT_SIZE,HP% font size,生命百分比字号
+SETTINGS_UB_HP_HOVER_VALUE,Value on hover,悬停时显示数值
+SETTINGS_UB_HP_HOVER_VALUE_TT,"While the cursor is on a bar, its health text switches to the raw value even when the percentage mode is selected. Uses the same hover tolerance as the visibility section.",鼠标悬停于条上时，即使选择了百分比模式，也改为显示实际生命值。使用与显示条件设置相同的悬停容差。
+SETTINGS_UB_HP_SHOW_PCT,Show health as a percentage (0-100),以百分比显示生命（0－100）
+SETTINGS_UB_HP_SHOW_PCT_TT,Shows a whole number from 0 to 100 indicating the health percentage.,显示 0 到 100 的整数，表示生命百分比。
+SETTINGS_UB_HP_SHOW_VALUE,Show health as a value (e.g. 120K),以数值显示生命（例如 120K）
+SETTINGS_UB_HP_SHOW_VALUE_TT,Shows the abbreviated raw health value.,显示缩写后的实际生命值。
+SETTINGS_UB_LOCK_POSITIONS,Lock positions,锁定位置
+SETTINGS_UB_LOCK_POSITIONS_TT,Prevents the bars from being moved by drag-and-drop.,禁止拖动这些条。
+SETTINGS_UB_NAME_FONT,Name font,名称字体
+SETTINGS_UB_NAME_FONT_SIZE,Name font size,名称字号
+SETTINGS_UB_PLAYER_NAME_HOVER,Show your character's name when hovering your health bar,鼠标悬停生命条时显示角色名称
+SETTINGS_UB_PLAYER_NAME_HOVER_TT,Shows your character's name above your health bar while the cursor is on it (tolerance zone included). Out of combat only.,鼠标位于自身生命条（含容差区域）上时，在条上方显示角色名称。仅限脱战状态。
+SETTINGS_UB_ROLE_DAMAGER,DPS role,输出职责
+SETTINGS_UB_ROLE_HEALER,Healer role,治疗职责
+SETTINGS_UB_ROLE_NONE,No specialization of your class has this role.,你的职业没有担任此职责的专精。
+SETTINGS_UB_ROLE_OPTIONS,Options per role,按职责设置
+SETTINGS_UB_ROLE_OPTIONS_TT,"Different display rules depending on the role of your active specialization: DPS, Healer or Tank. In combat, the frames are always shown.",按当前专精职责（输出、治疗或坦克）使用不同显示规则。战斗中始终显示框架。
+SETTINGS_UB_ROLE_TANK,Tank role,坦克职责
+SETTINGS_UB_SHOW_DOTS,Show decorative dots (3 small circles),显示装饰圆点（3 个小圆）
+SETTINGS_UB_SHOW_DOTS_TT,Shows or hides the 3 decorative circles on the side of the health bars.,显示或隐藏生命条旁的 3 个装饰圆点。
+SETTINGS_UB_SHOW_SHIELD_BAR,Show the shield bar,显示护盾条
+SETTINGS_UB_SHOW_SHIELD_BAR_TT,"Shows the absorbed amount (shields) in blue on the health bars.
+The blue area appears right after the health fill.","在生命条上以蓝色显示吸收量（护盾）。
+蓝色区域紧接在生命填充之后。"
+SETTINGS_UB_TANK_HEIGHT,Taller height in tank spec,坦克专精使用更高的条
+SETTINGS_UB_TANK_HEIGHT_SLIDER,Height in tank spec,坦克专精高度
+SETTINGS_UB_TANK_HEIGHT_TT,"Uses a larger height for player, target, and focus in tank specs.",坦克专精时，增大玩家、目标和焦点条的高度。
+SETTINGS_UB_TARGET_LEVEL,Show the level on the target bar,在目标条显示等级
+SETTINGS_UB_TARGET_LEVEL_TT,"Shows the level before the target's name, like the Top Target Bar (e.g. ""7 • Name""). The level is colored by difficulty: grey (trivial), green (easy), yellow (even), orange (hard), red (elite / much higher level).",在目标名称前显示等级，与顶部目标条相同（例如“7 • 名称”）。等级按难度着色：灰色（过低）、绿色（简单）、黄色（相当）、橙色（困难）、红色（精英／等级远高于你）。
+SETTINGS_UB_THEMED_COLORS,Themed Colors,主题颜色
+SETTINGS_UB_THEMED_COLORS_TT,"Checked: the bars use the colors of the Themed Colors module (class, pet...). Unchecked: pick your own bar color and background color on this line.",勾选：使用主题配色模块的颜色（职业、宠物等）。取消勾选：在本行自行选择条颜色和背景色。
+SETTINGS_UB_VIS_HOVER,On hover,鼠标悬停时
+SETTINGS_UB_VIS_HOVER_TT,"Adds to the mode above rather than replacing it: moving the cursor onto a bar brings it out, even when the current mode keeps it hidden. Handy for reaching a bar that is hidden out of combat. This is also the switch that turns the tolerance below on. A bar whose unit does not exist stays hidden.",在上述模式基础上追加条件：鼠标移到条上时，即使当前模式将其隐藏也会显示，便于找到脱战时隐藏的条。此选项同时启用下方容差设置。对应单位不存在时仍保持隐藏。
+SETTINGS_UB_VR_ALWAYS,Always,始终
+SETTINGS_UB_VR_ALWAYS_TT,"Shows the frames at all times: the other conditions then have no effect, except the two ""Hide"" ones.",始终显示框架；除两个“隐藏”条件外，其他条件不再生效。
+SETTINGS_UB_VR_ATTACKABLE,Attackable target,可攻击目标
+SETTINGS_UB_VR_FRIENDLY,Friendly target,友方目标
+SETTINGS_UB_VR_GROUP,In a group,在队伍中
+SETTINGS_UB_VR_HIDE_MOUNT,Hide when mounted,骑乘时隐藏
+SETTINGS_UB_VR_HIDE_REST,Hide in rest areas,休息区域隐藏
+SETTINGS_UB_VR_HIDE_TT,"Hides the frames in this case, even with ""Always"". Hovering still shows them, and in combat they are still shown.",符合此条件时隐藏框架，即使选择了“始终显示”。鼠标悬停仍可显示，战斗中也仍然显示。
+SETTINGS_UB_VR_INSTANCE,In an instance,在副本中
+SETTINGS_UNIT_FOCUS,Focus,焦点
+SETTINGS_UNIT_PET,Pet,宠物
+SETTINGS_UNIT_PLAYER,Player,玩家
+SETTINGS_UNIT_TARGET,Target,目标
+SETTINGS_UNIT_TARGET_OF_TARGET,Target of target,目标的目标
+SETTINGS_USE_SPEC_COLOR,Specialization color,专精颜色
+SETTINGS_USE_SPEC_COLOR_TT,"Uses a color from the Colors module (chosen alongside) for the current specialization, instead of the color configured here.",使用配色模块中为当前专精选择的颜色（在旁边选择），替代此处设置的颜色。
+SETTINGS_VERTICAL_OFFSET,Vert. offset,垂直偏移
+SETTINGS_VIS_ALWAYS,Always visible,始终显示
+SETTINGS_VIS_ALWAYS_INSTANCE,Always active in instance (Dungeons/Raids),副本中始终显示（地下城／团队副本）
+SETTINGS_VIS_ALWAYS_INSTANCE_TT,"While you're in a dungeon or raid, this module stays shown continuously -- it no longer hides when you leave combat. Outside an instance, the visibility mode above takes over normally.",在地下城或团队副本内持续显示此模块，不因脱战而隐藏。离开副本后，恢复使用上方的显示条件。
+SETTINGS_VIS_COMBAT,In combat only,仅战斗时显示
+SETTINGS_VIS_ELVUI_BUFFS_COMBAT_ALPHA,Opacity (in combat),不透明度（战斗中）
+SETTINGS_VIS_ELVUI_BUFFS_ENABLE,Enable,启用
+SETTINGS_VIS_ELVUI_BUFFS_ENABLE_TT,"Automatically adjusts the opacity of your UI's player buffs frame based on combat state.
+Works with ElvUI and EllesmereUI; no effect if neither is installed.","根据战斗状态自动调整玩家增益框架的不透明度。
+支持 ElvUI 与 EllesmereUI；两者均未安装时不生效。"
+SETTINGS_VIS_ELVUI_BUFFS_HOVER,Reveal at 100% on hover,悬停时完全显示
+SETTINGS_VIS_ELVUI_BUFFS_HOVER_TT,"While hovering the buffs zone, temporarily show it at full opacity, regardless of combat state.",鼠标悬停增益区域时，临时以完全不透明显示，不受战斗状态影响。
+SETTINGS_VIS_ELVUI_BUFFS_OOC_ALPHA,Opacity (out of combat),不透明度（脱战）
+SETTINGS_VIS_IMPORTANT,Only when important,仅重要时
+SETTINGS_VIS_TARGET,Target only,有目标时显示
+SETTINGS_WF_EATING_COLOR,Eating color,进食颜色
+SETTINGS_WF_ENABLE,Enable the Well Fed circle,启用进食充分圆环
+SETTINGS_WF_ENABLE_TT,Shows a circle while you eat: it empties over the eating time and changes color when you get the Well Fed buff (about halfway).,进食时显示圆环：随进食时间逐渐清空，在获得进食充分增益时（约进食到一半）变色。
+SETTINGS_WF_FED_COLOR,Well Fed color,进食充分颜色
+SETTINGS_WF_FOOD_ICON,Show the food icon,显示食物图标
+SETTINGS_WF_FOOD_ICON_SIZE,Icon size,图标大小
+SETTINGS_WF_FOOD_ICON_TT,"A round icon of the food you are eating, in the middle of the circle.",在圆环中央显示正在食用的食物圆形图标。
+SETTINGS_WF_OUTLINE_NONE,None,无
+SETTINGS_WF_PLUS_DURATION,Animation duration (s),动画时长（秒）
+SETTINGS_WF_PLUS_ICON_SIZE,Buff icon size,增益图标尺寸
+SETTINGS_WF_PLUS_X,Offset X,X 偏移
+SETTINGS_WF_PLUS_Y,Offset Y,Y 偏移
+SETTINGS_WF_PREVIEW_BUFF,Preview the buff (+ and icon),预览增益（加号与图标）
+SETTINGS_WF_RESET_POSITION,Reset the Well Fed circle position,重置进食充分圆环位置
+SETTINGS_WF_SEC_PLUS,"""+"" and buff icon",“+”与增益图标
+SETTINGS_WF_SHOW_NOBUFF,Show the circle even if the food gives no buff,无增益的食物也显示圆环
+SETTINGS_WF_SHOW_NOBUFF_TT,The circle also appears for food that will not give Well Fed. It empties normally but never turns to the Well Fed color.,食物不会提供进食充分增益时也显示圆环。圆环正常清空，但不会变为进食充分颜色。
+SETTINGS_WF_SHOW_PLUS,Show the gained buff icon,显示获得的增益图标
+SETTINGS_WF_SHOW_PLUS_TT,"When you get the Well Fed buff, a ""+"" and the buff icon rise above the circle.",获得进食充分增益时，“+”与增益图标从圆环上方浮起。
+SETTINGS_WF_SHOW_STATS,Show gained stats,显示获得的属性
+SETTINGS_WF_SHOW_STATS_TT,"Reads the food tooltip (e.g. +59 Versatility) and shows it to the right of the icon, when the stats can be found.",读取食物提示（例如 +59 全能）；能识别属性时，将其显示在图标右侧。
+SETTINGS_WF_STATS_COLOR,Text color,文字颜色
+SETTINGS_WF_STATS_SHORT,Shorten stat names,缩短属性名称
+SETTINGS_WF_STATS_SHORT_TT,"Shows short names (Haste, Mast, Vers, AP, SP...) instead of the full stat names.",使用属性简称（急速、精通、全能、攻强、法强等），替代完整名称。
+SETTINGS_WF_ST_AGI,Agi,敏捷
+SETTINGS_WF_ST_AP,AP,攻强
+SETTINGS_WF_ST_CRIT,Crit,暴击
+SETTINGS_WF_ST_HASTE,Haste,急速
+SETTINGS_WF_ST_INT,Int,智力
+SETTINGS_WF_ST_MAST,Mast,精通
+SETTINGS_WF_ST_SP,SP,法强
+SETTINGS_WF_ST_SPI,Spi,精神
+SETTINGS_WF_ST_STA,Stam,耐力
+SETTINGS_WF_ST_STR,Str,力量
+SETTINGS_WF_ST_VERS,Vers,全能
+SETTINGS_WIDTH,Width,宽度
+SETTINGS_WIDTH_SHORT,W:,宽：
+SETTINGS_WOW_PANEL_DESC,"Custom UI overlay — resource & health circles, spell effects,
+priority bar, unit bars, XP bar…
+
+AishCore has a full floating configuration panel.
+Click the button below or use |cff00b0ff/aish|r to open it.","自定义界面——资源与生命圆环、技能特效、
+优先技能条、单位条、经验条等。
+
+AishCore 提供完整的浮动设置面板。
+点击下方按钮或输入 |cff00b0ff/aish|r 打开。"
+SETTINGS_XP_ALWAYS_VISIBLE,Always show the bar,始终显示进度条
+SETTINGS_XP_ALWAYS_VISIBLE_TT,"Keeps the experience bar on screen at all times. The detailed figures (total, tooltip) still only appear on mouseover.",始终在屏幕上显示经验条。详细数值（总量、提示）仍仅在鼠标悬停时显示。
+SETTINGS_XP_BADGE_FONT,Badge / level font,徽章／等级字体
+SETTINGS_XP_COMPANION,Delve companion XP tracking,地下堡伙伴经验追踪
+SETTINGS_XP_COMPANION_TT,"In a delve, shows the companion's XP
+instead of reputation.
+Takes priority over reputation, delves only.","在地下堡中以伙伴经验替代声望显示。
+优先于声望，仅在地下堡中生效。"
+SETTINGS_XP_ENABLE,Enable the XP bar,启用经验条
+SETTINGS_XP_ENABLE_TT,"Shows an XP bar at the bottom when you gain experience (4s)
+or when hovering the bottom-left corner.
+Automatically hidden at max level.","获得经验时显示底部经验条（4 秒），
+或鼠标悬停左下角时显示。
+满级后自动隐藏。"
+SETTINGS_XP_INFO_FONT,Info text font,信息文字字体
+SETTINGS_XP_REP_LAST_GAINED,Last Gained Reputation (Dynamic),最近获得的声望（动态）
+SETTINGS_XP_REP_LAST_GAINED_TT,"Shows the reputation that most recently progressed,
+until the next reputation gain.","显示最近提升的声望，
+直到下一次声望获得。"
+SETTINGS_XP_REP_TRACKED,Tracked Reputation (Fixed),追踪的声望（固定）
+SETTINGS_XP_REP_TRACKED_TT,"Always shows the reputation currently
+tracked in the Reputation panel.","始终显示声望面板中
+当前追踪的声望。"
+SETTINGS_XP_REP_TRACKING,Reputation and Renown Tracking,声望与名望追踪
+SETTINGS_XP_REP_TRACKING_TT,"At max level, replaces the XP bar with reputation.
+","满级后以声望条替代经验条。
+"
+SETTINGS_XP_REST_INDICATOR,Show the Rested Area indicator,显示休息区域指示
+SETTINGS_XP_REST_INDICATOR_TT,"Shows a 3D animation (in-game model) when the player
+is in a rested area (inn, capital city).","玩家位于休息区域（旅店、主城）时，
+显示 3D 动画（游戏内模型）。"
+SETTINGS_XP_REST_PREVIEW,  ? Preview (force display),  ? 预览（强制显示）
+SETTINGS_XP_REST_PREVIEW_TT,"Forces the indicator to display so you can position it,
+even if you're not in a rested area.","强制显示指示器以调整位置，
+即使当前不在休息区域。"
+SETTINGS_XP_REST_SCALE,Rest – Scale,休息——缩放
+SETTINGS_XP_REST_X,Rest – X,休息——X
+SETTINGS_XP_REST_Y,Rest – Y,休息——Y
+TARGETCAST_PREVIEW_SPELL_NAME,Target Spell,目标技能
+TEXT_OUTLINE_SHADOW,Shadow,暗影
+TEXT_OUTLINE_SLUG,SLUG,环形描边（SLUG）
+TEXT_OUTLINE_THICK,Thick,粗描边
+TEXT_OUTLINE_THICK_SHADOW,Thick + shadow,粗描边＋阴影
+TEXT_OUTLINE_THIN,Thin,细描边
+TEXT_OUTLINE_THIN_SHADOW,Thin + shadow,细描边＋阴影
+TOPTARGET_LABEL_RARE,RARE,稀有
+TOPTARGET_LABEL_RAREELITE,RARE ELITE,稀有精英
+TOPTARGET_PREVIEW_NAME,Target Name,目标名称
+TOPTARGET_PREVIEW_TT_NAME,Target of Target Name,目标的目标名称
+UISWITCH_CANCEL,Cancel,取消
+UISWITCH_COMBAT,Not available in combat.,战斗中不可用。
+UISWITCH_CONFIRM,Switch and reload,切换并重载
+UISWITCH_MISSING,%s is not installed: nothing to switch to.,未安装 %s，无法切换。
+UISWITCH_PROMPT,"Switch this character from %s to %s?
+The game will reload.","将此角色从 %s 切换至 %s？
+游戏界面将重载。"
+UISWITCH_PROMPT_NONE,"Switch this character to %s?
+The game will reload.","将此角色切换至 %s？
+游戏界面将重载。"
+UISWITCH_TITLE,Switch interface,切换界面
+UI_MOVE_DRAG_DROP,Move (drag & drop),拖动位置
+UI_OFFSET_HINT,X / Y: offset from screen center.,X / Y：相对于屏幕中心的偏移。
+UI_RESET,Reset,重置
+UNITBARS_PREVIEW_FOCUS,Focus Name,焦点名称
+UNITBARS_PREVIEW_PET,Pet Name,宠物名称
+UNITBARS_PREVIEW_TARGET,Target Name,目标名称
+UNITBARS_PREVIEW_TARGETTARGET,Target of Target Name,目标的目标名称
+WIDGET_TOGGLE_OFF,OFF,关闭
+WIDGET_TOGGLE_ON,ON,开启
+XP_BATTALION_REP,Account-wide reputation,战网账号共享声望
+XP_BATTALION_REP_NOT_SHARED,Not shared account-wide,非战网账号共享
+XP_COMPANION_FALLBACK_NAME,Companion,伙伴
+XP_NEXTLEVEL_NO_DATA,Open your class trainer once: upcoming spells will be recorded,访问一次职业训练师，即可记录即将可学的技能
+XP_NEXTLEVEL_OPT,Next level preview on hover,悬停预览下一级
+XP_NEXTLEVEL_OPT_TT,"When hovering the level, shows in the bottom right of the screen what the next level unlocks: (estimated) gains and new spells.",鼠标悬停等级时，在屏幕右下方显示下一级解锁的内容：预计属性提升与新技能。
+XP_NL_GAIN,you will gain,你将获得
+XP_NL_HINT,[ALT] : Quests to turn in   [SHIFT] : Skills to train,[ALT]：待交任务   [SHIFT]：待学技能
+XP_NL_HINT_ALT,[ALT] : Quests to turn in,[ALT]：待交任务
+XP_NL_HINT_RETAIL,[ALT]: Quests to turn in   [SHIFT]: Quests in progress,[ALT]：待交任务   [SHIFT]：进行中的任务
+XP_NL_LEVEL,level,等级
+XP_NL_SPELLS,new spells,新技能
+XP_NL_TOTAL,Total,总计
+XP_NL_TRAIN,Skills to train,待学技能
+XP_NL_TRAIN_NONE,Nothing to train right now,目前没有可学技能
+XP_NL_UNLOCK_LEVEL,Level %d,等级 %d
+XP_NL_UPCOMING,upcoming abilities,即将解锁的技能
+XP_NL_XPTO,xp to,升级所需经验
+XP_PET_LOYALTY,Loyalty %d - %s,忠诚度 %d－%s
+XP_PET_LOYALTY_1,Rebellious,叛逆
+XP_PET_LOYALTY_2,Unruly,不可靠
+XP_PET_LOYALTY_3,Submissive,顺从
+XP_PET_LOYALTY_4,Dependable,可靠
+XP_PET_LOYALTY_5,Faithful,忠诚
+XP_PET_LOYALTY_6,Best Friend,最好的朋友
+XP_QUESTS_IN_PROGRESS,Quests in progress (%d),进行中的任务（%d）
+XP_QUESTS_READY,Quests ready to turn in,可提交的任务
+XP_RENOWN_LEVEL,Renown %d,名望 %d
+XP_STAT_LABEL_agi,AGI,敏捷
+XP_STAT_LABEL_hp,HP,生命
+XP_STAT_LABEL_int,INT,智力
+XP_STAT_LABEL_power,MANA,法力
+XP_STAT_LABEL_spi,SPT,精神
+XP_STAT_LABEL_sta,STM,耐力
+XP_STAT_LABEL_str,STR,力量
+XP_TOAST_BG_ALPHA,Background opacity,背景不透明度
+XP_TOAST_BG_SCALE,Background size,背景尺寸
+XP_TOAST_DURATION,Display time (s),显示时间（秒）
+XP_TOAST_ENABLE,Enable,启用
+XP_TOAST_ENABLE_TT,"When you level up, shows the level reached, the stats gained and the new spells.",升级时显示新等级、获得的属性与新技能。
+XP_TOAST_FONT_SCALE,Stats and spells size,属性与技能字号
+XP_TOAST_HEADER,Level Up,升级
+XP_TOAST_PREVIEW_SPELLS,With spells,包含技能
+XP_TOAST_REPLAY,Replay,重播
+XP_TOAST_SAMPLE_RANK,Rank 1,等级 1
+XP_TOAST_SAMPLE_SPELL1,Hammer of Justice,制裁之锤
+XP_TOAST_SAMPLE_SPELL2,Purify,纯净术
+XP_TOAST_SAMPLE_SPELL3,Parry,招架
+XP_TOAST_SAMPLE_SPELL4,Divine Shield,圣盾术
+XP_TOAST_SAMPLE_SPELL5,Consecration,奉献
+XP_TOAST_SAMPLE_SPELL6,Devotion Aura,虔诚光环
+XP_TOAST_SCALE,Toast scale,提示框缩放
+XP_TOAST_TEST,Test in game,游戏内测试
+XP_TOAST_TITLE,Level %d!,等级 %d！
+XP_TOAST_TITLE_COLOR,Title color,标题颜色
+XP_TOAST_TITLE_SCALE,Level size,等级字号
+XP_TOAST_WAIT_COMBAT,Wait for combat to end,等待战斗结束
+XP_TOAST_WAIT_COMBAT_TT,A level gained in combat keeps its toast until combat ends.,在战斗中升级时，延后至战斗结束再显示升级提示。
+XP_TOOLTIP_COMPANION_LEVEL,Lvl. %d / %d  —  %.2f%%,等级 %d / %d  —  %.2f%%
+XP_TOOLTIP_RESTED,Rested: %s,休息加成：%s
+XP_TOOLTIP_TOTAL,Total: %s,总计：%s

@@ -1,0 +1,190 @@
+--- a/UI/SettingsPanel.lua
++++ b/UI/SettingsPanel.lua
+@@ -4821,7 +4821,7 @@
+       btn:ClearAllPoints()
+       btn:SetPoint("TOPLEFT", tagSC, "TOPLEFT", 0, -(visIdx - 1) * 19)
+       btn._dot:SetColorTexture(tag.color[1], tag.color[2], tag.color[3], 1)
+-      btn._lbl:SetText(tag.label)
++      btn._lbl:SetText(ns.LocalizedDisplay and ns.LocalizedDisplay(tag.label) or tag.label)
+       btn._lbl:SetTextColor(tag.color[1], tag.color[2], tag.color[3])
+       btn._tag = tag
+ 
+@@ -5219,7 +5219,7 @@
+       local c         = tag.color
+ 
+       cr._dot:SetColorTexture(c[1], c[2], c[3], 1)
+-      cr._lbl:SetText(tag.label)
++      cr._lbl:SetText(ns.LocalizedDisplay and ns.LocalizedDisplay(tag.label) or tag.label)
+ 
+       cr._isMatched = isMatched
+       if isMatched then
+@@ -5499,7 +5499,7 @@
+     if not tag then return end
+     local c = tag.color
+     -- Mettre E jour le header
+-    if self._nameField   then self._nameField:SetText(tag.label) end
++    if self._nameField   then self._nameField:SetText(ns.LocalizedDisplay and ns.LocalizedDisplay(tag.label) or tag.label) end
+     if self._colorSwatch then self._colorSwatch._tex:SetColorTexture(c[1], c[2], c[3], 1) end
+     for _, ch in ipairs(chipPool) do ch:Hide() end
+     local kws    = tag.keywords
+@@ -10027,15 +10027,15 @@
+ 
+   -- Liste d'ancres pour les dropdowns de positionnement
+   local ANCHOR_LIST = {
+-    { value = "TOPLEFT",     text = "TOPLEFT" },
+-    { value = "TOP",         text = "TOP" },
+-    { value = "TOPRIGHT",    text = "TOPRIGHT" },
+-    { value = "LEFT",        text = "LEFT" },
+-    { value = "CENTER",      text = "CENTER" },
+-    { value = "RIGHT",       text = "RIGHT" },
+-    { value = "BOTTOMLEFT",  text = "BOTTOMLEFT" },
+-    { value = "BOTTOM",      text = "BOTTOM" },
+-    { value = "BOTTOMRIGHT", text = "BOTTOMRIGHT" },
++    { value = "TOPLEFT",     text = (ns.LocalizedDisplay and ns.LocalizedDisplay("TOPLEFT") or "TOPLEFT") },
++    { value = "TOP",         text = (ns.LocalizedDisplay and ns.LocalizedDisplay("TOP") or "TOP") },
++    { value = "TOPRIGHT",    text = (ns.LocalizedDisplay and ns.LocalizedDisplay("TOPRIGHT") or "TOPRIGHT") },
++    { value = "LEFT",        text = (ns.LocalizedDisplay and ns.LocalizedDisplay("LEFT") or "LEFT") },
++    { value = "CENTER",      text = (ns.LocalizedDisplay and ns.LocalizedDisplay("CENTER") or "CENTER") },
++    { value = "RIGHT",       text = (ns.LocalizedDisplay and ns.LocalizedDisplay("RIGHT") or "RIGHT") },
++    { value = "BOTTOMLEFT",  text = (ns.LocalizedDisplay and ns.LocalizedDisplay("BOTTOMLEFT") or "BOTTOMLEFT") },
++    { value = "BOTTOM",      text = (ns.LocalizedDisplay and ns.LocalizedDisplay("BOTTOM") or "BOTTOM") },
++    { value = "BOTTOMRIGHT", text = (ns.LocalizedDisplay and ns.LocalizedDisplay("BOTTOMRIGHT") or "BOTTOMRIGHT") },
+   }
+ 
+   -- DB helpers : root level (enabled, offsetX, offsetY, rowSpacing)
+--- a/UI/PatchNotesPage.lua
++++ b/UI/PatchNotesPage.lua
+@@ -21,7 +21,7 @@
+ local IS_FR = (GetLocale() == "frFR")
+ 
+ local function LineText(line)
+-  return (IS_FR and line.fr) or line.t or ""
++  return (ns.ZhPatchNotes and ns.ZhPatchNotes[line.t]) or (IS_FR and line.fr) or line.t or ""
+ end
+ 
+ -- Premier terme connu dans la ligne (ns.PatchNoteLinks, deja tries du plus long au plus court)
+@@ -138,6 +138,10 @@
+     text = "|cff" .. hex .. text .. "|r"
+   else
+     local l, s, e = FindLink(text)
++    if not l and ns.ZhPatchNotes then
++      l = FindLink(line.t or "")
++      if l then s, e = 1, #text end
++    end
+     if l then link = l; text = Colorize(text, s, e, hex) end
+   end
+   text = TagForever(text)
+@@ -242,7 +246,7 @@
+       local text = LineText(line)
+       local h = SW.CreateSectionHeader(container, text, W)
+       local link = line.link
+-      if not link then link = FindLink(text) end
++      if not link then link = FindLink(text) or (ns.ZhPatchNotes and FindLink(line.t or "")) end
+       if link then MakeHeaderLink(h, link) end
+       ctx:Add(h)
+       inSection = true
+--- a/Modules/Auras/UI/SharedWidgets.lua
++++ b/Modules/Auras/UI/SharedWidgets.lua
+@@ -317,12 +317,12 @@
+         if f._on then
+             f:SetBackdropColor(g[1], g[2], g[3], 0.95)
+             f:SetBackdropBorderColor(g[1]*0.6, g[2]*0.6, g[3]*0.4, 1)
+-            lbl:SetText("ON")
++            lbl:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("ON") or "ON"))
+             lbl:SetTextColor(0.05, 0.05, 0.05, 1)
+         else
+             f:SetBackdropColor(0.06, 0.06, 0.07, 1)
+             f:SetBackdropBorderColor(g[1]*0.55, g[2]*0.55, g[3]*0.45, 0.85)
+-            lbl:SetText("OFF")
++            lbl:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("OFF") or "OFF"))
+             lbl:SetTextColor(g[1]*0.85, g[2]*0.85, g[3]*0.85, 1)
+         end
+     end
+@@ -359,13 +359,13 @@
+     -- Label au-dessus du dropdown, mis a jour avec la categorie de la section selectionnee.
+     local title = wrap:CreateFontString(nil,"OVERLAY"); ns.ApplyFont(title,FONT,10)
+     title:SetPoint("TOPLEFT",2,-2); title:SetTextColor(unpack(Theme.textDim))
+-    title:SetText("SECTION")
++    title:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("SECTION") or "SECTION"))
+     local function UpdateTitle(i)
+         local sec = sections[i]
+         if sec and sec.category and sec.category ~= "" then
+-            title:SetText("SECTION - "..sec.category)
++            title:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("SECTION - ") or "SECTION - ")..sec.category)
+         else
+-            title:SetText("SECTION")
++            title:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("SECTION") or "SECTION"))
+         end
+     end
+ 
+@@ -398,7 +398,7 @@
+             if not ok then
+                 local e = sub:CreateFontString(nil,"OVERLAY"); ns.ApplyFont(e,FONT,10)
+                 e:SetPoint("TOPLEFT",10,-10); e:SetTextColor(1,0.4,0.4)
+-                e:SetText("Build error: "..tostring(err))
++                e:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("Build error: ") or "Build error: ")..tostring(err))
+                 sub:SetHeight(30)
+             end
+             built[i] = sub
+@@ -473,7 +473,7 @@
+         if not ok then
+             local e = sub:CreateFontString(nil,"OVERLAY"); ns.ApplyFont(e,FONT,10)
+             e:SetPoint("TOPLEFT",10,-10); e:SetTextColor(1,0.4,0.4)
+-            e:SetText("Build error: "..tostring(err))
++            e:SetText((_addon.LocalizedDisplay and _addon.LocalizedDisplay("Build error: ") or "Build error: ")..tostring(err))
+             sub:SetHeight(30)
+         end
+ 
+--- a/AishCore.lua
++++ b/AishCore.lua
+@@ -361,7 +361,7 @@
+     -- Label
+     local lbl = f:CreateFontString(nil, "OVERLAY")
+     lbl:SetFont(ns.Media.fontGui, 10, "OUTLINE")
+-    lbl:SetPoint("CENTER"); lbl:SetText("Smooth Bars Test")
++    lbl:SetPoint("CENTER"); lbl:SetText((ns.LocalizedDisplay and ns.LocalizedDisplay("Smooth Bars Test") or "Smooth Bars Test"))
+     lbl:SetTextColor(1, 1, 1, 0.9)
+     f:Show(); ns._testBar = f
+     -- Loop : saut à 0% → interpolation manuelle smooth vers 100%, puis reset
+--- a/Modules/Comfort.lua
++++ b/Modules/Comfort.lua
+@@ -524,7 +524,7 @@
+   if CVarSupported() or not SpellIDWanted() then return end
+   local id = data and data.id
+   if id == nil or (issecretvalue and issecretvalue(id)) then return end
+-  tooltip:AddLine("Spell ID: |cffffffff" .. tostring(id) .. "|r", 0.5, 0.8, 1)
++  tooltip:AddLine((ns.LocalizedDisplay and ns.LocalizedDisplay("Spell ID: |cffffffff") or "Spell ID: |cffffffff") .. tostring(id) .. "|r", 0.5, 0.8, 1)
+   tooltip:Show()
+ end
+ 
+--- a/Modules/Auras/UI/Menus/Tactics.lua
++++ b/Modules/Auras/UI/Menus/Tactics.lua
+@@ -239,7 +239,7 @@
+         h:SetScript("OnMouseUp", function() f:StopMovingOrSizing() end)
+         local hBg = h:CreateTexture(nil,"BACKGROUND"); hBg:SetAllPoints(); hBg:SetColorTexture(0.10,0.10,0.12,1)
+         local title = h:CreateFontString(nil,"OVERLAY"); ns.ApplyFont(title,FONT,10); title:SetPoint("LEFT",8,0)
+-        title:SetTextColor(unpack(ns.THEME.textDim)); title:SetText("Export corrections admin -- Ctrl+A puis Ctrl+C")
++        title:SetTextColor(unpack(ns.THEME.textDim)); title:SetText((GetLocale() == "zhCN" and "导出管理修正数据——Ctrl+A 后按 Ctrl+C" or "Export corrections admin -- Ctrl+A puis Ctrl+C"))
+         local xB = CreateFrame("Button",nil,h); xB:SetSize(26,26); xB:SetPoint("TOPRIGHT")
+         local xT = xB:CreateFontString(nil,"OVERLAY"); ns.ApplyFont(xT,FONT,12); xT:SetAllPoints(); xT:SetText("x")
+         xT:SetTextColor(unpack(ns.THEME.textDim))
+--- a/Modules/MenuBar.lua
++++ b/Modules/MenuBar.lua
+@@ -339,7 +339,7 @@
+   c.a:SetPoint("LEFT", c.m, "RIGHT", 3, 0)
+   local width = dw * 2 + cw
+   if cfg.clock24 == false then
+-    c.a:SetText("PM")
++    c.a:SetText((GetLocale() == "zhCN" and "下午" or "PM"))
+     width = width + 3 + c.a:GetStringWidth()
+   end
+   c.a:SetShown(cfg.clock24 == false)
+@@ -357,7 +357,7 @@
+     h, m = t.hour, t.min
+   end
+   if cfg.clock24 == false then
+-    c.a:SetText(h >= 12 and "PM" or "AM")
++    c.a:SetText(h >= 12 and (GetLocale() == "zhCN" and "下午" or "PM") or (GetLocale() == "zhCN" and "上午" or "AM"))
+     h = h % 12
+     if h == 0 then h = 12 end
+     c.h:SetText(h)

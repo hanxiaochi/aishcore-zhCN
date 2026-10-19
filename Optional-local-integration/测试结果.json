@@ -1,0 +1,15 @@
+{
+  "scalar_keys": 2125,
+  "array_strings": 27,
+  "patch_note_lines": 294,
+  "extra_display_strings": 40,
+  "compiled_lua_files": 110,
+  "checks": [
+    "Lua 5.1 syntax",
+    "enUS/frFR isolation",
+    "format placeholders",
+    "color and texture markup",
+    "all source locale keys covered"
+  ],
+  "live_game_verified": false
+}

@@ -1,0 +1,12 @@
+{
+  "locale-template.lua": "75608316eb8f1d2ff7f6c69d7543991d275ca3bad651a88e4d815e21545ed057",
+  "README-English.txt": "6317a37fb71d6aad1f2a97b9b73fb2b63ab2f58d2381fd45834817147c27548c",
+  "README.md": "733a297e6aa8535a7057bca53c2334cf687a6409364751ee0c65f965b56b7016",
+  "translation-review.csv": "c8bac8a56bd9193e45e94cb53bad6730990f8964399c61bbe5dad7cb2c469ed4",
+  "validation.json": "5dfd83e45e44cff92fd2a0bb0d50b0367b4acdfe512a8670b204d9c240fdbf8b",
+  "Locales/zhCN.lua": "5e3c32b0a9f7b0126ac1c1b25c10ce1d10bac30e76662d23b172305c23ccbb27",
+  "Optional-local-integration/chinese-font.patch": "abd912f3d8ffb816b2af6b10fbb57b4a31af76f4ed0d9cd860bc8a5a13dd18c8",
+  "Optional-local-integration/display-localization.patch": "5236bc07d1286c4065ae8d8258c7a11d85fdfed22acd143f708b5c14817395f2",
+  "Optional-local-integration/zhCN-with-local-extras.lua": "b22333fa12ab87d45ee023c873f7d9c22a8ccb1e5f6284c576cd676fa1cd97bf",
+  "Optional-local-integration/\u6d4b\u8bd5\u7ed3\u679c.json": "090742c2bbe6fd349e41ac39bbcd162319c9aae68af2fa92c1da34556cec2f8f"
+}
